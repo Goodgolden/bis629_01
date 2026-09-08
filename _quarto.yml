@@ -2,12 +2,13 @@ project:
   type: book
 
 book:
-  title: "bis629_01"
-  author: "Norah Jones"
+  title: "YALE BIS629_01"
+  author: "Randy Jin"
   date: "9/8/2026"
   chapters:
     - index.qmd
     - intro.qmd
+    - 01_week1.qmd
     - summary.qmd
     - references.qmd
 

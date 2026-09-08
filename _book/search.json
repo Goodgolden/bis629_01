@@ -1,0 +1,412 @@
+[
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "",
+    "text": "1.1 Week 1 — Introduction to Implementation and Prevention Science\nThis is a book created from markdown and executable code.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-1-introduction-to-implementation-and-prevention-science",
+    "href": "intro.html#week-1-introduction-to-implementation-and-prevention-science",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "",
+    "text": "Brown et al. (2017).\nAn Overview of Research and Evaluation Designs for Dissemination and Implementation.\nBrown et al. (2017)\nCasella & Berger (2001), Chapter 8.\nStatistical Inference.\nCasella and Berger (2001)\nCasella & Berger (2001), Chapter 10.\nStatistical Inference.\nCasella and Berger (2001)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-2-asymptotic-hypothesis-testing",
+    "href": "intro.html#week-2-asymptotic-hypothesis-testing",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.2 Week 2 — Asymptotic Hypothesis Testing",
+    "text": "1.2 Week 2 — Asymptotic Hypothesis Testing\n\n1.2.1 Optional Readings\n\nEquivalence and Noninferiority Testing Using SAS/STAT Software (2015).\nSAS Institute (2015)\nTesting Hypotheses for Equivalence and Non-inferiority with Binary and Survival Outcomes (2020).\nSAS Institute (2020)\nLiu et al. (2002).\nTests for Equivalence or Non-Inferiority for Paired Binary Data.\nLiu et al. (2002)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-3-sample-size-and-power",
+    "href": "intro.html#week-3-sample-size-and-power",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.3 Week 3 — Sample Size and Power",
+    "text": "1.3 Week 3 — Sample Size and Power\n\nSelf & Mauritsen (1988).\nPower/Sample Size Calculations for Generalized Linear Models.\nSelf and Mauritsen (1988)\nSelf, Mauritsen & O’Hara (1992).\nPower Calculations for Likelihood Ratio Tests in Generalized Linear Models.\nSelf et al. (1992)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-4-randomization-and-causal-inference",
+    "href": "intro.html#week-4-randomization-and-causal-inference",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.4 Week 4 — Randomization and Causal Inference",
+    "text": "1.4 Week 4 — Randomization and Causal Inference\n\n1.4.1 Required Readings\n\nGreenland & Robins (1994).\nInvited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.\nGreenland and Robins (1994)\nDetry & Lewis (2014).\nThe Intention-to-Treat Principle: How to Assess the True Effect of Choosing a Medical Treatment.\nDetry and Lewis (2014)\nHernán & Hernández-Díaz (2012).\nBeyond the Intention-to-Treat in Comparative Effectiveness Research.\nHernán and Hernández-Díaz (2012)\nHernán & Robins (2017).\nPer-Protocol Analyses of Pragmatic Trials.\nHernán and Robins (2017)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-5-cluster-randomized-trials",
+    "href": "intro.html#week-5-cluster-randomized-trials",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.5 Week 5 — Cluster-Randomized Trials",
+    "text": "1.5 Week 5 — Cluster-Randomized Trials\n\n1.5.1 Required Readings\n\nRitz & Spiegelman (2004).\nEquivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.\nRitz and Spiegelman (2004)\nRutterford, Copas & Eldridge (2015).\nMethods for Sample Size Determination in Cluster Randomized Trials.\nRutterford et al. (2015)\nRaab & Butcher (2001).\nBalance in Cluster Randomized Trials.\nRaab and Butcher (2001)\nShih (1997).\nSample Size and Power Calculations for Periodontal and Other Studies with Clustered Samples Using the Method of Generalized Estimating Equations.\nShih (1997)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-6-cluster-randomized-trials-continued",
+    "href": "intro.html#week-6-cluster-randomized-trials-continued",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.6 Week 6 — Cluster-Randomized Trials Continued",
+    "text": "1.6 Week 6 — Cluster-Randomized Trials Continued\nNo new readings listed.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-7-constrained-randomization",
+    "href": "intro.html#week-7-constrained-randomization",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.7 Week 7 — Constrained Randomization",
+    "text": "1.7 Week 7 — Constrained Randomization\n\n1.7.1 Required Readings\n\nMoulton (2004).\nCovariate-Based Constrained Randomization of Group-Randomized Trials.\nMoulton (2004)\nLi et al. (2016).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.\nLi et al. (2016)\n\n\n\n1.7.2 Optional Readings\n\nLi et al. (2017).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.\nLi et al. (2017)\nGreene (2017).\nA SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs.\nGreene (2017)\nYu et al. (2019).\ncvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials.\nYu et al. (2019)\nGallis et al. (2018).\ncvcrand and cptest: Commands for Efficient Design and Analysis of Cluster Randomized Trials Using Constrained Randomization and Permutation Tests.\nGallis et al. (2018)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-8-factorial-designs-most-and-smart",
+    "href": "intro.html#week-8-factorial-designs-most-and-smart",
+    "title": "1  Introduction",
+    "section": "2.8 Week 8 — Factorial Designs, MOST, and SMART",
+    "text": "2.8 Week 8 — Factorial Designs, MOST, and SMART\n\nGuastaferro & Collins (2019).\nAchieving the Goals of Translational Science in Public Health Intervention Research: MOST.\nFile: bis629_paper_Guastaferro_Collins_2019.pdf\nCollins (2018), Chapter 1.\nIntroduction to the Factorial Optimization Trial.\nFile: bis629_paper_Collins_2018_ch01.pdf\nCollins (2018), Chapter 3.\nConceptual Introduction to the Multiphase Optimization Strategy (MOST).\nFile: bis629_paper_Collins_2018_ch03.pdf",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-9-stepped-wedge-designs",
+    "href": "intro.html#week-9-stepped-wedge-designs",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.9 Week 9 — Stepped-Wedge Designs",
+    "text": "1.9 Week 9 — Stepped-Wedge Designs\n\n1.9.1 Readings\n\nZhou et al. (2018).\nA Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.\nZhou et al. (2018)\nHussey & Hughes (2007).\nDesign and Analysis of Stepped Wedge Cluster Randomized Trials.\nHussey and Hughes (2007)\nLi et al. (2021).\nMixed-Effects Models for the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An Overview.\nLi et al. (2021)\nChen et al. (2022).\nswdpwr: A SAS Macro and R Package for Power Calculations in Stepped Wedge Cluster Randomized Trials.\nChen et al. (2022)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-10-stepped-wedge-designs-continued",
+    "href": "intro.html#week-10-stepped-wedge-designs-continued",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.10 Week 10 — Stepped-Wedge Designs Continued",
+    "text": "1.10 Week 10 — Stepped-Wedge Designs Continued\nNo new readings listed.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-11-lago",
+    "href": "intro.html#week-11-lago",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.11 Week 11 — LAGO",
+    "text": "1.11 Week 11 — LAGO\nNo new readings listed for this week.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-12-hybrid-designs-and-lago",
+    "href": "intro.html#week-12-hybrid-designs-and-lago",
+    "title": "1  Introduction",
+    "section": "2.12 Week 12 — Hybrid Designs and LAGO",
+    "text": "2.12 Week 12 — Hybrid Designs and LAGO\n\nCurran et al. (2012).\nEffectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.\nFile: bis629_paper_Curran_2012.pdf\nOwen et al. (2025).\nPower and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.\nFile: bis629_paper_Owen_2025.pdf\n\n\n2.12.1 Required Readings\n\nNevo, Lok & Spiegelman (2021).\nAnalysis of “Learn-As-You-Go” (LAGO) Studies.\nFile: bis629_paper_Nevo_Lok_Spiegelman_2021.pdf\nSpiegelman et al.\nEvaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.\nFile: bis629_paper_Spiegelman_LAGO.pdf",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-13-discrete-choice-experiments",
+    "href": "intro.html#week-13-discrete-choice-experiments",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.13 Week 13 — Discrete Choice Experiments",
+    "text": "1.13 Week 13 — Discrete Choice Experiments\n\n1.13.1 Readings\n\nStreet et al. (2005).\nQuick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.\nStreet et al. (2005)\nCameron et al. (2023).\nProduct Preferences and Willingness to Pay for Potable Water Delivery: Experimental Evidence from Rural Bihar, India.\nCameron et al. (2023)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Brown, C. Hendricks, Geoffrey Curran, Lawrence A. Palinkas, et al. 2017.\n“An Overview of Research and Evaluation Designs for Dissemination\nand Implementation.” Annual Review of Public Health 38:\n1–22.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-8-factorial-and-fractional-factorial-designs-most-smart",
+    "href": "intro.html#week-8-factorial-and-fractional-factorial-designs-most-smart",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.8 Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART",
+    "text": "1.8 Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART\n\n1.8.1 Required Readings\n\nGuastaferro & Collins (2019).\nAchieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).\nGuastaferro and Collins (2019)\nCollins (2018), Chapter 1.\nIntroduction to the Factorial Optimization Trial.\nCollins (2018b)\nCollins (2018), Chapter 3.\nConceptual Introduction to the Multiphase Optimization Strategy (MOST).\nCollins (2018a)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#week-12-hybrid-designs",
+    "href": "intro.html#week-12-hybrid-designs",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "1.12 Week 12 — Hybrid Designs",
+    "text": "1.12 Week 12 — Hybrid Designs\n\n1.12.1 Readings\n\nCurran et al. (2012).\nEffectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.\nCurran et al. (2012)\nOwen et al. (2025).\nPower and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.\nOwen et al. (2025)\n\n\n\n1.12.2 Required LAGO Readings\n\nNevo, Lok & Spiegelman (2021).\nAnalysis of “Learn-As-You-Go” (LAGO) Studies.\nNevo et al. (2021)\nSpiegelman et al.\nEvaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.\nSpiegelman et al. (n.d.)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#homework-1",
+    "href": "intro.html#homework-1",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "2.1 Homework 1",
+    "text": "2.1 Homework 1\nDistributed: September 15\nDue: September 29\n\nDownload Homework 1\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#homework-2",
+    "href": "intro.html#homework-2",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "2.2 Homework 2",
+    "text": "2.2 Homework 2\nDistributed: October 6\nDue: October 20\n\nDownload Homework 2\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#homework-3",
+    "href": "intro.html#homework-3",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "2.3 Homework 3",
+    "text": "2.3 Homework 3\nDistributed: October 20\nDue: November 3\n\nDownload Homework 3\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#homework-4",
+    "href": "intro.html#homework-4",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "2.4 Homework 4",
+    "text": "2.4 Homework 4\nDistributed: November 3\nDue: November 17\n\nDownload Homework 4\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#homework-5",
+    "href": "intro.html#homework-5",
+    "title": "1  Introduction BIS 629 Reading Checklist",
+    "section": "2.5 Homework 5",
+    "text": "2.5 Homework 5\nDistributed: November 17\nDue: December 8\n\nDownload Homework 5\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html",
+    "href": "01_week1.html",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "",
+    "text": "3 0. Paper\nBrown CH, Curran G, Palinkas LA, et al. (2017).\nAn Overview of Research and Evaluation Designs for Dissemination and Implementation.\nAnnual Review of Public Health, 38:1–22.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#dissemination",
+    "href": "01_week1.html#dissemination",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "5.1 Dissemination",
+    "text": "5.1 Dissemination\nDissemination = targeted distribution of information or intervention materials to a specific audience.\nMain question:\n\nHow do we get evidence and information to the people or organizations that need it?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#implementation",
+    "href": "01_week1.html#implementation",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "5.2 Implementation",
+    "text": "5.2 Implementation\nImplementation = strategies used to adopt and integrate evidence-based interventions and change practice within specific settings.\nMain question:\n\nHow do we actually get an evidence-based intervention used successfully in practice?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#exploration",
+    "href": "01_week1.html#exploration",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "9.1 Exploration",
+    "text": "9.1 Exploration\nQuestion:\n\nShould this organization adopt the intervention?\n\nConsider:\n\ncommunity needs\norganizational context\npolicy\nfunding\nprovider experience\nusefulness of intervention",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#preparation",
+    "href": "01_week1.html#preparation",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "9.2 Preparation",
+    "text": "9.2 Preparation\nPrepare the system for implementation.\nExamples:\n\ncollaborations\npolicies\nfunding\ninfrastructure\ntraining\nintervention adaptation",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#implementation-2",
+    "href": "01_week1.html#implementation-2",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "9.3 Implementation",
+    "text": "9.3 Implementation\nActually deliver the intervention.\nImportant components:\n\nrecruitment\ntraining\nmonitoring\nsupervision\nadherence\ncompetence\nfidelity\nsystematic adaptation",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#sustainment",
+    "href": "01_week1.html#sustainment",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "9.4 Sustainment",
+    "text": "9.4 Sustainment\nQuestion:\n\nCan the organization maintain the intervention after initial implementation support or funding ends?\n\nThis is especially important because successful initial adoption does not guarantee long-term use.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#post-design",
+    "href": "01_week1.html#post-design",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "13.1 10.1 Post Design",
+    "text": "13.1 10.1 Post Design\nMeasure implementation only after the strategy is introduced.\nImplementation\n      ↓\n   Post-test\nAdvantages:\n\nsimple\ninexpensive\nuseful when baseline information is unavailable\nuseful for studying adoption\n\nLimitations:\n\nno baseline comparison\noften no control group\nweak causal inference\nexternal events can explain observed results",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#pre-post-design",
+    "href": "01_week1.html#pre-post-design",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "13.2 10.2 Pre-Post Design",
+    "text": "13.2 10.2 Pre-Post Design\nMeasure outcomes before and after implementation.\nPre\n ↓\nImplementation\n ↓\nPost\nEffect:\nChange = Post - Pre\nUseful for studying:\n\nadoption\nreach\nutilization\npolicy/guideline implementation\n\nMajor limitation:\nChanges may result from factors other than the implementation strategy.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#multiple-baseline-time-series-design",
+    "href": "01_week1.html#multiple-baseline-time-series-design",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "13.3 10.3 Multiple-Baseline / Time-Series Design",
+    "text": "13.3 10.3 Multiple-Baseline / Time-Series Design\nInstead of measuring only once before and once after:\nO O O O | X | O O O O O\nwhere:\n\nO = observation\nX = implementation\n\nRepeated measurements allow investigators to examine:\n\ntrends before implementation\nimmediate changes\nsustained effects\n\nThis provides stronger evidence than a simple pre-post comparison.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#phase-1-preparation",
+    "href": "01_week1.html#phase-1-preparation",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "20.1 Phase 1: Preparation",
+    "text": "20.1 Phase 1: Preparation\nIdentify candidate implementation components and define an optimization criterion.\nExample:\nmaximize implementation success\nsubject to cost ≤ $X",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#phase-2-optimization",
+    "href": "01_week1.html#phase-2-optimization",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "20.2 Phase 2: Optimization",
+    "text": "20.2 Phase 2: Optimization\nUse factorial/fractional factorial experiments to determine which components contribute most.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#phase-3-evaluation",
+    "href": "01_week1.html#phase-3-evaluation",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "20.3 Phase 3: Evaluation",
+    "text": "20.3 Phase 3: Evaluation\nTest the optimized implementation package against a comparison condition.\nMOST is particularly useful when there are many possible components but testing every possible implementation package is infeasible.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#local-knowledge",
+    "href": "01_week1.html#local-knowledge",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "26.1 Local knowledge",
+    "text": "26.1 Local knowledge\nQuestion:\n\nHow can this particular hospital or organization improve implementation?\n\nThis is closely related to quality improvement (QI).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#generalizable-knowledge",
+    "href": "01_week1.html#generalizable-knowledge",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "26.2 Generalizable knowledge",
+    "text": "26.2 Generalizable knowledge\nQuestion:\n\nWhat implementation strategy works across organizations/settings?\n\nThis is closer to traditional implementation research.\nTherefore, design choice depends partly on whether the objective is:\nLocal improvement\n        vs.\nGeneralizable scientific knowledge",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#randomized-designs",
+    "href": "01_week1.html#randomized-designs",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "27.1 Randomized designs",
+    "text": "27.1 Randomized designs\nAdvantages:\n\nstronger causal inference\nbetter control of confounding\nbetter protection against external influences\n\nDisadvantages:\n\nexpensive\norganizationally difficult\nsometimes impossible\nsometimes ethically or politically inappropriate",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "01_week1.html#nonrandomized-designs",
+    "href": "01_week1.html#nonrandomized-designs",
+    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
+    "section": "27.2 Nonrandomized designs",
+    "text": "27.2 Nonrandomized designs\nAdvantages:\n\npractical\nrealistic\neasier to implement\nsometimes the only possible design\n\nDisadvantages:\n\nconfounding\nselection bias\nweaker causal inference\n\nThus:\nStrong internal validity\n          ↕\nReal-world feasibility / external validity\nis a recurring tension in implementation research.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "bis629_01",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  }
+]
