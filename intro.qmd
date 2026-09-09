@@ -1,9 +1,284 @@
-# Introduction
+# Introduction BIS 629 Reading Checklist
 
 This is a book created from markdown and executable code.
 
-See @knuth84 for additional discussion of literate programming.
+## Week 1 — Introduction to Implementation and Prevention Science
 
-```{r}
-1 + 1
-```
+- [ ] **Brown et al. (2017).**  
+  *An Overview of Research and Evaluation Designs for Dissemination and Implementation.*  
+  @brown2017implementation
+
+- [ ] **Casella & Berger (2001), Chapter 8.**  
+  *Statistical Inference.*  
+  @casella2001statistical
+
+- [ ] **Casella & Berger (2001), Chapter 10.**  
+  *Statistical Inference.*  
+  @casella2001statistical
+
+
+## Week 2 — Asymptotic Hypothesis Testing
+
+### Optional Readings
+
+- [ ] **Equivalence and Noninferiority Testing Using SAS/STAT Software (2015).**  
+  @sas2015equivalence
+
+- [ ] **Testing Hypotheses for Equivalence and Non-inferiority with Binary and Survival Outcomes (2020).**  
+  @sas2020equivalence
+
+- [ ] **Liu et al. (2002).**  
+  *Tests for Equivalence or Non-Inferiority for Paired Binary Data.*  
+  @liu2002equivalence
+
+
+## Week 3 — Sample Size and Power
+
+- [ ] **Self & Mauritsen (1988).**  
+  *Power/Sample Size Calculations for Generalized Linear Models.*  
+  @self1988power
+
+- [ ] **Self, Mauritsen & O'Hara (1992).**  
+  *Power Calculations for Likelihood Ratio Tests in Generalized Linear Models.*  
+  @self1992power
+
+
+## Week 4 — Randomization and Causal Inference
+
+### Required Readings
+
+- [ ] **Greenland & Robins (1994).**  
+  *Invited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.*  
+  @greenland1994ecologic
+
+- [ ] **Detry & Lewis (2014).**  
+  *The Intention-to-Treat Principle: How to Assess the True Effect of Choosing a Medical Treatment.*  
+  @detry2014itt
+
+- [ ] **Hernán & Hernández-Díaz (2012).**  
+  *Beyond the Intention-to-Treat in Comparative Effectiveness Research.*  
+  @hernan2012beyond
+
+- [ ] **Hernán & Robins (2017).**  
+  *Per-Protocol Analyses of Pragmatic Trials.*  
+  @hernan2017perprotocol
+
+
+## Week 5 — Cluster-Randomized Trials
+
+### Required Readings
+
+- [ ] **Ritz & Spiegelman (2004).**  
+  *Equivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.*  
+  @ritz2004equivalence
+
+- [ ] **Rutterford, Copas & Eldridge (2015).**  
+  *Methods for Sample Size Determination in Cluster Randomized Trials.*  
+  @rutterford2015sample
+
+- [ ] **Raab & Butcher (2001).**  
+  *Balance in Cluster Randomized Trials.*  
+  @raab2001balance
+
+- [ ] **Shih (1997).**  
+  *Sample Size and Power Calculations for Periodontal and Other Studies with Clustered Samples Using the Method of Generalized Estimating Equations.*  
+  @shih1997sample
+
+
+## Week 6 — Cluster-Randomized Trials Continued
+
+No new readings listed.
+
+
+## Week 7 — Constrained Randomization
+
+### Required Readings
+
+- [ ] **Moulton (2004).**  
+  *Covariate-Based Constrained Randomization of Group-Randomized Trials.*  
+  @moulton2004constrained
+
+- [ ] **Li et al. (2016).**  
+  *An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.*  
+  @li2016constrained
+
+### Optional Readings
+
+- [ ] **Li et al. (2017).**  
+  *An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.*  
+  @li2017constrained
+
+- [ ] **Greene (2017).**  
+  *A SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs.*  
+  @greene2017sas
+
+- [ ] **Yu et al. (2019).**  
+  *cvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials.*  
+  @yu2019cvcrand
+
+- [ ] **Gallis et al. (2018).**  
+  *cvcrand and cptest: Commands for Efficient Design and Analysis of Cluster Randomized Trials Using Constrained Randomization and Permutation Tests.*  
+  @gallis2018cvcrand
+
+
+## Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART
+
+### Required Readings
+
+- [ ] **Guastaferro & Collins (2019).**  
+  *Achieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).*  
+  @guastaferro2019most
+
+- [ ] **Collins (2018), Chapter 1.**  
+  *Introduction to the Factorial Optimization Trial.*  
+  @collins2018factorial
+
+- [ ] **Collins (2018), Chapter 3.**  
+  *Conceptual Introduction to the Multiphase Optimization Strategy (MOST).*  
+  @collins2018most
+
+
+## Week 9 — Stepped-Wedge Designs
+
+### Readings
+
+- [ ] **Zhou et al. (2018).**  
+  *A Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.*  
+  @zhou2018stepped
+
+- [ ] **Hussey & Hughes (2007).**  
+  *Design and Analysis of Stepped Wedge Cluster Randomized Trials.*  
+  @hussey2007stepped
+
+- [ ] **Li et al. (2021).**  
+  *Mixed-Effects Models for the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An Overview.*  
+  @li2021stepped
+
+- [ ] **Chen et al. (2022).**  
+  *swdpwr: A SAS Macro and R Package for Power Calculations in Stepped Wedge Cluster Randomized Trials.*  
+  @chen2022swdpwr
+
+
+## Week 10 — Stepped-Wedge Designs Continued
+
+No new readings listed.
+
+
+## Week 11 — LAGO
+
+No new readings listed for this week.
+
+
+## Week 12 — Hybrid Designs
+
+### Readings
+
+- [ ] **Curran et al. (2012).**  
+  *Effectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.*  
+  @curran2012hybrid
+
+- [ ] **Owen et al. (2025).**  
+  *Power and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.*  
+  @owen2025hybrid
+
+### Required LAGO Readings
+
+- [ ] **Nevo, Lok & Spiegelman (2021).**  
+  *Analysis of "Learn-As-You-Go" (LAGO) Studies.*  
+  @nevo2021lago
+
+- [ ] **Spiegelman et al.**  
+  *Evaluating Public Health Interventions 10: Let's Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.*  
+  @spiegelmanlago
+
+
+## Week 13 — Discrete Choice Experiments
+
+### Readings
+
+- [ ] **Street et al. (2005).**  
+  *Quick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.*  
+  @street2005choice
+
+- [ ] **Cameron et al. (2023).**  
+  *Product Preferences and Willingness to Pay for Potable Water Delivery: Experimental Evidence from Rural Bihar, India.*  
+  @cameron2023preferences
+
+
+# Homework Checklist
+
+## Homework 1
+
+**Distributed:** September 15  
+**Due:** September 29
+
+- [ ] Download Homework 1
+- [ ] Read instructions
+- [ ] Complete problems
+- [ ] Complete R code
+- [ ] Check answers
+- [ ] Submit at start of class
+
+
+## Homework 2
+
+**Distributed:** October 6  
+**Due:** October 20
+
+- [ ] Download Homework 2
+- [ ] Read instructions
+- [ ] Complete problems
+- [ ] Complete R code
+- [ ] Check answers
+- [ ] Submit at start of class
+
+
+## Homework 3
+
+**Distributed:** October 20  
+**Due:** November 3
+
+- [ ] Download Homework 3
+- [ ] Read instructions
+- [ ] Complete problems
+- [ ] Complete R code
+- [ ] Check answers
+- [ ] Submit at start of class
+
+
+## Homework 4
+
+**Distributed:** November 3  
+**Due:** November 17
+
+- [ ] Download Homework 4
+- [ ] Read instructions
+- [ ] Complete problems
+- [ ] Complete R code
+- [ ] Check answers
+- [ ] Submit at start of class
+
+
+## Homework 5
+
+**Distributed:** November 17  
+**Due:** December 8
+
+- [ ] Download Homework 5
+- [ ] Read instructions
+- [ ] Complete problems
+- [ ] Complete R code
+- [ ] Check answers
+- [ ] Submit at start of class
+
+
+# Other Course Requirements
+
+- [ ] **October 13:** Submit mid-semester feedback form
+- [ ] **December 8:** Final examination distributed
+- [ ] Complete final examination
+- [ ] Review all answers and R code
+- [ ] **December 22, 5:00 PM:** Final examination due
+
+
+# References
