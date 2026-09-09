@@ -8,13 +8,18 @@ output:
     number_sections: true
 ---
 
+# Professor Donna Spielgelman
+
+The similar projects as Sam. The diretor Center for Methods in Implementartion and Prevention Science CMIPS.
+
+
 # 0. Paper
 
-**Brown CH, Curran G, Palinkas LA, et al. (2017).**  
-*An Overview of Research and Evaluation Designs for Dissemination and Implementation.*  
+**Brown CH, Curran G, Palinkas LA, et al. (2017).**\
+*An Overview of Research and Evaluation Designs for Dissemination and Implementation.*\
 Annual Review of Public Health, 38:1–22.
 
----
+------------------------------------------------------------------------
 
 # 1. Main Purpose
 
@@ -39,7 +44,7 @@ Implementation research therefore focuses on:
 - scale-up
 - sustainment
 
----
+------------------------------------------------------------------------
 
 # 2. Dissemination vs. Implementation
 
@@ -59,34 +64,34 @@ Main question:
 
 > How do we actually get an evidence-based intervention used successfully in practice?
 
----
+------------------------------------------------------------------------
 
 # 3. The "7 Ps"
 
 The authors describe seven broad types of interventions relevant to D&I research.
 
-| P | Meaning | Example |
-|---|---|---|
-| Programs | Organized intervention programs | Cognitive behavioral therapy |
-| Practices | Specific practices | Behavioral management practice |
-| Principles | General guiding principles | Prevention before treatment |
-| Procedures | Standardized procedures | Depression screening |
-| Products | Tools or technologies | mHealth application |
-| Pills | Pharmacological interventions | PrEP |
-| Policies | Rules or regulations | Prescription policies |
+| P          | Meaning                         | Example                        |
+|------------------------|------------------------|------------------------|
+| Programs   | Organized intervention programs | Cognitive behavioral therapy   |
+| Practices  | Specific practices              | Behavioral management practice |
+| Principles | General guiding principles      | Prevention before treatment    |
+| Procedures | Standardized procedures         | Depression screening           |
+| Products   | Tools or technologies           | mHealth application            |
+| Pills      | Pharmacological interventions   | PrEP                           |
+| Policies   | Rules or regulations            | Prescription policies          |
 
 Thus, implementation science is not limited to medications or clinical treatments.
 
 It can study how **programs, practices, procedures, technologies, drugs, and policies** are introduced into real-world systems.
 
----
+------------------------------------------------------------------------
 
 # 4. Internal vs. External Validity
 
 A major theme of the paper is the difference between traditional clinical trials and implementation research.
 
 | Traditional efficacy research | Implementation research |
-|---|---|
+|------------------------------------|------------------------------------|
 | Strong emphasis on internal validity | Strong emphasis on external validity |
 | Controlled environment | Real-world environment |
 | Homogeneous population often preferred | Heterogeneous populations/settings |
@@ -101,13 +106,13 @@ Instead, there is often a trade-off:
 
 Randomized designs may provide stronger causal inference but can sometimes be difficult or inappropriate in real-world organizations.
 
----
+------------------------------------------------------------------------
 
 # 5. Traditional Translational Pipeline
 
 The paper presents the following general pathway:
 
-```text
+``` text
 Preintervention research
         ↓
      Efficacy
@@ -158,13 +163,13 @@ Focus moves from simply testing the intervention toward determining how the inte
 - adapted appropriately
 - maintained
 
----
+------------------------------------------------------------------------
 
 # 6. EPIS Implementation Process
 
 The paper describes the **EPIS model**.
 
-```text
+``` text
 Exploration
     ↓
 Preparation
@@ -225,7 +230,7 @@ Question:
 
 This is especially important because successful initial adoption does not guarantee long-term use.
 
----
+------------------------------------------------------------------------
 
 # 7. Intervention vs. Implementation Strategy
 
@@ -237,7 +242,7 @@ The thing intended to improve health.
 
 Example:
 
-```text
+``` text
 Smoking cessation treatment
 ```
 
@@ -247,7 +252,7 @@ The method used to get organizations/providers to successfully use the intervent
 
 Example:
 
-```text
+``` text
 Provider training
 +
 supervision
@@ -259,7 +264,7 @@ implementation support
 
 Therefore:
 
-```text
+``` text
 Intervention
     ↓
 Improves patient health
@@ -271,14 +276,14 @@ Improves adoption/delivery of intervention
 
 An implementation trial often tests the **implementation strategy**, not whether the clinical intervention itself works.
 
----
+------------------------------------------------------------------------
 
 # 8. Process, Output, and Outcome
 
 The authors distinguish three types of measures.
 
 | Measure | Meaning | Example |
-|---|---|---|
+|------------------------|------------------------|------------------------|
 | Process | Activities performed by the health system | Frequency of supervision |
 | Output | Observable service delivery | Number of patients receiving medication |
 | Outcome | Patient health or health behavior | Disease improvement |
@@ -287,13 +292,13 @@ A key point:
 
 > Many implementation studies primarily evaluate **process and output**, rather than patient health outcomes.
 
----
+------------------------------------------------------------------------
 
 # 9. Three Major Categories of Implementation Designs
 
 The paper organizes implementation designs into:
 
-```text
+``` text
 1. Within-site designs
 
 2. Between-site designs
@@ -301,7 +306,7 @@ The paper organizes implementation designs into:
 3. Within- and between-site designs
 ```
 
----
+------------------------------------------------------------------------
 
 # 10. Within-Site Designs
 
@@ -311,7 +316,7 @@ These examine changes occurring **inside the same organization or system**.
 
 Measure implementation only **after** the strategy is introduced.
 
-```text
+``` text
 Implementation
       ↓
    Post-test
@@ -331,13 +336,13 @@ Limitations:
 - weak causal inference
 - external events can explain observed results
 
----
+------------------------------------------------------------------------
 
 ## 10.2 Pre-Post Design
 
 Measure outcomes before and after implementation.
 
-```text
+``` text
 Pre
  ↓
 Implementation
@@ -347,7 +352,7 @@ Post
 
 Effect:
 
-```text
+``` text
 Change = Post - Pre
 ```
 
@@ -362,13 +367,13 @@ Major limitation:
 
 Changes may result from factors other than the implementation strategy.
 
----
+------------------------------------------------------------------------
 
 ## 10.3 Multiple-Baseline / Time-Series Design
 
 Instead of measuring only once before and once after:
 
-```text
+``` text
 O O O O | X | O O O O O
 ```
 
@@ -385,7 +390,7 @@ Repeated measurements allow investigators to examine:
 
 This provides stronger evidence than a simple pre-post comparison.
 
----
+------------------------------------------------------------------------
 
 # 11. Between-Site Designs
 
@@ -393,7 +398,7 @@ Different organizations receive different implementation conditions.
 
 Example:
 
-```text
+``` text
 Sites
   |
   +--------------------+
@@ -402,13 +407,13 @@ New strategy      Implementation
                      as usual
 ```
 
----
+------------------------------------------------------------------------
 
 # 12. New Strategy vs. Implementation As Usual (IAU)
 
 Sites receiving a new implementation strategy are compared with sites continuing their normal implementation practice.
 
-```text
+``` text
 Site A → New implementation strategy
 
 Site B → Implementation as usual
@@ -416,7 +421,7 @@ Site B → Implementation as usual
 
 If randomized:
 
-```text
+``` text
 Sites
  ↓
 Randomization
@@ -428,7 +433,7 @@ New strategy           IAU
 
 This is usually a **cluster-randomized trial** because organizations, practices, communities, wards, etc. rather than individual patients are randomized.
 
----
+------------------------------------------------------------------------
 
 # 13. Level of Randomization
 
@@ -438,7 +443,7 @@ A very important principle from the paper:
 
 Possible levels include:
 
-```text
+``` text
 Health system
      ↓
 Organization
@@ -458,25 +463,25 @@ If feedback is delivered at the **ward level**, randomization should generally o
 
 This helps prevent **contamination** between experimental conditions.
 
----
+------------------------------------------------------------------------
 
 # 14. Head-to-Head Randomized Implementation Trial
 
 Instead of:
 
-```text
+``` text
 Strategy vs. usual care
 ```
 
 compare:
 
-```text
+``` text
 Strategy A vs. Strategy B
 ```
 
 The clinical intervention stays the **same**.
 
-```text
+``` text
 Same evidence-based intervention
              |
       ----------------
@@ -497,7 +502,7 @@ Possible outcomes:
 - reach
 - fidelity
 
----
+------------------------------------------------------------------------
 
 # 15. Dosage / Intensity Trials
 
@@ -505,7 +510,7 @@ Implementation strategies can also vary in intensity.
 
 Example:
 
-```text
+``` text
 No training
 
 vs.
@@ -521,7 +526,7 @@ Question:
 
 > Does more intensive implementation support improve implementation?
 
----
+------------------------------------------------------------------------
 
 # 16. Factorial Designs
 
@@ -529,7 +534,7 @@ Factorial designs test **multiple implementation components simultaneously**.
 
 Example:
 
-```text
+``` text
 Strategy A: Yes / No
 Strategy B: Yes / No
 ```
@@ -537,11 +542,11 @@ Strategy B: Yes / No
 creates:
 
 | Group | Strategy A | Strategy B |
-|---|---|---|
-| 1 | No | No |
-| 2 | Yes | No |
-| 3 | No | Yes |
-| 4 | Yes | Yes |
+|-------|------------|------------|
+| 1     | No         | No         |
+| 2     | Yes        | No         |
+| 3     | No         | Yes        |
+| 4     | Yes        | Yes        |
 
 This allows estimation of:
 
@@ -553,7 +558,7 @@ The interaction asks:
 
 > Does the effectiveness of strategy A depend on whether strategy B is present?
 
----
+------------------------------------------------------------------------
 
 # 17. MOST
 
@@ -565,7 +570,7 @@ Purpose:
 
 There are three phases:
 
-```text
+``` text
 Preparation
      ↓
 Optimization
@@ -579,7 +584,7 @@ Identify candidate implementation components and define an optimization criterio
 
 Example:
 
-```text
+``` text
 maximize implementation success
 subject to cost ≤ $X
 ```
@@ -594,7 +599,7 @@ Test the optimized implementation package against a comparison condition.
 
 MOST is particularly useful when there are **many possible components** but testing every possible implementation package is infeasible.
 
----
+------------------------------------------------------------------------
 
 # 18. SMART
 
@@ -604,7 +609,7 @@ SMART allows implementation strategies to **adapt over time**.
 
 Basic logic:
 
-```text
+``` text
 Initial strategy
       ↓
 Is implementation successful?
@@ -618,7 +623,7 @@ Continue   Randomize
 
 Example described in the paper:
 
-```text
+``` text
 REP implementation strategy
           ↓
      Respond?
@@ -633,7 +638,7 @@ facilitator    internal facilitator
 
 This allows researchers to develop **adaptive implementation strategies**.
 
----
+------------------------------------------------------------------------
 
 # 19. Multilevel / Nested Designs
 
@@ -641,7 +646,7 @@ Implementation often occurs at several levels simultaneously.
 
 Example:
 
-```text
+``` text
 Organization
      ↓
 Physician
@@ -653,7 +658,7 @@ Different strategies can target different levels.
 
 For example:
 
-```text
+``` text
 Physician-level strategy:
 provider training
 
@@ -667,7 +672,7 @@ A nested or split-plot design can evaluate:
 - additive effects
 - synergistic effects across levels
 
----
+------------------------------------------------------------------------
 
 # 20. Rollout Designs
 
@@ -677,7 +682,7 @@ Sites start implementation at different times.
 
 Example:
 
-```text
+``` text
 Time       1    2    3    4
 
 Site A     0    X    X    X
@@ -687,14 +692,14 @@ Site C     0    0    0    X
 
 where:
 
-```text
+``` text
 0 = implementation as usual
 X = new implementation strategy
 ```
 
 The timing of implementation can be randomized.
 
----
+------------------------------------------------------------------------
 
 # 21. Stepped-Wedge Design
 
@@ -704,7 +709,7 @@ The simplest rollout design is commonly called a:
 
 All sites eventually receive the intervention.
 
-```text
+``` text
 Time →
 
 Site A   Control → Intervention → Intervention → Intervention
@@ -722,13 +727,13 @@ Advantages:
 
 The paper's Figure 4 illustrates several versions of randomized rollout designs.
 
----
+------------------------------------------------------------------------
 
 # 22. Head-to-Head Rollout
 
 A more complex rollout can compare two strategies.
 
-```text
+``` text
              Randomization
                   ↓
           -----------------
@@ -744,7 +749,7 @@ This combines:
 - head-to-head comparison
 - longitudinal follow-up
 
----
+------------------------------------------------------------------------
 
 # 23. Local vs. Generalizable Knowledge
 
@@ -768,13 +773,13 @@ This is closer to traditional implementation research.
 
 Therefore, design choice depends partly on whether the objective is:
 
-```text
+``` text
 Local improvement
         vs.
 Generalizable scientific knowledge
 ```
 
----
+------------------------------------------------------------------------
 
 # 24. Randomized vs. Nonrandomized Designs
 
@@ -810,7 +815,7 @@ Disadvantages:
 
 Thus:
 
-```text
+``` text
 Strong internal validity
           ↕
 Real-world feasibility / external validity
@@ -818,13 +823,13 @@ Real-world feasibility / external validity
 
 is a recurring tension in implementation research.
 
----
+------------------------------------------------------------------------
 
 # 25. Statistical Power
 
 Implementation research often has **multilevel data**:
 
-```text
+``` text
 Patients
    ↓ nested within
 Providers
@@ -838,7 +843,7 @@ A crucial point is that statistical power may depend heavily on the number of un
 
 For example:
 
-```text
+``` text
 10,000 patients
 nested in
 10 hospitals
@@ -846,7 +851,7 @@ nested in
 
 does NOT provide the same information as:
 
-```text
+``` text
 10,000 patients
 nested in
 100 hospitals
@@ -862,13 +867,13 @@ Ways to improve power include:
 - covariate adjustment
 - mixed quantitative/qualitative evidence
 
----
+------------------------------------------------------------------------
 
 # 26. Non-Adoption and CACE
 
 A common implementation problem:
 
-```text
+``` text
 Randomized to strategy
           ↓
 But organization does not adopt intervention
@@ -884,7 +889,7 @@ as one analytical approach for dealing with incomplete adoption.
 
 This is closely related to the problem of **noncompliance** in randomized trials.
 
----
+------------------------------------------------------------------------
 
 # 27. Causal Inference Challenges
 
@@ -906,7 +911,7 @@ But implementation strategies frequently involve:
 
 Therefore:
 
-```text
+``` text
 Treatment of Site A
         ↓
 may influence
@@ -918,7 +923,7 @@ Interference and spillover can therefore violate standard SUTVA assumptions.
 
 Implementation systems are also often **dynamic, interactive, and cyclical**, rather than simple linear treatment → outcome systems.
 
----
+------------------------------------------------------------------------
 
 # 28. Mixed Methods
 
@@ -934,7 +939,7 @@ Qualitative methods can:
 
 Therefore:
 
-```text
+``` text
 Quantitative
      +
 Qualitative
@@ -944,7 +949,7 @@ Mixed-methods implementation research
 
 can provide a more complete understanding of implementation.
 
----
+------------------------------------------------------------------------
 
 # 29. Designs Outside the Traditional Pipeline
 
@@ -954,7 +959,7 @@ The authors also identify several important approaches that are not covered exte
 
 Simultaneously evaluate:
 
-```text
+``` text
 Effectiveness
      +
 Implementation
@@ -964,7 +969,7 @@ Implementation
 
 Focus primarily on:
 
-```text
+``` text
 Local knowledge
 +
 improving a specific system
@@ -974,7 +979,7 @@ improving a specific system
 
 Use computational approaches to investigate implementation systems.
 
----
+------------------------------------------------------------------------
 
 # 30. How to Choose a Design
 
@@ -982,26 +987,26 @@ The paper does **not** recommend one universally best design.
 
 Design selection should depend on:
 
-1. Research question
-2. Existing evidence
-3. Whether the goal is local or generalizable knowledge
-4. Community values
-5. Organizational values
-6. Funder expectations
-7. Available resources
-8. Practical opportunities
-9. Feasibility of randomization
+1.  Research question
+2.  Existing evidence
+3.  Whether the goal is local or generalizable knowledge
+4.  Community values
+5.  Organizational values
+6.  Funder expectations
+7.  Available resources
+8.  Practical opportunities
+9.  Feasibility of randomization
 
 Importantly, implementation studies affect real organizations and communities.
 
 Therefore, the scientifically strongest design may not be feasible without stakeholder support.
 
----
+------------------------------------------------------------------------
 
 # 31. High-Yield Comparison Table
 
 | Design | Main comparison | Randomized? | Major strength | Major limitation |
-|---|---|---:|---|---|
+|---------------|---------------|--------------:|---------------|---------------|
 | Post-only | After implementation | No | Simple | Very weak causal inference |
 | Pre-post | Before vs. after | No | Measures change | Secular trends/confounding |
 | Multiple baseline | Repeated before/after | Usually no | Shows temporal pattern | Confounding still possible |
@@ -1014,11 +1019,11 @@ Therefore, the scientifically strongest design may not be feasible without stake
 | Stepped wedge | Different rollout times | Usually yes | All sites receive strategy | Time effects matter |
 | Nested/multilevel | Strategies at multiple levels | Yes/No | Models system structure | Complex dependence |
 
----
+------------------------------------------------------------------------
 
 # 32. The Paper in One Diagram
 
-```text
+``` text
 Evidence-based intervention
             ↓
         EFFICACY
@@ -1043,7 +1048,7 @@ Adoption   Fidelity     Reach
 
 Implementation strategies can then be evaluated using:
 
-```text
+``` text
 Within-site
    ├── Post
    ├── Pre-post
@@ -1061,34 +1066,36 @@ Within + Between
    └── Rollout / Stepped wedge
 ```
 
----
+------------------------------------------------------------------------
 
 # 33. Most Important Take-Home Messages
 
-1. **Efficacy, effectiveness, and implementation answer different questions.**
+1.  **Efficacy, effectiveness, and implementation answer different questions.**
 
-2. Implementation science studies **how evidence-based interventions become routine real-world practice**.
+2.  Implementation science studies **how evidence-based interventions become routine real-world practice**.
 
-3. The **implementation strategy** is different from the clinical/preventive intervention.
+3.  The **implementation strategy** is different from the clinical/preventive intervention.
 
-4. Important implementation outcomes include **adoption, reach, fidelity, adaptation, scale-up, and sustainment**.
+4.  Important implementation outcomes include **adoption, reach, fidelity, adaptation, scale-up, and sustainment**.
 
-5. Implementation studies may use **randomized, nonrandomized, quantitative, qualitative, or mixed-methods designs**.
+5.  Implementation studies may use **randomized, nonrandomized, quantitative, qualitative, or mixed-methods designs**.
 
-6. The main design families discussed are:
-   - within-site
-   - between-site
-   - rollout / within-and-between-site designs
+6.  The main design families discussed are:
 
-7. Advanced designs include:
-   - factorial designs
-   - MOST
-   - SMART
-   - multilevel/nested designs
-   - stepped-wedge designs
+    - within-site
+    - between-site
+    - rollout / within-and-between-site designs
 
-8. Cluster-level sample size is particularly important because many implementation strategies operate at the organizational level.
+7.  Advanced designs include:
 
-9. Implementation science often involves **interference, non-adoption, multilevel structures, and contextual effects**, making causal inference more complicated than a conventional individual-level RCT.
+    - factorial designs
+    - MOST
+    - SMART
+    - multilevel/nested designs
+    - stepped-wedge designs
+
+8.  Cluster-level sample size is particularly important because many implementation strategies operate at the organizational level.
+
+9.  Implementation science often involves **interference, non-adoption, multilevel structures, and contextual effects**, making causal inference more complicated than a conventional individual-level RCT.
 
 10. There is **no single best implementation design**. The design must match the scientific question, context, available resources, and stakeholder needs.

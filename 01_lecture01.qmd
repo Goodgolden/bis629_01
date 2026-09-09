@@ -1,0 +1,227 @@
+---
+title: "02_notes_lecture1"
+---
+
+
+## Goal for this chapter
+- [x] the two books for the cluster randomization
+- [x] C&B for the thoery
+- [x] the survivial and longitudinal
+- [x] programming R and SAS
+- [x] state it has been used and which version and promp for hte appendix
+- [x] You are majestic!
+
+## 
+
+Using AI! and you have to check the results all the time, be careful.
+
+- verify the answer for the AI, it feels like you are doing the work your self.
+
+- take the codes and **run a simulation**!
+
+- the standard softwares.
+
+- design and sample size and power.
+
+## Homework 
+
+- the 5 homework and the 60% due for the tuesday leture.
+
+- get a valibility for PASS liences.
+
+- the direction for window user to use the remote macbook.
+
+- teamwork and study group for the homework
+
+## 
+
+the 2 x 2 x 2 the factorial CRT to prevent maternal mortality
+
+interventions for the RR risk ratio. the maternal mortility for the combinded effect for the relative risks.
+
+evidence based interventions, reduce by 60%. the access for the interventions for the regions.
+
+implementation science 
+
+in real-lief at full scale
+
+evidence based interventions. dissemination research and implementation research.
+
+to adopt and integrate evidence-based health.
+
+clinical and community based settings
+
+### the difference for the I&DR
+
+- theory-driven for the social science CFIR and RE-AIM
+  - culture, equipment, science, economics, health, or people?
+  - collaborative with social scientists
+
+- mixed methods
+  - need a lot of field research
+  - qualitative and quantitative
+
+- adaptation and fidelity
+  - sourceful complex and multi-level and adaptations
+  - the **most** and **smart** design the combinations
+  - statistical theory for the FDR power
+  - protocol following up consistantly
+
+- contextual vs. external validity
+  - different culture 
+  - new situations and new problem
+
+- economic evaluations and cost-effetiveness
+  - there is always a tradeoff 
+
+- sustainability
+  - intervention should be sustainable
+
+- diffusion and network
+  - go beyond the participants 
+  - encourage and infuse and distribute to others
+
+
+Note: Prof Hagman and Science Spring semester
+
+Luke Davis for the the model and framework for multi-level intervention for hte policy maker. 
+
+Sobatical
+
+## 3R 
+
+Rigorous / Rapid / Relevant
+
+policy changing all the time and we need to pick our pace.
+
+GLP1 medication obesity and cancer, the important public health questions drag our questions around.
+
+the cascade for the disease for the risk factor
+
+blood pressure, to screen the diseases for the program, but the health system is just not ready for hte problem.
+
+screen -> initiate -> sustain -> treatment
+
+implications for design
+
+- group level instead of the group level
+- cluster randomization
+
+## study design
+
+- randomized controlled trial on average
+- RCT individually randomized 
+- cRT cluster RCT
+- SWD stepped wedge cluster
+- pragmatic trials 
+
+- pipeline for efficacy for individual randomization setting in the academic 
+- effectiveness for general practice for the real world 
+- implementation for the general population 
+- the PRECIS-2 to rank the study and pragmatic for PCORI
+- follow-up the patient reported issues, 
+- primary outcomes and primary analysis
+
+randomly allocated into different arms
+
+- randomized into clusters
+- everybody in the same cluster get the same treatment
+- iid independence and identical violation 
+- RCT valide p-values 
+
+HIV + mothers
+
+different approaches for the Echopois. 
+the primary outocme: PMTCT HIV incidence rate is the outcome. both of the group will get the treatments.
+
+impossible to more than 2 x 2 factorials design
+
+clusters are not the same size.
+to the number of the participants level in the same size.
+
+free country migrating, possible traveling between wards?
+
+## Stepped-Wedge Cluster RCTs
+
+- all the indiviudals must get the benefitial intervention!
+- the voltage drops the weaker effects, implementation the more pragmatic the less the controlled. the disconnect and we cannot see the changes. the strategy must be designed.
+
+
+MaxART stepped-wedge randomized trail
+
+the clusters we need, how many people we need?
+
+- intra-cluster correlation ICC is high 
+- increase efficiency over parallel design
+- logistically challenging to intervention clusters
+
+- parallel is not ideal
+- tidious for the practice, doing it multiple time for the all start for the same time is difficult to do.
+- what if we cannot randomize to the implementation.
+- quasi-experimental study designs
+  - pre-post design randomize (self as control, time variant)
+  - difference-in-difference design, controlled before-after-after
+  - do we have the same risk factor, case - control.
+  - interrupted time series
+  - regression discontinuity design 
+  
+level change or trend change,
+before and after intervention
+
+colonoscopie for the health insurance
+
+EMR electronic medical records database. 
+the prevention methods for the affordable medication.
+
+- MOST
+- SMART
+- LAGO
+
+the three advanced designs
+
+paper: the value equation: three complementary propositions for reconciling fidelity and adaptation in evidence based practice implementation.
+
+secondary analysis and the observation 
+
+FRAME and FRAME-IS
+
+LAGO stages and the delivery system to analysis the component are working and the component cost for the next stage. prediction to set up the go. 
+
+## Hybrid designs for hte effectiveness and implementation 
+
+Type I, II, III
+
+implementation outcomes without any outcomes at all.
+
+if this is gonna work getting it to people, we do not need to look at the initation rates! it will work anyway. no health realted outcomes for the funding.
+
+clinical effectiveness research -> implementation research
+
+intervention, effectiveness, and the strategy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
