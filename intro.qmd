@@ -1,8 +1,10 @@
-# Introduction BIS 629 Reading Checklist
+# Introduction {.unnumbered}
+
+## Introduction BIS 629 Reading Checklist 
 
 This is a book created from markdown and executable code.
 
-## Week 1 — Introduction to Implementation and Prevention Science
+### Week 1 — Introduction to Implementation and Prevention Science
 
 - [ ] **Brown et al. (2017).**  
   *An Overview of Research and Evaluation Designs for Dissemination and Implementation.*  
@@ -17,9 +19,9 @@ This is a book created from markdown and executable code.
   @casella2001statistical
 
 
-## Week 2 — Asymptotic Hypothesis Testing
+### Week 2 — Asymptotic Hypothesis Testing
 
-### Optional Readings
+#### Optional Readings
 
 - [ ] **Equivalence and Noninferiority Testing Using SAS/STAT Software (2015).**  
   @sas2015equivalence
@@ -32,7 +34,7 @@ This is a book created from markdown and executable code.
   @liu2002equivalence
 
 
-## Week 3 — Sample Size and Power
+### Week 3 — Sample Size and Power
 
 - [ ] **Self & Mauritsen (1988).**  
   *Power/Sample Size Calculations for Generalized Linear Models.*  
@@ -43,9 +45,9 @@ This is a book created from markdown and executable code.
   @self1992power
 
 
-## Week 4 — Randomization and Causal Inference
+### Week 4 — Randomization and Causal Inference
 
-### Required Readings
+#### Required Readings
 
 - [ ] **Greenland & Robins (1994).**  
   *Invited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.*  
@@ -64,9 +66,9 @@ This is a book created from markdown and executable code.
   @hernan2017perprotocol
 
 
-## Week 5 — Cluster-Randomized Trials
+### Week 5 — Cluster-Randomized Trials
 
-### Required Readings
+#### Required Readings
 
 - [ ] **Ritz & Spiegelman (2004).**  
   *Equivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.*  
@@ -85,14 +87,14 @@ This is a book created from markdown and executable code.
   @shih1997sample
 
 
-## Week 6 — Cluster-Randomized Trials Continued
+### Week 6 — Cluster-Randomized Trials Continued
 
 No new readings listed.
 
 
-## Week 7 — Constrained Randomization
+### Week 7 — Constrained Randomization
 
-### Required Readings
+#### Required Readings
 
 - [ ] **Moulton (2004).**  
   *Covariate-Based Constrained Randomization of Group-Randomized Trials.*  
@@ -102,7 +104,7 @@ No new readings listed.
   *An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.*  
   @li2016constrained
 
-### Optional Readings
+#### Optional Readings
 
 - [ ] **Li et al. (2017).**  
   *An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.*  
@@ -121,9 +123,9 @@ No new readings listed.
   @gallis2018cvcrand
 
 
-## Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART
+### Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART
 
-### Required Readings
+#### Required Readings
 
 - [ ] **Guastaferro & Collins (2019).**  
   *Achieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).*  
@@ -131,16 +133,16 @@ No new readings listed.
 
 - [ ] **Collins (2018), Chapter 1.**  
   *Introduction to the Factorial Optimization Trial.*  
-  @collins2018factorial
+  @collins2018most
 
 - [ ] **Collins (2018), Chapter 3.**  
   *Conceptual Introduction to the Multiphase Optimization Strategy (MOST).*  
   @collins2018most
 
 
-## Week 9 — Stepped-Wedge Designs
+### Week 9 — Stepped-Wedge Designs
 
-### Readings
+#### Readings
 
 - [ ] **Zhou et al. (2018).**  
   *A Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.*  
@@ -159,19 +161,27 @@ No new readings listed.
   @chen2022swdpwr
 
 
-## Week 10 — Stepped-Wedge Designs Continued
+### Week 10 — Stepped-Wedge Designs Continued
 
 No new readings listed.
 
 
-## Week 11 — LAGO
+### Week 11 — LAGO
 
 No new readings listed for this week.
 
+- [ ] **Nevo et al. (2021).**
+  *Analysis of learn-as-you-go (LAGO) studies.*
+  @nevo2021lago
 
-## Week 12 — Hybrid Designs
+LAGO (theory, example, design) – Guest lecture, Dr. Jingyu Cui, Post-doctoral Fellow, 
+Department of Biostatistics and Center on Methods for Implementation and Prevention Science, Yale School of 
+Public Health.
 
-### Readings
+
+### Week 12 — Hybrid Designs
+
+#### Readings
 
 - [ ] **Curran et al. (2012).**  
   *Effectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.*  
@@ -181,7 +191,7 @@ No new readings listed for this week.
   *Power and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.*  
   @owen2025hybrid
 
-### Required LAGO Readings
+#### Required LAGO Readings
 
 - [ ] **Nevo, Lok & Spiegelman (2021).**  
   *Analysis of "Learn-As-You-Go" (LAGO) Studies.*  
@@ -192,9 +202,9 @@ No new readings listed for this week.
   @spiegelmanlago
 
 
-## Week 13 — Discrete Choice Experiments
+### Week 13 — Discrete Choice Experiments
 
-### Readings
+#### Readings
 
 - [ ] **Street et al. (2005).**  
   *Quick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.*  
@@ -205,9 +215,9 @@ No new readings listed for this week.
   @cameron2023preferences
 
 
-# Homework Checklist
+## Homework Checklist
 
-## Homework 1
+### Homework 1
 
 **Distributed:** September 15  
 **Due:** September 29
@@ -220,7 +230,7 @@ No new readings listed for this week.
 - [ ] Submit at start of class
 
 
-## Homework 2
+### Homework 2
 
 **Distributed:** October 6  
 **Due:** October 20
@@ -233,7 +243,7 @@ No new readings listed for this week.
 - [ ] Submit at start of class
 
 
-## Homework 3
+### Homework 3
 
 **Distributed:** October 20  
 **Due:** November 3
@@ -246,7 +256,7 @@ No new readings listed for this week.
 - [ ] Submit at start of class
 
 
-## Homework 4
+### Homework 4
 
 **Distributed:** November 3  
 **Due:** November 17
@@ -259,7 +269,7 @@ No new readings listed for this week.
 - [ ] Submit at start of class
 
 
-## Homework 5
+### Homework 5
 
 **Distributed:** November 17  
 **Due:** December 8
@@ -272,7 +282,7 @@ No new readings listed for this week.
 - [ ] Submit at start of class
 
 
-# Other Course Requirements
+## Other Course Requirements
 
 - [ ] **October 13:** Submit mid-semester feedback form
 - [ ] **December 8:** Final examination distributed
@@ -281,4 +291,4 @@ No new readings listed for this week.
 - [ ] **December 22, 5:00 PM:** Final examination due
 
 
-# References
+## References

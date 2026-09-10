@@ -1,9 +1,121 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This is a Quarto book for the 2026 Yale lecture **BIS 629: Advanced Methods for Implementation and Prevention Science**
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-```{r}
-1 + 1
-```
+## Course Information
+
+**Course:** BIS 629 — Advanced Methods for Implementation and Prevention Science  
+**Semester:** Fall 2026  
+**Time:** Tuesdays, 3:00–4:50 PM  
+**Location:** LEPH 101, 60 College Street  
+
+### Instructor
+
+**Donna Spiegelman, Sc.D.**  
+Susan Dwight Bliss Professor of Biostatistics  
+Director, [Center for Methods in Implementation and Prevention Science (CMIPS)](https://ysph.yale.edu/cmips/)  
+
+**Office Hours:** Tuesdays, 12:00–2:00 PM  
+135 College St, Suite 200, Room 228
+
+## Teaching Fellows
+
+**Can Meng**
+
+PhD Candidate  
+Department of Biostatistics  
+
+**Office Hours:** Mondays, 4:00–5:00 PM  
+135 College St, Suite 200, Room 227
+
+**Chiedozie Arum**
+
+PhD Candidate  
+Department of Epidemiology of Microbial Diseases  
+
+**Office Hours:** Mondays, 12:00–1:00 PM  
+135 College St, Suite 200, Room 227
+
+## Lecture
+
+Classes meet once per week for **one hour and fifty minutes**.
+
+## Textbooks and Readings
+
+Course notes and readings.
+
+### Optional Textbooks
+
+- Hayes, R. J., & Moulton, L. H. (2017). *Cluster Randomised Trials*.
+
+- Donner, A., & Klar, N. (2000). *Design and Analysis of Cluster Randomization Trials in Health Research*.
+
+- Casella, G., & Berger, R. L. (2001). *Statistical Inference* (2nd ed.).
+  - Chapter 8
+  - Chapter 10
+  - Particularly Chapter 10.3
+
+### Course Website
+
+[Canvas](https://canvas.yale.edu/)
+
+
+## Prerequisites
+
+S&DS 5410 and S&DS 5420, or equivalent, or permission of the instructor.
+
+This course is intended for biostatistics graduate students in the second year and above and requires knowledge of, and comfort with, general mathematical statistics.
+
+Prior exposure to the following is desirable but not required:
+
+- Asymptotic theory
+- Survival analysis
+- Longitudinal data analysis
+
+Basic statistical programming skills will also be helpful.
+
+## Course Description
+
+The course presents methods for the **design and analysis of studies arising in implementation and prevention science**.
+
+These studies use a range of:
+
+- Cluster-randomized designs
+- Quasi-experimental designs
+- Observational designs
+
+R will typically be used for course problem sets. Students have the option of using SAS if they wish.
+
+## Statistical Software
+
+### R and SAS
+
+**R** will typically be used for course problem sets.
+
+Students may use **SAS** if they wish.
+
+### PASS
+
+The commercial software **PASS** is also used for many homework assignments.
+
+Students will receive a **free six-month license** for use during the course.
+
+## Use of AI
+
+The use of **AI tools is encouraged**.
+
+Students must submit the following when using AI:
+
+1. **State that AI has been used**, including:
+   - Name of the software
+   - Software version
+
+2. **Provide the prompts** used with the AI tool in an Appendix.
+
+3. **Verify AI-generated content.** In the body of the homework, show how you verified the accuracy of any AI-generated:
+   - Information
+   - Reasoning
+   - Output
+
+> **Important:** Students are responsible for the accuracy of all submitted work. AI makes many mistakes, and AI-generated content should not be accepted without independent verification.

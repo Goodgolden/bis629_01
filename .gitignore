@@ -2,3 +2,5 @@
 .Rproj.user
 libs/
 *files*
+
+**/*.quarto_ipynb

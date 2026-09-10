@@ -1,142 +1,222 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "YALE BIS629_01",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book for the 2026 Yale lecture BIS 629: Advanced Methods for Implementation and Prevention Science",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "YALE BIS629_01",
+    "section": "Course Information",
+    "text": "Course Information\nCourse: BIS 629 — Advanced Methods for Implementation and Prevention Science\nSemester: Fall 2026\nTime: Tuesdays, 3:00–4:50 PM\nLocation: LEPH 101, 60 College Street\n\nInstructor\nDonna Spiegelman, Sc.D.\nSusan Dwight Bliss Professor of Biostatistics\nDirector, Center for Methods in Implementation and Prevention Science (CMIPS)\nOffice Hours: Tuesdays, 12:00–2:00 PM\n135 College St, Suite 200, Room 228",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#teaching-fellows",
+    "href": "index.html#teaching-fellows",
+    "title": "YALE BIS629_01",
+    "section": "Teaching Fellows",
+    "text": "Teaching Fellows\nCan Meng\nPhD Candidate\nDepartment of Biostatistics\nOffice Hours: Mondays, 4:00–5:00 PM\n135 College St, Suite 200, Room 227\nChiedozie Arum\nPhD Candidate\nDepartment of Epidemiology of Microbial Diseases\nOffice Hours: Mondays, 12:00–1:00 PM\n135 College St, Suite 200, Room 227",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#lecture",
+    "href": "index.html#lecture",
+    "title": "YALE BIS629_01",
+    "section": "Lecture",
+    "text": "Lecture\nClasses meet once per week for one hour and fifty minutes.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#textbooks-and-readings",
+    "href": "index.html#textbooks-and-readings",
+    "title": "YALE BIS629_01",
+    "section": "Textbooks and Readings",
+    "text": "Textbooks and Readings\nCourse notes and readings.\n\nOptional Textbooks\n\nHayes, R. J., & Moulton, L. H. (2017). Cluster Randomised Trials.\nDonner, A., & Klar, N. (2000). Design and Analysis of Cluster Randomization Trials in Health Research.\nCasella, G., & Berger, R. L. (2001). Statistical Inference (2nd ed.).\n\nChapter 8\nChapter 10\nParticularly Chapter 10.3\n\n\n\n\nCourse Website\nCanvas",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "YALE BIS629_01",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nS&DS 5410 and S&DS 5420, or equivalent, or permission of the instructor.\nThis course is intended for biostatistics graduate students in the second year and above and requires knowledge of, and comfort with, general mathematical statistics.\nPrior exposure to the following is desirable but not required:\n\nAsymptotic theory\nSurvival analysis\nLongitudinal data analysis\n\nBasic statistical programming skills will also be helpful.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "YALE BIS629_01",
+    "section": "Course Description",
+    "text": "Course Description\nThe course presents methods for the design and analysis of studies arising in implementation and prevention science.\nThese studies use a range of:\n\nCluster-randomized designs\nQuasi-experimental designs\nObservational designs\n\nR will typically be used for course problem sets. Students have the option of using SAS if they wish.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#statistical-software",
+    "href": "index.html#statistical-software",
+    "title": "YALE BIS629_01",
+    "section": "Statistical Software",
+    "text": "Statistical Software\n\nR and SAS\nR will typically be used for course problem sets.\nStudents may use SAS if they wish.\n\n\nPASS\nThe commercial software PASS is also used for many homework assignments.\nStudents will receive a free six-month license for use during the course.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#use-of-ai",
+    "href": "index.html#use-of-ai",
+    "title": "YALE BIS629_01",
+    "section": "Use of AI",
+    "text": "Use of AI\nThe use of AI tools is encouraged.\nStudents must submit the following when using AI:\n\nState that AI has been used, including:\n\nName of the software\nSoftware version\n\nProvide the prompts used with the AI tool in an Appendix.\nVerify AI-generated content. In the body of the homework, show how you verified the accuracy of any AI-generated:\n\nInformation\nReasoning\nOutput\n\n\n\nImportant: Students are responsible for the accuracy of all submitted work. AI makes many mistakes, and AI-generated content should not be accepted without independent verification.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction BIS 629 Reading Checklist",
+    "title": "Introduction",
     "section": "",
-    "text": "1.1 Week 1 — Introduction to Implementation and Prevention Science\nThis is a book created from markdown and executable code.",
+    "text": "Introduction BIS 629 Reading Checklist\nThis is a book created from markdown and executable code.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "intro.html#week-1-introduction-to-implementation-and-prevention-science",
-    "href": "intro.html#week-1-introduction-to-implementation-and-prevention-science",
-    "title": "1  Introduction BIS 629 Reading Checklist",
+    "objectID": "intro.html#introduction-bis-629-reading-checklist",
+    "href": "intro.html#introduction-bis-629-reading-checklist",
+    "title": "Introduction",
     "section": "",
-    "text": "Brown et al. (2017).\nAn Overview of Research and Evaluation Designs for Dissemination and Implementation.\nBrown et al. (2017)\nCasella & Berger (2001), Chapter 8.\nStatistical Inference.\nCasella and Berger (2001)\nCasella & Berger (2001), Chapter 10.\nStatistical Inference.\nCasella and Berger (2001)",
+    "text": "Week 1 — Introduction to Implementation and Prevention Science\n\nBrown et al. (2017).\nAn Overview of Research and Evaluation Designs for Dissemination and Implementation.\nBrown et al. (2017)\nCasella & Berger (2001), Chapter 8.\nStatistical Inference.\nCasella and Berger (2001)\nCasella & Berger (2001), Chapter 10.\nStatistical Inference.\nCasella and Berger (2001)\n\n\n\nWeek 2 — Asymptotic Hypothesis Testing\n\nOptional Readings\n\nEquivalence and Noninferiority Testing Using SAS/STAT Software (2015).\nSAS Institute (2015)\nTesting Hypotheses for Equivalence and Non-inferiority with Binary and Survival Outcomes (2020).\nSAS Institute (2020)\nLiu et al. (2002).\nTests for Equivalence or Non-Inferiority for Paired Binary Data.\nLiu et al. (2002)\n\n\n\n\nWeek 3 — Sample Size and Power\n\nSelf & Mauritsen (1988).\nPower/Sample Size Calculations for Generalized Linear Models.\nSelf and Mauritsen (1988)\nSelf, Mauritsen & O’Hara (1992).\nPower Calculations for Likelihood Ratio Tests in Generalized Linear Models.\nSelf et al. (1992)\n\n\n\nWeek 4 — Randomization and Causal Inference\n\nRequired Readings\n\nGreenland & Robins (1994).\nInvited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.\nGreenland and Robins (1994)\nDetry & Lewis (2014).\nThe Intention-to-Treat Principle: How to Assess the True Effect of Choosing a Medical Treatment.\nDetry and Lewis (2014)\nHernán & Hernández-Díaz (2012).\nBeyond the Intention-to-Treat in Comparative Effectiveness Research.\nHernán and Hernández-Díaz (2012)\nHernán & Robins (2017).\nPer-Protocol Analyses of Pragmatic Trials.\nHernán and Robins (2017)\n\n\n\n\nWeek 5 — Cluster-Randomized Trials\n\nRequired Readings\n\nRitz & Spiegelman (2004).\nEquivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.\nRitz and Spiegelman (2004)\nRutterford, Copas & Eldridge (2015).\nMethods for Sample Size Determination in Cluster Randomized Trials.\nRutterford et al. (2015)\nRaab & Butcher (2001).\nBalance in Cluster Randomized Trials.\nRaab and Butcher (2001)\nShih (1997).\nSample Size and Power Calculations for Periodontal and Other Studies with Clustered Samples Using the Method of Generalized Estimating Equations.\nShih (1997)\n\n\n\n\nWeek 6 — Cluster-Randomized Trials Continued\nNo new readings listed.\n\n\nWeek 7 — Constrained Randomization\n\nRequired Readings\n\nMoulton (2004).\nCovariate-Based Constrained Randomization of Group-Randomized Trials.\nMoulton (2004)\nLi et al. (2016).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.\nLi et al. (2016)\n\n\n\nOptional Readings\n\nLi et al. (2017).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.\nLi et al. (2017)\nGreene (2017).\nA SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs.\nGreene (2017)\nYu et al. (2019).\ncvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials.\nYu et al. (2019)\nGallis et al. (2018).\ncvcrand and cptest: Commands for Efficient Design and Analysis of Cluster Randomized Trials Using Constrained Randomization and Permutation Tests.\nGallis et al. (2018)\n\n\n\n\nWeek 8 — Factorial and Fractional Factorial Designs; MOST; SMART\n\nRequired Readings\n\nGuastaferro & Collins (2019).\nAchieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).\nGuastaferro and Collins (2019)\nCollins (2018), Chapter 1.\nIntroduction to the Factorial Optimization Trial.\nCollins (2018)\nCollins (2018), Chapter 3.\nConceptual Introduction to the Multiphase Optimization Strategy (MOST).\nCollins (2018)\n\n\n\n\nWeek 9 — Stepped-Wedge Designs\n\nReadings\n\nZhou et al. (2018).\nA Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.\nZhou et al. (2018)\nHussey & Hughes (2007).\nDesign and Analysis of Stepped Wedge Cluster Randomized Trials.\nHussey and Hughes (2007)\nLi et al. (2021).\nMixed-Effects Models for the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An Overview.\nLi et al. (2021)\nChen et al. (2022).\nswdpwr: A SAS Macro and R Package for Power Calculations in Stepped Wedge Cluster Randomized Trials.\nChen et al. (2022)\n\n\n\n\nWeek 10 — Stepped-Wedge Designs Continued\nNo new readings listed.\n\n\nWeek 11 — LAGO\nNo new readings listed for this week.\n\nNevo et al. (2021). Analysis of learn-as-you-go (LAGO) studies. Nevo et al. (2021)\n\nLAGO (theory, example, design) – Guest lecture, Dr. Jingyu Cui, Post-doctoral Fellow, Department of Biostatistics and Center on Methods for Implementation and Prevention Science, Yale School of Public Health.\n\n\nWeek 12 — Hybrid Designs\n\nReadings\n\nCurran et al. (2012).\nEffectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.\nCurran et al. (2012)\nOwen et al. (2025).\nPower and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.\nOwen et al. (2025)\n\n\n\nRequired LAGO Readings\n\nNevo, Lok & Spiegelman (2021).\nAnalysis of “Learn-As-You-Go” (LAGO) Studies.\nNevo et al. (2021)\nSpiegelman et al.\nEvaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.\nSpiegelman et al. (n.d.)\n\n\n\n\nWeek 13 — Discrete Choice Experiments\n\nReadings\n\nStreet et al. (2005).\nQuick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.\nStreet et al. (2005)\nCameron et al. (2023).\nProduct Preferences and Willingness to Pay for Potable Water Delivery: Experimental Evidence from Rural Bihar, India.\nCameron et al. (2023)",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "intro.html#week-2-asymptotic-hypothesis-testing",
-    "href": "intro.html#week-2-asymptotic-hypothesis-testing",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.2 Week 2 — Asymptotic Hypothesis Testing",
-    "text": "1.2 Week 2 — Asymptotic Hypothesis Testing\n\n1.2.1 Optional Readings\n\nEquivalence and Noninferiority Testing Using SAS/STAT Software (2015).\nSAS Institute (2015)\nTesting Hypotheses for Equivalence and Non-inferiority with Binary and Survival Outcomes (2020).\nSAS Institute (2020)\nLiu et al. (2002).\nTests for Equivalence or Non-Inferiority for Paired Binary Data.\nLiu et al. (2002)",
+    "objectID": "intro.html#homework-checklist",
+    "href": "intro.html#homework-checklist",
+    "title": "Introduction",
+    "section": "Homework Checklist",
+    "text": "Homework Checklist\n\nHomework 1\nDistributed: September 15\nDue: September 29\n\nDownload Homework 1\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class\n\n\n\nHomework 2\nDistributed: October 6\nDue: October 20\n\nDownload Homework 2\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class\n\n\n\nHomework 3\nDistributed: October 20\nDue: November 3\n\nDownload Homework 3\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class\n\n\n\nHomework 4\nDistributed: November 3\nDue: November 17\n\nDownload Homework 4\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class\n\n\n\nHomework 5\nDistributed: November 17\nDue: December 8\n\nDownload Homework 5\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "intro.html#week-3-sample-size-and-power",
-    "href": "intro.html#week-3-sample-size-and-power",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.3 Week 3 — Sample Size and Power",
-    "text": "1.3 Week 3 — Sample Size and Power\n\nSelf & Mauritsen (1988).\nPower/Sample Size Calculations for Generalized Linear Models.\nSelf and Mauritsen (1988)\nSelf, Mauritsen & O’Hara (1992).\nPower Calculations for Likelihood Ratio Tests in Generalized Linear Models.\nSelf et al. (1992)",
+    "objectID": "intro.html#other-course-requirements",
+    "href": "intro.html#other-course-requirements",
+    "title": "Introduction",
+    "section": "Other Course Requirements",
+    "text": "Other Course Requirements\n\nOctober 13: Submit mid-semester feedback form\nDecember 8: Final examination distributed\nComplete final examination\nReview all answers and R code\nDecember 22, 5:00 PM: Final examination due",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "intro.html#week-4-randomization-and-causal-inference",
-    "href": "intro.html#week-4-randomization-and-causal-inference",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.4 Week 4 — Randomization and Causal Inference",
-    "text": "1.4 Week 4 — Randomization and Causal Inference\n\n1.4.1 Required Readings\n\nGreenland & Robins (1994).\nInvited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.\nGreenland and Robins (1994)\nDetry & Lewis (2014).\nThe Intention-to-Treat Principle: How to Assess the True Effect of Choosing a Medical Treatment.\nDetry and Lewis (2014)\nHernán & Hernández-Díaz (2012).\nBeyond the Intention-to-Treat in Comparative Effectiveness Research.\nHernán and Hernández-Díaz (2012)\nHernán & Robins (2017).\nPer-Protocol Analyses of Pragmatic Trials.\nHernán and Robins (2017)",
+    "objectID": "intro.html#references",
+    "href": "intro.html#references",
+    "title": "Introduction",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nBrown, C. Hendricks, Geoffrey Curran, Lawrence A. Palinkas, et al. 2017. “An Overview of Research and Evaluation Designs for Dissemination and Implementation.” Annual Review of Public Health 38: 1–22.\n\n\nCameron, Drew B., Isha Ray, Manisha Parida, and William H. Dow. 2023. “Product Preferences and Willingness to Pay for Potable Water Delivery: Experimental Evidence from Rural Bihar, India.” PLOS ONE 18 (4): e0283892. https://doi.org/10.1371/journal.pone.0283892.\n\n\nCasella, George, and Roger L. Berger. 2001. Statistical Inference. Duxbury Press.\n\n\nChen, J., X. Zhou, F. Li, and D. Spiegelman. 2022. “Swdpwr: A SAS Macro and r Package for Power Calculations in Stepped Wedge Cluster Randomized Trials.” Computer Methods and Programs in Biomedicine 213: 106522.\n\n\nCollins, Linda M. 2018. “Conceptual Introduction to the Multiphase Optimization Strategy (MOST).” Chap. 3 in Optimization of Behavioral, Biobehavioral, and Biomedical Interventions: The Multiphase Optimization Strategy (MOST). Springer.\n\n\nCurran, Geoffrey M., Mark Bauer, Brian Mittman, Jeffrey M. Pyne, and Cheryl Stetler. 2012. “Effectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.” Medical Care 50 (3): 217.\n\n\nDetry, Michelle A., and Roger J. Lewis. 2014. “The Intention-to-Treat Principle: How to Assess the True Effect of Choosing a Medical Treatment.” JAMA, 85–86.\n\n\nGallis, John A., Fan Li, Han Yu, and Elizabeth L. Turner. 2018. “Cvcrand and Cptest: Commands for Efficient Design and Analysis of Cluster Randomized Trials Using Constrained Randomization and Permutation Tests.” The Stata Journal 18 (2): 357–78.\n\n\nGreene, Elizabeth J. 2017. “A SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs.” Journal of Statistical Software 77 (CS1).\n\n\nGreenland, Sander, and James Robins. 1994. “Invited Commentary: Ecologic Studies—Biases, Misconceptions, and Counterexamples.” American Journal of Epidemiology, 747–60.\n\n\nGuastaferro, K., and Linda M. Collins. 2019. “Achieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).” American Journal of Public Health, S128–29.\n\n\nHernán, Miguel A., and Sonia Hernández-Díaz. 2012. “Beyond the Intention-to-Treat in Comparative Effectiveness Research.” Clinical Trials, 48–55.\n\n\nHernán, Miguel A., and James M. Robins. 2017. “Per-Protocol Analyses of Pragmatic Trials.” New England Journal of Medicine, 1391–98.\n\n\nHussey, Michael A., and James P. Hughes. 2007. “Design and Analysis of Stepped Wedge Cluster Randomized Trials.” Contemporary Clinical Trials 28 (2): 182–91.\n\n\nLi, Fan, James P. Hughes, Karla Hemming, Monica Taljaard, Edward R. Melnick, and Patrick J. Heagerty. 2021. “Mixed-Effects Models for the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An Overview.” Statistical Methods in Medical Research 30 (2): 612–39.\n\n\nLi, Fan, Yuliya Lokhnygina, David M. Murray, Patrick J. Heagerty, and Elizabeth R. DeLong. 2016. “An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.” Statistics in Medicine 35 (10): 1565–79.\n\n\nLi, Fan, Elizabeth L. Turner, Patrick J. Heagerty, David M. Murray, William M. Vollmer, and Elizabeth R. DeLong. 2017. “An Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.” Statistics in Medicine 36 (24): 3791–806.\n\n\nLiu, J. P., H. M. Hsueh, E. Hsieh, and J. J. Chen. 2002. “Tests for Equivalence or Non-Inferiority for Paired Binary Data.” Statistics in Medicine 21 (2): 231–45.\n\n\nMoulton, Lawrence H. 2004. “Covariate-Based Constrained Randomization of Group-Randomized Trials.” Clinical Trials 1 (3): 297–305.\n\n\nNevo, Daniel, Judith J. Lok, and Donna Spiegelman. 2021. “Analysis of Learn-as-You-Go (LAGO) Studies.” The Annals of Statistics 49 (2): 793–819.\n\n\nOwen, M. A., G. M. Curran, J. D. Smith, Y. Tedla, C. Cheng, and D. Spiegelman. 2025. “Power and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.” Statistics in Medicine 44 (5): e70015. https://doi.org/10.1002/sim.70015.\n\n\nRaab, Gillian M., and Ian Butcher. 2001. “Balance in Cluster Randomized Trials.” Statistics in Medicine 20 (3): 351–65.\n\n\nRitz, John, and Donna Spiegelman. 2004. “Equivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.” Statistical Methods in Medical Research 13 (4): 309–23.\n\n\nRutterford, Clare, Andrew Copas, and Sandra Eldridge. 2015. “Methods for Sample Size Determination in Cluster Randomized Trials.” International Journal of Epidemiology 44 (3): 1051–67.\n\n\nSAS Institute. 2015. Equivalence and Noninferiority Testing Using SAS/STAT Software.\n\n\nSAS Institute. 2020. Testing Hypotheses for Equivalence and Non-Inferiority with Binary and Survival Outcomes.\n\n\nSelf, Steven G., and Robert H. Mauritsen. 1988. “Power/Sample Size Calculations for Generalized Linear Models.” Biometrics 44 (1): 79–86.\n\n\nSelf, Steven G., Robert H. Mauritsen, and Jill O’Hara. 1992. “Power Calculations for Likelihood Ratio Tests in Generalized Linear Models.” Biometrics, 31–39.\n\n\nShih, W. J. 1997. “Sample Size and Power Calculations for Periodontal and Other Studies with Clustered Samples Using the Method of Generalized Estimating Equations.” Biometrical Journal 39: 899–908.\n\n\nSpiegelman, Donna, Daniel Nevo, A. Chakrabarti, D. Barnhart, B. Ganguli, and Judith J. Lok. n.d. “Evaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.” Unpublished manuscript.\n\n\nStreet, Deborah J. et al. 2005. “Quick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.” International Journal of Research in Marketing 22 (4): 459–70.\n\n\nYu, Han, Fan Li, John A. Gallis, and Elizabeth L. Turner. 2019. “Cvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials.” The R Journal 9 (2).\n\n\nZhou, Xin, Xue Liao, Lara M. Kunz, Sharon-Lise T. Normand, Meichun Wang, and Donna Spiegelman. 2018. “A Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.” Biostatistics.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "Introduction"
     ]
   },
   {
-    "objectID": "intro.html#week-5-cluster-randomized-trials",
-    "href": "intro.html#week-5-cluster-randomized-trials",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.5 Week 5 — Cluster-Randomized Trials",
-    "text": "1.5 Week 5 — Cluster-Randomized Trials\n\n1.5.1 Required Readings\n\nRitz & Spiegelman (2004).\nEquivalence of Conditional and Marginal Regression Models for Clustered and Longitudinal Data.\nRitz and Spiegelman (2004)\nRutterford, Copas & Eldridge (2015).\nMethods for Sample Size Determination in Cluster Randomized Trials.\nRutterford et al. (2015)\nRaab & Butcher (2001).\nBalance in Cluster Randomized Trials.\nRaab and Butcher (2001)\nShih (1997).\nSample Size and Power Calculations for Periodontal and Other Studies with Clustered Samples Using the Method of Generalized Estimating Equations.\nShih (1997)",
+    "objectID": "01_lecture01.html",
+    "href": "01_lecture01.html",
+    "title": "1  Lecture1 Notes",
+    "section": "",
+    "text": "1.1 Goal for this chapter",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-6-cluster-randomized-trials-continued",
-    "href": "intro.html#week-6-cluster-randomized-trials-continued",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.6 Week 6 — Cluster-Randomized Trials Continued",
-    "text": "1.6 Week 6 — Cluster-Randomized Trials Continued\nNo new readings listed.",
+    "objectID": "01_lecture01.html#goal-for-this-chapter",
+    "href": "01_lecture01.html#goal-for-this-chapter",
+    "title": "1  Lecture1 Notes",
+    "section": "",
+    "text": "The two books for cluster randomization\nC&B for the theory\nSurvival and longitudinal analysis\nProgramming in R and SAS\nState that AI has been used, including which version and prompts, in the appendix\nYou are majestic!",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-7-constrained-randomization",
-    "href": "intro.html#week-7-constrained-randomization",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.7 Week 7 — Constrained Randomization",
-    "text": "1.7 Week 7 — Constrained Randomization\n\n1.7.1 Required Readings\n\nMoulton (2004).\nCovariate-Based Constrained Randomization of Group-Randomized Trials.\nMoulton (2004)\nLi et al. (2016).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials.\nLi et al. (2016)\n\n\n\n1.7.2 Optional Readings\n\nLi et al. (2017).\nAn Evaluation of Constrained Randomization for the Design and Analysis of Group-Randomized Trials with Binary Outcomes.\nLi et al. (2017)\nGreene (2017).\nA SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs.\nGreene (2017)\nYu et al. (2019).\ncvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials.\nYu et al. (2019)\nGallis et al. (2018).\ncvcrand and cptest: Commands for Efficient Design and Analysis of Cluster Randomized Trials Using Constrained Randomization and Permutation Tests.\nGallis et al. (2018)",
+    "objectID": "01_lecture01.html#before-the-lecture",
+    "href": "01_lecture01.html#before-the-lecture",
+    "title": "1  Lecture1 Notes",
+    "section": "1.2 Before the lecture",
+    "text": "1.2 Before the lecture\n\n1.2.1 Lecture AI policy\nUse AI! But you have to check the results all the time. Be careful.\n\nVerify the answers from AI; it should feel like you are doing the work yourself.\nTake the code and run a simulation!\nUse standard software.\nDesign, sample size, and power.\n\n\n\n1.2.2 Homework policy\n\nFive homework assignments account for 60%; due for the Tuesday lecture.\nGet access to a valid PASS license.\nProvide directions for Windows users to use the remote MacBook.\nTeamwork and study groups for the homework.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-8-factorial-designs-most-and-smart",
-    "href": "intro.html#week-8-factorial-designs-most-and-smart",
-    "title": "1  Introduction",
-    "section": "2.8 Week 8 — Factorial Designs, MOST, and SMART",
-    "text": "2.8 Week 8 — Factorial Designs, MOST, and SMART\n\nGuastaferro & Collins (2019).\nAchieving the Goals of Translational Science in Public Health Intervention Research: MOST.\nFile: bis629_paper_Guastaferro_Collins_2019.pdf\nCollins (2018), Chapter 1.\nIntroduction to the Factorial Optimization Trial.\nFile: bis629_paper_Collins_2018_ch01.pdf\nCollins (2018), Chapter 3.\nConceptual Introduction to the Multiphase Optimization Strategy (MOST).\nFile: bis629_paper_Collins_2018_ch03.pdf",
+    "objectID": "01_lecture01.html#implementation-science",
+    "href": "01_lecture01.html#implementation-science",
+    "title": "1  Lecture1 Notes",
+    "section": "1.3 Implementation Science",
+    "text": "1.3 Implementation Science\nExample: The \\(2 \\times 2 \\times 2\\) factorial CRT to prevent maternal mortality. In practice, it is hard to implement the factorial levels over 3, and more than 3 factors.\nInterventions for the RR (risk ratio). Maternal mortality and the combined effects measured by relative risks.\nEvidence-based interventions reduce mortality by 60%. Access to interventions across regions.\nImplementation science: In real life, at full scale.\nEvidence-based interventions. Dissemination research and implementation research.\nTo adopt and integrate evidence-based health interventions.\nClinical and community-based settings.\n\n1.3.1 The difference for I&DR\n\nTheory-driven approaches from social science: CFIR and RE-AIM\n\nCulture, equipment, science, economics, health, or people?\nCollaborate with social scientists\n\nMixed methods\n\nNeed a lot of field research\nQualitative and quantitative\n\nAdaptation and fidelity\n\nResourceful, complex, multilevel, and adaptive\nThe MOST and SMART designs for combinations\nStatistical theory for FDR and power\nFollow the protocol consistently\n\nContextual vs. external validity\n\nDifferent cultures\nNew situations and new problems\n\nEconomic evaluations and cost-effectiveness\n\nThere is always a trade-off\n\nSustainability\n\nInterventions should be sustainable\n\nDiffusion and networks\n\nGo beyond the participants\nEncourage, diffuse, and distribute to others\n\n\nNote: Prof. Hagman and Science, Spring semester.\nLuke Davis for the model and framework for multilevel interventions for policymakers.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-9-stepped-wedge-designs",
-    "href": "intro.html#week-9-stepped-wedge-designs",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.9 Week 9 — Stepped-Wedge Designs",
-    "text": "1.9 Week 9 — Stepped-Wedge Designs\n\n1.9.1 Readings\n\nZhou et al. (2018).\nA Maximum Likelihood Approach to Power Calculations for Stepped Wedge Designs of Binary Outcomes.\nZhou et al. (2018)\nHussey & Hughes (2007).\nDesign and Analysis of Stepped Wedge Cluster Randomized Trials.\nHussey and Hughes (2007)\nLi et al. (2021).\nMixed-Effects Models for the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An Overview.\nLi et al. (2021)\nChen et al. (2022).\nswdpwr: A SAS Macro and R Package for Power Calculations in Stepped Wedge Cluster Randomized Trials.\nChen et al. (2022)",
+    "objectID": "01_lecture01.html#r",
+    "href": "01_lecture01.html#r",
+    "title": "1  Lecture1 Notes",
+    "section": "1.4 3R",
+    "text": "1.4 3R\nRigorous / Rapid / Relevant\nPolicies change all the time, and we need to pick up our pace.\nGLP-1 medications, obesity, and cancer: important public health questions can drive our research questions.\nThe cascade from risk factors to disease.\nBlood pressure: screening for diseases through the program, but the health system is just not ready for the problem.\nScreen -&gt; initiate -&gt; sustain -&gt; treatment\nImplications for design:\n\nGroup level instead of the individual level\nCluster randomization",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-10-stepped-wedge-designs-continued",
-    "href": "intro.html#week-10-stepped-wedge-designs-continued",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.10 Week 10 — Stepped-Wedge Designs Continued",
-    "text": "1.10 Week 10 — Stepped-Wedge Designs Continued\nNo new readings listed.",
+    "objectID": "01_lecture01.html#study-design",
+    "href": "01_lecture01.html#study-design",
+    "title": "1  Lecture1 Notes",
+    "section": "1.5 Study design",
+    "text": "1.5 Study design\n\nRandomized controlled trials on average\nRCT: individually randomized\ncRCT: cluster randomized controlled trial\nSWD: stepped-wedge cluster design\nPragmatic trials\nPipeline for efficacy: individual randomization in an academic setting\nEffectiveness: general practice in the real world\nImplementation: general population\nPRECIS-2 to rank how pragmatic a study is for PCORI\nFollow up on patient-reported issues\nPrimary outcomes and primary analysis\n\nRandomly allocated into different arms:\n\nRandomized into clusters\nEverybody in the same cluster gets the same treatment\nViolation of the IID (independent and identically distributed) assumption\nRCT: valid p-values\n\nExample in the slides: HIV+ mothers from different wards.Different approaches for the ECHO study. The primary outcome: PMTCT HIV incidence rate is the outcome. Both groups will receive the treatments.\nIt is difficult to have more than a \\(2 \\times 2\\) factorial design.\nClusters are not the same size. Consider the number of participants within each cluster.\nFree country migration: possible travel between wards?",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-11-lago",
-    "href": "intro.html#week-11-lago",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.11 Week 11 — LAGO",
-    "text": "1.11 Week 11 — LAGO\nNo new readings listed for this week.",
+    "objectID": "01_lecture01.html#stepped-wedge-cluster-rcts",
+    "href": "01_lecture01.html#stepped-wedge-cluster-rcts",
+    "title": "1  Lecture1 Notes",
+    "section": "1.6 Stepped-Wedge Cluster RCTs",
+    "text": "1.6 Stepped-Wedge Cluster RCTs\n\nAll individuals must eventually receive the beneficial intervention!\nThe “voltage drop”: weaker effects as implementation becomes more pragmatic and less controlled. There can be a disconnect, and we may not see the changes. The strategy must be designed accordingly.\n\nMaxART stepped-wedge randomized trial.\nHow many clusters do we need? How many people do we need?\n\nIntracluster correlation (ICC) is high.\nIncrease efficiency over a parallel design.\nLogistically challenging to implement interventions across clusters.\nA parallel design is not always ideal.\nTedious in practice: having all clusters start at the same time can be difficult.\nWhat if we cannot randomize the implementation?\n\n\n1.6.1 Quasi-experimental study designs\n\nPre-post design (self as control; time-varying)\nDifference-in-differences design; controlled before-after\nDo we have the same risk factors? What is the difference from Case-control.\nInterrupted time series\nRegression discontinuity design\n\nLevel change or trend change before and after an intervention.\nColonoscopy and health insurance.Colonoscopy is used for colorectal cancer screening and prevention.\n\nEfficacy/effectiveness: Does colonoscopy reduce colorectal cancer incidence or mortality?\nImplementation: How do we increase appropriate screening in real-world healthcare settings?\nPotential barriers:\n\nAccess to healthcare\nInsurance coverage\nPatient uptake\nProvider referral\nHealth-system capacity\nFollow-up after screening\n\n\nEMR data: electronic medical records database. Prevention methods for affordable medication.\n\nMOST\nSMART\nLAGO\n\nThe three advanced designs.\nPaper: The Value Equation: Three Complementary Propositions for Reconciling Fidelity and Adaptation in Evidence-Based Practice Implementation.\nSecondary analysis and observational studies.\nFRAME and FRAME-IS.\nLAGO stages and the delivery system: analyze which components are working and the cost of each component for the next stage. Use prediction to set up the next stage.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
-    "objectID": "intro.html#week-12-hybrid-designs-and-lago",
-    "href": "intro.html#week-12-hybrid-designs-and-lago",
-    "title": "1  Introduction",
-    "section": "2.12 Week 12 — Hybrid Designs and LAGO",
-    "text": "2.12 Week 12 — Hybrid Designs and LAGO\n\nCurran et al. (2012).\nEffectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.\nFile: bis629_paper_Curran_2012.pdf\nOwen et al. (2025).\nPower and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.\nFile: bis629_paper_Owen_2025.pdf\n\n\n2.12.1 Required Readings\n\nNevo, Lok & Spiegelman (2021).\nAnalysis of “Learn-As-You-Go” (LAGO) Studies.\nFile: bis629_paper_Nevo_Lok_Spiegelman_2021.pdf\nSpiegelman et al.\nEvaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.\nFile: bis629_paper_Spiegelman_LAGO.pdf",
+    "objectID": "01_lecture01.html#hybrid-designs-for-effectiveness-and-implementation",
+    "href": "01_lecture01.html#hybrid-designs-for-effectiveness-and-implementation",
+    "title": "1  Lecture1 Notes",
+    "section": "1.7 Hybrid designs for effectiveness and implementation",
+    "text": "1.7 Hybrid designs for effectiveness and implementation\nType I, II, III.\nImplementation outcomes without any health outcomes at all.\nIf this is going to work in getting the intervention to people, we may not need to look at the initiation rates. It will work anyway. No health-related outcomes may be required for the funding.\nClinical effectiveness research -&gt; implementation research\nIntervention, effectiveness, and strategy.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#week-13-discrete-choice-experiments",
-    "href": "intro.html#week-13-discrete-choice-experiments",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.13 Week 13 — Discrete Choice Experiments",
-    "text": "1.13 Week 13 — Discrete Choice Experiments\n\n1.13.1 Readings\n\nStreet et al. (2005).\nQuick and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated Choice Experiments.\nStreet et al. (2005)\nCameron et al. (2023).\nProduct Preferences and Willingness to Pay for Potable Water Delivery: Experimental Evidence from Rural Bihar, India.\nCameron et al. (2023)",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture1 Notes</span>"
     ]
   },
   {
@@ -144,7 +224,7 @@
     "href": "summary.html",
     "title": "2  Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
     ]
@@ -154,259 +234,9 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Brown, C. Hendricks, Geoffrey Curran, Lawrence A. Palinkas, et al. 2017.\n“An Overview of Research and Evaluation Designs for Dissemination\nand Implementation.” Annual Review of Public Health 38:\n1–22.",
+    "text": "Brown, C. Hendricks, Geoffrey Curran, Lawrence A. Palinkas, et al. 2017.\n“An Overview of Research and Evaluation Designs for Dissemination\nand Implementation.” Annual Review of Public Health 38:\n1–22.\n\n\nCameron, Drew B., Isha Ray, Manisha Parida, and William H. Dow. 2023.\n“Product Preferences and Willingness to Pay for Potable Water\nDelivery: Experimental Evidence from Rural Bihar, India.”\nPLOS ONE 18 (4): e0283892. https://doi.org/10.1371/journal.pone.0283892.\n\n\nCasella, George, and Roger L. Berger. 2001. Statistical\nInference. Duxbury Press.\n\n\nChen, J., X. Zhou, F. Li, and D. Spiegelman. 2022. “Swdpwr: A SAS\nMacro and r Package for Power Calculations in Stepped Wedge Cluster\nRandomized Trials.” Computer Methods and Programs in\nBiomedicine 213: 106522.\n\n\nCollins, Linda M. 2018. “Conceptual Introduction to the Multiphase\nOptimization Strategy (MOST).” Chap. 3 in Optimization of\nBehavioral, Biobehavioral, and Biomedical Interventions: The Multiphase\nOptimization Strategy (MOST). Springer.\n\n\nCurran, Geoffrey M., Mark Bauer, Brian Mittman, Jeffrey M. Pyne, and\nCheryl Stetler. 2012. “Effectiveness-Implementation Hybrid\nDesigns: Combining Elements of Clinical Effectiveness and Implementation\nResearch to Enhance Public Health Impact.” Medical Care\n50 (3): 217.\n\n\nDetry, Michelle A., and Roger J. Lewis. 2014. “The\nIntention-to-Treat Principle: How to Assess the True Effect of Choosing\na Medical Treatment.” JAMA, 85–86.\n\n\nGallis, John A., Fan Li, Han Yu, and Elizabeth L. Turner. 2018.\n“Cvcrand and Cptest: Commands for Efficient Design and Analysis of\nCluster Randomized Trials Using Constrained Randomization and\nPermutation Tests.” The Stata Journal 18 (2): 357–78.\n\n\nGreene, Elizabeth J. 2017. “A SAS Macro for Covariate-Constrained\nRandomization of General Cluster-Randomized and Unstratified\nDesigns.” Journal of Statistical Software 77 (CS1).\n\n\nGreenland, Sander, and James Robins. 1994. “Invited Commentary:\nEcologic Studies—Biases, Misconceptions, and Counterexamples.”\nAmerican Journal of Epidemiology, 747–60.\n\n\nGuastaferro, K., and Linda M. Collins. 2019. “Achieving the Goals\nof Translational Science in Public Health Intervention Research: The\nMultiphase Optimization Strategy (MOST).” American Journal of\nPublic Health, S128–29.\n\n\nHernán, Miguel A., and Sonia Hernández-Díaz. 2012. “Beyond the\nIntention-to-Treat in Comparative Effectiveness Research.”\nClinical Trials, 48–55.\n\n\nHernán, Miguel A., and James M. Robins. 2017. “Per-Protocol\nAnalyses of Pragmatic Trials.” New England Journal of\nMedicine, 1391–98.\n\n\nHussey, Michael A., and James P. Hughes. 2007. “Design and\nAnalysis of Stepped Wedge Cluster Randomized Trials.”\nContemporary Clinical Trials 28 (2): 182–91.\n\n\nLi, Fan, James P. Hughes, Karla Hemming, Monica Taljaard, Edward R.\nMelnick, and Patrick J. Heagerty. 2021. “Mixed-Effects Models for\nthe Design and Analysis of Stepped Wedge Cluster Randomized Trials: An\nOverview.” Statistical Methods in Medical Research 30\n(2): 612–39.\n\n\nLi, Fan, Yuliya Lokhnygina, David M. Murray, Patrick J. Heagerty, and\nElizabeth R. DeLong. 2016. “An Evaluation of Constrained\nRandomization for the Design and Analysis of Group-Randomized\nTrials.” Statistics in Medicine 35 (10): 1565–79.\n\n\nLi, Fan, Elizabeth L. Turner, Patrick J. Heagerty, David M. Murray,\nWilliam M. Vollmer, and Elizabeth R. DeLong. 2017. “An Evaluation\nof Constrained Randomization for the Design and Analysis of\nGroup-Randomized Trials with Binary Outcomes.” Statistics in\nMedicine 36 (24): 3791–806.\n\n\nLiu, J. P., H. M. Hsueh, E. Hsieh, and J. J. Chen. 2002. “Tests\nfor Equivalence or Non-Inferiority for Paired Binary Data.”\nStatistics in Medicine 21 (2): 231–45.\n\n\nMoulton, Lawrence H. 2004. “Covariate-Based Constrained\nRandomization of Group-Randomized Trials.” Clinical\nTrials 1 (3): 297–305.\n\n\nNevo, Daniel, Judith J. Lok, and Donna Spiegelman. 2021. “Analysis\nof Learn-as-You-Go (LAGO) Studies.” The Annals of\nStatistics 49 (2): 793–819.\n\n\nOwen, M. A., G. M. Curran, J. D. Smith, Y. Tedla, C. Cheng, and D.\nSpiegelman. 2025. “Power and Sample Size Calculations for Cluster\nRandomized Hybrid Type 2 Effectiveness-Implementation Studies.”\nStatistics in Medicine 44 (5): e70015. https://doi.org/10.1002/sim.70015.\n\n\nRaab, Gillian M., and Ian Butcher. 2001. “Balance in Cluster\nRandomized Trials.” Statistics in Medicine 20 (3):\n351–65.\n\n\nRitz, John, and Donna Spiegelman. 2004. “Equivalence of\nConditional and Marginal Regression Models for Clustered and\nLongitudinal Data.” Statistical Methods in Medical\nResearch 13 (4): 309–23.\n\n\nRutterford, Clare, Andrew Copas, and Sandra Eldridge. 2015.\n“Methods for Sample Size Determination in Cluster Randomized\nTrials.” International Journal of Epidemiology 44 (3):\n1051–67.\n\n\nSAS Institute. 2015. Equivalence and Noninferiority Testing Using\nSAS/STAT Software.\n\n\nSAS Institute. 2020. Testing Hypotheses for Equivalence and\nNon-Inferiority with Binary and Survival Outcomes.\n\n\nSelf, Steven G., and Robert H. Mauritsen. 1988. “Power/Sample Size\nCalculations for Generalized Linear Models.” Biometrics\n44 (1): 79–86.\n\n\nSelf, Steven G., Robert H. Mauritsen, and Jill O’Hara. 1992.\n“Power Calculations for Likelihood Ratio Tests in Generalized\nLinear Models.” Biometrics, 31–39.\n\n\nShih, W. J. 1997. “Sample Size and Power Calculations for\nPeriodontal and Other Studies with Clustered Samples Using the Method of\nGeneralized Estimating Equations.” Biometrical Journal\n39: 899–908.\n\n\nSpiegelman, Donna, Daniel Nevo, A. Chakrabarti, D. Barnhart, B. Ganguli,\nand Judith J. Lok. n.d. “Evaluating Public Health Interventions\n10: Let’s Learn as We Go, and Minimize Large Scale Public Health\nIntervention Failures: The LAGO Design for Optimizing Complex\nMulti-Component Interventions.” Unpublished manuscript.\n\n\nStreet, Deborah J. et al. 2005. “Quick\nand Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated\nChoice Experiments.” International Journal of Research in\nMarketing 22 (4): 459–70.\n\n\nYu, Han, Fan Li, John A. Gallis, and Elizabeth L. Turner. 2019.\n“Cvcrand: A Package for Covariate-Constrained Randomization and\nthe Clustered Permutation Test for Cluster Randomized Trials.”\nThe R Journal 9 (2).\n\n\nZhou, Xin, Xue Liao, Lara M. Kunz, Sharon-Lise T. Normand, Meichun Wang,\nand Donna Spiegelman. 2018. “A Maximum Likelihood Approach to\nPower Calculations for Stepped Wedge Designs of Binary Outcomes.”\nBiostatistics.",
     "crumbs": [
       "References"
-    ]
-  },
-  {
-    "objectID": "intro.html#week-8-factorial-and-fractional-factorial-designs-most-smart",
-    "href": "intro.html#week-8-factorial-and-fractional-factorial-designs-most-smart",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.8 Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART",
-    "text": "1.8 Week 8 — Factorial and Fractional Factorial Designs; MOST; SMART\n\n1.8.1 Required Readings\n\nGuastaferro & Collins (2019).\nAchieving the Goals of Translational Science in Public Health Intervention Research: The Multiphase Optimization Strategy (MOST).\nGuastaferro and Collins (2019)\nCollins (2018), Chapter 1.\nIntroduction to the Factorial Optimization Trial.\nCollins (2018b)\nCollins (2018), Chapter 3.\nConceptual Introduction to the Multiphase Optimization Strategy (MOST).\nCollins (2018a)",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#week-12-hybrid-designs",
-    "href": "intro.html#week-12-hybrid-designs",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "1.12 Week 12 — Hybrid Designs",
-    "text": "1.12 Week 12 — Hybrid Designs\n\n1.12.1 Readings\n\nCurran et al. (2012).\nEffectiveness-Implementation Hybrid Designs: Combining Elements of Clinical Effectiveness and Implementation Research to Enhance Public Health Impact.\nCurran et al. (2012)\nOwen et al. (2025).\nPower and Sample Size Calculations for Cluster Randomized Hybrid Type 2 Effectiveness-Implementation Studies.\nOwen et al. (2025)\n\n\n\n1.12.2 Required LAGO Readings\n\nNevo, Lok & Spiegelman (2021).\nAnalysis of “Learn-As-You-Go” (LAGO) Studies.\nNevo et al. (2021)\nSpiegelman et al.\nEvaluating Public Health Interventions 10: Let’s Learn as We Go, and Minimize Large Scale Public Health Intervention Failures: The LAGO Design for Optimizing Complex Multi-Component Interventions.\nSpiegelman et al. (n.d.)",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#homework-1",
-    "href": "intro.html#homework-1",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "2.1 Homework 1",
-    "text": "2.1 Homework 1\nDistributed: September 15\nDue: September 29\n\nDownload Homework 1\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#homework-2",
-    "href": "intro.html#homework-2",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "2.2 Homework 2",
-    "text": "2.2 Homework 2\nDistributed: October 6\nDue: October 20\n\nDownload Homework 2\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#homework-3",
-    "href": "intro.html#homework-3",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "2.3 Homework 3",
-    "text": "2.3 Homework 3\nDistributed: October 20\nDue: November 3\n\nDownload Homework 3\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#homework-4",
-    "href": "intro.html#homework-4",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "2.4 Homework 4",
-    "text": "2.4 Homework 4\nDistributed: November 3\nDue: November 17\n\nDownload Homework 4\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#homework-5",
-    "href": "intro.html#homework-5",
-    "title": "1  Introduction BIS 629 Reading Checklist",
-    "section": "2.5 Homework 5",
-    "text": "2.5 Homework 5\nDistributed: November 17\nDue: December 8\n\nDownload Homework 5\nRead instructions\nComplete problems\nComplete R code\nCheck answers\nSubmit at start of class",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction BIS 629 Reading Checklist</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html",
-    "href": "01_week1.html",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "",
-    "text": "3 0. Paper\nBrown CH, Curran G, Palinkas LA, et al. (2017).\nAn Overview of Research and Evaluation Designs for Dissemination and Implementation.\nAnnual Review of Public Health, 38:1–22.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#dissemination",
-    "href": "01_week1.html#dissemination",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "5.1 Dissemination",
-    "text": "5.1 Dissemination\nDissemination = targeted distribution of information or intervention materials to a specific audience.\nMain question:\n\nHow do we get evidence and information to the people or organizations that need it?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#implementation",
-    "href": "01_week1.html#implementation",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "5.2 Implementation",
-    "text": "5.2 Implementation\nImplementation = strategies used to adopt and integrate evidence-based interventions and change practice within specific settings.\nMain question:\n\nHow do we actually get an evidence-based intervention used successfully in practice?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#exploration",
-    "href": "01_week1.html#exploration",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "9.1 Exploration",
-    "text": "9.1 Exploration\nQuestion:\n\nShould this organization adopt the intervention?\n\nConsider:\n\ncommunity needs\norganizational context\npolicy\nfunding\nprovider experience\nusefulness of intervention",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#preparation",
-    "href": "01_week1.html#preparation",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "9.2 Preparation",
-    "text": "9.2 Preparation\nPrepare the system for implementation.\nExamples:\n\ncollaborations\npolicies\nfunding\ninfrastructure\ntraining\nintervention adaptation",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#implementation-2",
-    "href": "01_week1.html#implementation-2",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "9.3 Implementation",
-    "text": "9.3 Implementation\nActually deliver the intervention.\nImportant components:\n\nrecruitment\ntraining\nmonitoring\nsupervision\nadherence\ncompetence\nfidelity\nsystematic adaptation",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#sustainment",
-    "href": "01_week1.html#sustainment",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "9.4 Sustainment",
-    "text": "9.4 Sustainment\nQuestion:\n\nCan the organization maintain the intervention after initial implementation support or funding ends?\n\nThis is especially important because successful initial adoption does not guarantee long-term use.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#post-design",
-    "href": "01_week1.html#post-design",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "13.1 10.1 Post Design",
-    "text": "13.1 10.1 Post Design\nMeasure implementation only after the strategy is introduced.\nImplementation\n      ↓\n   Post-test\nAdvantages:\n\nsimple\ninexpensive\nuseful when baseline information is unavailable\nuseful for studying adoption\n\nLimitations:\n\nno baseline comparison\noften no control group\nweak causal inference\nexternal events can explain observed results",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#pre-post-design",
-    "href": "01_week1.html#pre-post-design",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "13.2 10.2 Pre-Post Design",
-    "text": "13.2 10.2 Pre-Post Design\nMeasure outcomes before and after implementation.\nPre\n ↓\nImplementation\n ↓\nPost\nEffect:\nChange = Post - Pre\nUseful for studying:\n\nadoption\nreach\nutilization\npolicy/guideline implementation\n\nMajor limitation:\nChanges may result from factors other than the implementation strategy.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#multiple-baseline-time-series-design",
-    "href": "01_week1.html#multiple-baseline-time-series-design",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "13.3 10.3 Multiple-Baseline / Time-Series Design",
-    "text": "13.3 10.3 Multiple-Baseline / Time-Series Design\nInstead of measuring only once before and once after:\nO O O O | X | O O O O O\nwhere:\n\nO = observation\nX = implementation\n\nRepeated measurements allow investigators to examine:\n\ntrends before implementation\nimmediate changes\nsustained effects\n\nThis provides stronger evidence than a simple pre-post comparison.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#phase-1-preparation",
-    "href": "01_week1.html#phase-1-preparation",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "20.1 Phase 1: Preparation",
-    "text": "20.1 Phase 1: Preparation\nIdentify candidate implementation components and define an optimization criterion.\nExample:\nmaximize implementation success\nsubject to cost ≤ $X",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#phase-2-optimization",
-    "href": "01_week1.html#phase-2-optimization",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "20.2 Phase 2: Optimization",
-    "text": "20.2 Phase 2: Optimization\nUse factorial/fractional factorial experiments to determine which components contribute most.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#phase-3-evaluation",
-    "href": "01_week1.html#phase-3-evaluation",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "20.3 Phase 3: Evaluation",
-    "text": "20.3 Phase 3: Evaluation\nTest the optimized implementation package against a comparison condition.\nMOST is particularly useful when there are many possible components but testing every possible implementation package is infeasible.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#local-knowledge",
-    "href": "01_week1.html#local-knowledge",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "26.1 Local knowledge",
-    "text": "26.1 Local knowledge\nQuestion:\n\nHow can this particular hospital or organization improve implementation?\n\nThis is closely related to quality improvement (QI).",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#generalizable-knowledge",
-    "href": "01_week1.html#generalizable-knowledge",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "26.2 Generalizable knowledge",
-    "text": "26.2 Generalizable knowledge\nQuestion:\n\nWhat implementation strategy works across organizations/settings?\n\nThis is closer to traditional implementation research.\nTherefore, design choice depends partly on whether the objective is:\nLocal improvement\n        vs.\nGeneralizable scientific knowledge",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#randomized-designs",
-    "href": "01_week1.html#randomized-designs",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "27.1 Randomized designs",
-    "text": "27.1 Randomized designs\nAdvantages:\n\nstronger causal inference\nbetter control of confounding\nbetter protection against external influences\n\nDisadvantages:\n\nexpensive\norganizationally difficult\nsometimes impossible\nsometimes ethically or politically inappropriate",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "01_week1.html#nonrandomized-designs",
-    "href": "01_week1.html#nonrandomized-designs",
-    "title": "2  BIS 629 Week 1: Dissemination and Implementation Research Designs",
-    "section": "27.2 Nonrandomized designs",
-    "text": "27.2 Nonrandomized designs\nAdvantages:\n\npractical\nrealistic\neasier to implement\nsometimes the only possible design\n\nDisadvantages:\n\nconfounding\nselection bias\nweaker causal inference\n\nThus:\nStrong internal validity\n          ↕\nReal-world feasibility / external validity\nis a recurring tension in implementation research.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>BIS 629 Week 1: Dissemination and Implementation Research Designs</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "bis629_01",
-    "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "Preface"
     ]
   }
 ]
