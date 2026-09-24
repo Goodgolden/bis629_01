@@ -1,14 +1,33 @@
 project:
   type: book
+  output-dir: _book
 
 book:
   title: "YALE BIS629_01"
   author: "Randy Jin"
   date: "9/8/2026"
+  navbar:
+    # downloads: [pdf]
+    search: true
+  repo-url: https://github.com/Goodgolden/bis629_01
+  repo-actions: [edit]
+  sidebar:
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/Goodgolden/bis629_01
+        aria-label: GitHub
+      - icon: share
+        aria-label: Email
+        # href: randy.jin@yale.edu
+      - icon: hospital
+        aria-label: Yale
+        href: https://yale.instructure.com/courses/122235
+  page-navigation: true
   chapters:
     - index.qmd
     - intro.qmd
-    - 01_week1.qmd
+    - 01_lecture01.qmd
     - summary.qmd
     - references.qmd
 
@@ -16,11 +35,18 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
-
+    code-fold: true
+    code-tools: true
+    code-link: true
+    df-print: paged
+    # fig-cap-location: top
+    fig.topcaption: TRUE
+    author-meta: "Randy Jin, Elizabeth Juarez-Colunga"
+    # include-in-header: "plausible.html"
+    callout-appearance: simple
+  # pdf:
+  #   documentclass: scrreprt
 editor: visual
+
+toc: true
 

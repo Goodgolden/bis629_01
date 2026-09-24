@@ -1,227 +1,191 @@
 ---
-title: "02_notes_lecture1"
+title: "Lecture1 Notes"
 ---
 
-
 ## Goal for this chapter
-- [x] the two books for the cluster randomization
-- [x] C&B for the thoery
-- [x] the survivial and longitudinal
-- [x] programming R and SAS
-- [x] state it has been used and which version and promp for hte appendix
+
+- [x] The two books for cluster randomization
+- [x] C&B for the theory
+- [x] Survival and longitudinal analysis
+- [x] Programming in R and SAS
+- [x] State that AI has been used, including which version and prompts, in the appendix
 - [x] You are majestic!
 
-## 
+## Before the lecture
 
-Using AI! and you have to check the results all the time, be careful.
+### Lecture AI policy
 
-- verify the answer for the AI, it feels like you are doing the work your self.
+Use AI! But you have to check the results all the time. Be careful.
 
-- take the codes and **run a simulation**!
+- Verify the answers from AI; it should feel like you are doing the work yourself.
+- Take the code and **run a simulation**!
+- Use standard software.
+- Design, sample size, and power.
 
-- the standard softwares.
+### Homework policy
 
-- design and sample size and power.
+- Five homework assignments account for 60%; due for the Tuesday lecture.
+- Get access to a valid PASS license.
+- Provide directions for Windows users to use the remote MacBook.
+- Teamwork and study groups for the homework.
 
-## Homework 
+## Implementation Science
 
-- the 5 homework and the 60% due for the tuesday leture.
+Example: The $2 \times 2 \times 2$ factorial CRT to prevent maternal mortality. 
+In practice, it is hard to implement the factorial levels over 3, and more than 3 factors.
 
-- get a valibility for PASS liences.
+Interventions for the RR (risk ratio). Maternal mortality and the combined effects measured by relative risks.
 
-- the direction for window user to use the remote macbook.
+Evidence-based interventions reduce mortality by 60%. Access to interventions across regions.
 
-- teamwork and study group for the homework
+Implementation science: In real life, at full scale.
 
-## 
+Evidence-based interventions. Dissemination research and implementation research.
 
-the 2 x 2 x 2 the factorial CRT to prevent maternal mortality
+To adopt and integrate evidence-based health interventions.
 
-interventions for the RR risk ratio. the maternal mortility for the combinded effect for the relative risks.
+Clinical and community-based settings.
 
-evidence based interventions, reduce by 60%. the access for the interventions for the regions.
+### The difference for I&DR
 
-implementation science 
+- Theory-driven approaches from social science: CFIR and RE-AIM
+  - Culture, equipment, science, economics, health, or people?
+  - Collaborate with social scientists
+- Mixed methods
+  - Need a lot of field research
+  - Qualitative and quantitative
+- Adaptation and fidelity
+  - Resourceful, complex, multilevel, and adaptive
+  - The **MOST** and **SMART** designs for combinations
+  - Statistical theory for FDR and power
+  - Follow the protocol consistently
+- Contextual vs. external validity
+  - Different cultures
+  - New situations and new problems
+- Economic evaluations and cost-effectiveness
+  - There is always a trade-off
+- Sustainability
+  - Interventions should be sustainable
+- Diffusion and networks
+  - Go beyond the participants
+  - Encourage, diffuse, and distribute to others
 
-in real-lief at full scale
+Note: Prof. Hagman and Science, Spring semester.
 
-evidence based interventions. dissemination research and implementation research.
+Luke Davis for the model and framework for multilevel interventions for policymakers.
 
-to adopt and integrate evidence-based health.
+<!-- Sabbatical. -->
 
-clinical and community based settings
-
-### the difference for the I&DR
-
-- theory-driven for the social science CFIR and RE-AIM
-  - culture, equipment, science, economics, health, or people?
-  - collaborative with social scientists
-
-- mixed methods
-  - need a lot of field research
-  - qualitative and quantitative
-
-- adaptation and fidelity
-  - sourceful complex and multi-level and adaptations
-  - the **most** and **smart** design the combinations
-  - statistical theory for the FDR power
-  - protocol following up consistantly
-
-- contextual vs. external validity
-  - different culture 
-  - new situations and new problem
-
-- economic evaluations and cost-effetiveness
-  - there is always a tradeoff 
-
-- sustainability
-  - intervention should be sustainable
-
-- diffusion and network
-  - go beyond the participants 
-  - encourage and infuse and distribute to others
-
-
-Note: Prof Hagman and Science Spring semester
-
-Luke Davis for the the model and framework for multi-level intervention for hte policy maker. 
-
-Sobatical
-
-## 3R 
+## 3R
 
 Rigorous / Rapid / Relevant
 
-policy changing all the time and we need to pick our pace.
+Policies change all the time, and we need to pick up our pace.
 
-GLP1 medication obesity and cancer, the important public health questions drag our questions around.
+GLP-1 medications, obesity, and cancer: important public health questions can drive our research questions.
 
-the cascade for the disease for the risk factor
+The cascade from risk factors to disease.
 
-blood pressure, to screen the diseases for the program, but the health system is just not ready for hte problem.
+Blood pressure: screening for diseases through the program, but the health system is just not ready for the problem.
 
-screen -> initiate -> sustain -> treatment
+Screen -> initiate -> sustain -> treatment
 
-implications for design
+Implications for design:
 
-- group level instead of the group level
-- cluster randomization
+- Group level instead of the individual level
+- Cluster randomization
 
-## study design
+## Study design
 
-- randomized controlled trial on average
-- RCT individually randomized 
-- cRT cluster RCT
-- SWD stepped wedge cluster
-- pragmatic trials 
+- Randomized controlled trials on average
+- RCT: individually randomized
+- cRCT: cluster randomized controlled trial
+- SWD: stepped-wedge cluster design
+- Pragmatic trials
+- Pipeline for efficacy: individual randomization in an academic setting
+- Effectiveness: general practice in the real world
+- Implementation: general population
+- PRECIS-2 to rank how pragmatic a study is for PCORI
+- Follow up on patient-reported issues
+- Primary outcomes and primary analysis
 
-- pipeline for efficacy for individual randomization setting in the academic 
-- effectiveness for general practice for the real world 
-- implementation for the general population 
-- the PRECIS-2 to rank the study and pragmatic for PCORI
-- follow-up the patient reported issues, 
-- primary outcomes and primary analysis
+Randomly allocated into different arms:
 
-randomly allocated into different arms
+- Randomized into clusters
+- Everybody in the same cluster gets the same treatment
+- Violation of the IID (independent and identically distributed) assumption
+- RCT: valid p-values
 
-- randomized into clusters
-- everybody in the same cluster get the same treatment
-- iid independence and identical violation 
-- RCT valide p-values 
+Example in the slides: HIV+ mothers from different wards.Different approaches for the ECHO study. The primary outcome: PMTCT HIV incidence rate is the outcome. Both groups will receive the treatments.
 
-HIV + mothers
+It is difficult to have more than a $2 \times 2$ factorial design.
 
-different approaches for the Echopois. 
-the primary outocme: PMTCT HIV incidence rate is the outcome. both of the group will get the treatments.
+Clusters are not the same size. Consider the number of participants within each cluster.
 
-impossible to more than 2 x 2 factorials design
-
-clusters are not the same size.
-to the number of the participants level in the same size.
-
-free country migrating, possible traveling between wards?
+Free country migration: possible travel between wards?
 
 ## Stepped-Wedge Cluster RCTs
 
-- all the indiviudals must get the benefitial intervention!
-- the voltage drops the weaker effects, implementation the more pragmatic the less the controlled. the disconnect and we cannot see the changes. the strategy must be designed.
+- All individuals must eventually receive the beneficial intervention!
+- The "voltage drop": weaker effects as implementation becomes more pragmatic and less controlled. There can be a disconnect, and we may not see the changes. The strategy must be designed accordingly.
 
+MaxART stepped-wedge randomized trial.
 
-MaxART stepped-wedge randomized trail
+How many clusters do we need? How many people do we need?
 
-the clusters we need, how many people we need?
+- Intracluster correlation (ICC) is high.
+- Increase efficiency over a parallel design.
+- Logistically challenging to implement interventions across clusters.
+- A parallel design is not always ideal.
+- Tedious in practice: having all clusters start at the same time can be difficult.
+- What if we cannot randomize the implementation?
 
-- intra-cluster correlation ICC is high 
-- increase efficiency over parallel design
-- logistically challenging to intervention clusters
+### Quasi-experimental study designs
 
-- parallel is not ideal
-- tidious for the practice, doing it multiple time for the all start for the same time is difficult to do.
-- what if we cannot randomize to the implementation.
-- quasi-experimental study designs
-  - pre-post design randomize (self as control, time variant)
-  - difference-in-difference design, controlled before-after-after
-  - do we have the same risk factor, case - control.
-  - interrupted time series
-  - regression discontinuity design 
-  
-level change or trend change,
-before and after intervention
+- Pre-post design (self as control; time-varying)
+- Difference-in-differences design; controlled before-after
+- Do we have the same risk factors? What is the difference from **Case-control**.
+- Interrupted time series
+- Regression discontinuity design
 
-colonoscopie for the health insurance
+Level change or trend change before and after an intervention.
 
-EMR electronic medical records database. 
-the prevention methods for the affordable medication.
+Colonoscopy and health insurance.Colonoscopy is used for **colorectal cancer screening and prevention**.
+
+- **Efficacy/effectiveness:** Does colonoscopy reduce colorectal cancer incidence or mortality?
+- **Implementation:** How do we increase appropriate screening in real-world healthcare settings?
+- Potential barriers:
+  - Access to healthcare
+  - Insurance coverage
+  - Patient uptake
+  - Provider referral
+  - Health-system capacity
+  - Follow-up after screening
+
+EMR data: electronic medical records database. Prevention methods for affordable medication.
 
 - MOST
 - SMART
 - LAGO
 
-the three advanced designs
+The three advanced designs.
 
-paper: the value equation: three complementary propositions for reconciling fidelity and adaptation in evidence based practice implementation.
+Paper: *The Value Equation: Three Complementary Propositions for Reconciling Fidelity and Adaptation in Evidence-Based Practice Implementation.*
 
-secondary analysis and the observation 
+Secondary analysis and observational studies.
 
-FRAME and FRAME-IS
+FRAME and FRAME-IS.
 
-LAGO stages and the delivery system to analysis the component are working and the component cost for the next stage. prediction to set up the go. 
+LAGO stages and the delivery system: analyze which components are working and the cost of each component for the next stage. Use prediction to set up the next stage.
 
-## Hybrid designs for hte effectiveness and implementation 
+## Hybrid designs for effectiveness and implementation
 
-Type I, II, III
+Type I, II, III.
 
-implementation outcomes without any outcomes at all.
+Implementation outcomes without any health outcomes at all.
 
-if this is gonna work getting it to people, we do not need to look at the initation rates! it will work anyway. no health realted outcomes for the funding.
+If this is going to work in getting the intervention to people, we may not need to look at the initiation rates. It will work anyway. No health-related outcomes may be required for the funding.
 
-clinical effectiveness research -> implementation research
+Clinical effectiveness research -> implementation research
 
-intervention, effectiveness, and the strategy.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Intervention, effectiveness, and strategy.

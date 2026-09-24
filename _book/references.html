@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Randy Jin, Elizabeth Juarez-Colunga">
 
-<title>References – bis629_01</title>
+<title>References – YALE BIS629_01</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -62,13 +98,13 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-12eeb4b20e9f5a2b0bfc604bfaf942bb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -94,10 +130,23 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">YALE BIS629_01</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+    <a href="https://github.com/Goodgolden/bis629_01" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -113,19 +162,19 @@ div.csl-indent {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">bis629_01</a> 
-    </div>
-      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
+        <div class="sidebar-tools-collapse tools-wide">
+    <a href="https://github.com/Goodgolden/bis629_01" title="" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+    <a href="" title="" class="quarto-navigation-tool px-1" aria-label="Email"><i class="bi bi-share"></i></a>
+    <a href="https://yale.instructure.com/courses/122235" title="" class="quarto-navigation-tool px-1" aria-label="Yale"><i class="bi bi-hospital"></i></a>
+</div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -137,7 +186,13 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_lecture01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Lecture1 Notes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -165,7 +220,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">References</h1>
+<div class="quarto-title-block"><div><h1 class="title">References</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -189,8 +244,188 @@ Brown, C. Hendricks, Geoffrey Curran, Lawrence A. Palinkas, et al. 2017.
 and Implementation.”</span> <em>Annual Review of Public Health</em> 38:
 1–22.
 </div>
+<div id="ref-cameron2023preferences" class="csl-entry" role="listitem">
+Cameron, Drew B., Isha Ray, Manisha Parida, and William H. Dow. 2023.
+<span>“Product Preferences and Willingness to Pay for Potable Water
+Delivery: Experimental Evidence from Rural Bihar, India.”</span>
+<em>PLOS ONE</em> 18 (4): e0283892. <a href="https://doi.org/10.1371/journal.pone.0283892">https://doi.org/10.1371/journal.pone.0283892</a>.
+</div>
+<div id="ref-casella2001statistical" class="csl-entry" role="listitem">
+Casella, George, and Roger L. Berger. 2001. <em>Statistical
+Inference</em>. Duxbury Press.
+</div>
+<div id="ref-chen2022swdpwr" class="csl-entry" role="listitem">
+Chen, J., X. Zhou, F. Li, and D. Spiegelman. 2022. <span>“Swdpwr: A SAS
+Macro and r Package for Power Calculations in Stepped Wedge Cluster
+Randomized Trials.”</span> <em>Computer Methods and Programs in
+Biomedicine</em> 213: 106522.
+</div>
+<div id="ref-collins2018most" class="csl-entry" role="listitem">
+Collins, Linda M. 2018. <span>“Conceptual Introduction to the Multiphase
+Optimization Strategy (MOST).”</span> Chap. 3 in <em>Optimization of
+Behavioral, Biobehavioral, and Biomedical Interventions: The Multiphase
+Optimization Strategy (MOST)</em>. Springer.
+</div>
+<div id="ref-curran2012hybrid" class="csl-entry" role="listitem">
+Curran, Geoffrey M., Mark Bauer, Brian Mittman, Jeffrey M. Pyne, and
+Cheryl Stetler. 2012. <span>“Effectiveness-Implementation Hybrid
+Designs: Combining Elements of Clinical Effectiveness and Implementation
+Research to Enhance Public Health Impact.”</span> <em>Medical Care</em>
+50 (3): 217.
+</div>
+<div id="ref-detry2014itt" class="csl-entry" role="listitem">
+Detry, Michelle A., and Roger J. Lewis. 2014. <span>“The
+Intention-to-Treat Principle: How to Assess the True Effect of Choosing
+a Medical Treatment.”</span> <em>JAMA</em>, 85–86.
+</div>
+<div id="ref-gallis2018cvcrand" class="csl-entry" role="listitem">
+Gallis, John A., Fan Li, Han Yu, and Elizabeth L. Turner. 2018.
+<span>“Cvcrand and Cptest: Commands for Efficient Design and Analysis of
+Cluster Randomized Trials Using Constrained Randomization and
+Permutation Tests.”</span> <em>The Stata Journal</em> 18 (2): 357–78.
+</div>
+<div id="ref-greene2017sas" class="csl-entry" role="listitem">
+Greene, Elizabeth J. 2017. <span>“A SAS Macro for Covariate-Constrained
+Randomization of General Cluster-Randomized and Unstratified
+Designs.”</span> <em>Journal of Statistical Software</em> 77 (CS1).
+</div>
+<div id="ref-greenland1994ecologic" class="csl-entry" role="listitem">
+Greenland, Sander, and James Robins. 1994. <span>“Invited Commentary:
+Ecologic Studies—Biases, Misconceptions, and Counterexamples.”</span>
+<em>American Journal of Epidemiology</em>, 747–60.
+</div>
+<div id="ref-guastaferro2019most" class="csl-entry" role="listitem">
+Guastaferro, K., and Linda M. Collins. 2019. <span>“Achieving the Goals
+of Translational Science in Public Health Intervention Research: The
+Multiphase Optimization Strategy (MOST).”</span> <em>American Journal of
+Public Health</em>, S128–29.
+</div>
+<div id="ref-hernan2012beyond" class="csl-entry" role="listitem">
+Hernán, Miguel A., and Sonia Hernández-Díaz. 2012. <span>“Beyond the
+Intention-to-Treat in Comparative Effectiveness Research.”</span>
+<em>Clinical Trials</em>, 48–55.
+</div>
+<div id="ref-hernan2017perprotocol" class="csl-entry" role="listitem">
+Hernán, Miguel A., and James M. Robins. 2017. <span>“Per-Protocol
+Analyses of Pragmatic Trials.”</span> <em>New England Journal of
+Medicine</em>, 1391–98.
+</div>
+<div id="ref-hussey2007stepped" class="csl-entry" role="listitem">
+Hussey, Michael A., and James P. Hughes. 2007. <span>“Design and
+Analysis of Stepped Wedge Cluster Randomized Trials.”</span>
+<em>Contemporary Clinical Trials</em> 28 (2): 182–91.
+</div>
+<div id="ref-li2021stepped" class="csl-entry" role="listitem">
+Li, Fan, James P. Hughes, Karla Hemming, Monica Taljaard, Edward R.
+Melnick, and Patrick J. Heagerty. 2021. <span>“Mixed-Effects Models for
+the Design and Analysis of Stepped Wedge Cluster Randomized Trials: An
+Overview.”</span> <em>Statistical Methods in Medical Research</em> 30
+(2): 612–39.
+</div>
+<div id="ref-li2016constrained" class="csl-entry" role="listitem">
+Li, Fan, Yuliya Lokhnygina, David M. Murray, Patrick J. Heagerty, and
+Elizabeth R. DeLong. 2016. <span>“An Evaluation of Constrained
+Randomization for the Design and Analysis of Group-Randomized
+Trials.”</span> <em>Statistics in Medicine</em> 35 (10): 1565–79.
+</div>
+<div id="ref-li2017constrained" class="csl-entry" role="listitem">
+Li, Fan, Elizabeth L. Turner, Patrick J. Heagerty, David M. Murray,
+William M. Vollmer, and Elizabeth R. DeLong. 2017. <span>“An Evaluation
+of Constrained Randomization for the Design and Analysis of
+Group-Randomized Trials with Binary Outcomes.”</span> <em>Statistics in
+Medicine</em> 36 (24): 3791–806.
+</div>
+<div id="ref-liu2002equivalence" class="csl-entry" role="listitem">
+Liu, J. P., H. M. Hsueh, E. Hsieh, and J. J. Chen. 2002. <span>“Tests
+for Equivalence or Non-Inferiority for Paired Binary Data.”</span>
+<em>Statistics in Medicine</em> 21 (2): 231–45.
+</div>
+<div id="ref-moulton2004constrained" class="csl-entry" role="listitem">
+Moulton, Lawrence H. 2004. <span>“Covariate-Based Constrained
+Randomization of Group-Randomized Trials.”</span> <em>Clinical
+Trials</em> 1 (3): 297–305.
+</div>
+<div id="ref-nevo2021lago" class="csl-entry" role="listitem">
+Nevo, Daniel, Judith J. Lok, and Donna Spiegelman. 2021. <span>“Analysis
+of Learn-as-You-Go (LAGO) Studies.”</span> <em>The Annals of
+Statistics</em> 49 (2): 793–819.
+</div>
+<div id="ref-owen2025hybrid" class="csl-entry" role="listitem">
+Owen, M. A., G. M. Curran, J. D. Smith, Y. Tedla, C. Cheng, and D.
+Spiegelman. 2025. <span>“Power and Sample Size Calculations for Cluster
+Randomized Hybrid Type 2 Effectiveness-Implementation Studies.”</span>
+<em>Statistics in Medicine</em> 44 (5): e70015. <a href="https://doi.org/10.1002/sim.70015">https://doi.org/10.1002/sim.70015</a>.
+</div>
+<div id="ref-raab2001balance" class="csl-entry" role="listitem">
+Raab, Gillian M., and Ian Butcher. 2001. <span>“Balance in Cluster
+Randomized Trials.”</span> <em>Statistics in Medicine</em> 20 (3):
+351–65.
+</div>
+<div id="ref-ritz2004equivalence" class="csl-entry" role="listitem">
+Ritz, John, and Donna Spiegelman. 2004. <span>“Equivalence of
+Conditional and Marginal Regression Models for Clustered and
+Longitudinal Data.”</span> <em>Statistical Methods in Medical
+Research</em> 13 (4): 309–23.
+</div>
+<div id="ref-rutterford2015sample" class="csl-entry" role="listitem">
+Rutterford, Clare, Andrew Copas, and Sandra Eldridge. 2015.
+<span>“Methods for Sample Size Determination in Cluster Randomized
+Trials.”</span> <em>International Journal of Epidemiology</em> 44 (3):
+1051–67.
+</div>
+<div id="ref-sas2015equivalence" class="csl-entry" role="listitem">
+SAS Institute. 2015. <em>Equivalence and Noninferiority Testing Using
+SAS/STAT Software</em>.
+</div>
+<div id="ref-sas2020equivalence" class="csl-entry" role="listitem">
+SAS Institute. 2020. <em>Testing Hypotheses for Equivalence and
+Non-Inferiority with Binary and Survival Outcomes</em>.
+</div>
+<div id="ref-self1988power" class="csl-entry" role="listitem">
+Self, Steven G., and Robert H. Mauritsen. 1988. <span>“Power/Sample Size
+Calculations for Generalized Linear Models.”</span> <em>Biometrics</em>
+44 (1): 79–86.
+</div>
+<div id="ref-self1992power" class="csl-entry" role="listitem">
+Self, Steven G., Robert H. Mauritsen, and Jill O’Hara. 1992.
+<span>“Power Calculations for Likelihood Ratio Tests in Generalized
+Linear Models.”</span> <em>Biometrics</em>, 31–39.
+</div>
+<div id="ref-shih1997sample" class="csl-entry" role="listitem">
+Shih, W. J. 1997. <span>“Sample Size and Power Calculations for
+Periodontal and Other Studies with Clustered Samples Using the Method of
+Generalized Estimating Equations.”</span> <em>Biometrical Journal</em>
+39: 899–908.
+</div>
+<div id="ref-spiegelmanlago" class="csl-entry" role="listitem">
+Spiegelman, Donna, Daniel Nevo, A. Chakrabarti, D. Barnhart, B. Ganguli,
+and Judith J. Lok. n.d. <span>“Evaluating Public Health Interventions
+10: Let’s Learn as We Go, and Minimize Large Scale Public Health
+Intervention Failures: The LAGO Design for Optimizing Complex
+Multi-Component Interventions.”</span> Unpublished manuscript.
+</div>
+<div id="ref-street2005choice" class="csl-entry" role="listitem">
+<span class="nocase">Street, Deborah J. et al.</span> 2005. <span>“Quick
+and Easy Choice Sets: Constructing Optimal and Nearly Optimal Stated
+Choice Experiments.”</span> <em>International Journal of Research in
+Marketing</em> 22 (4): 459–70.
+</div>
+<div id="ref-yu2019cvcrand" class="csl-entry" role="listitem">
+Yu, Han, Fan Li, John A. Gallis, and Elizabeth L. Turner. 2019.
+<span>“Cvcrand: A Package for Covariate-Constrained Randomization and
+the Clustered Permutation Test for Cluster Randomized Trials.”</span>
+<em>The R Journal</em> 9 (2).
+</div>
+<div id="ref-zhou2018stepped" class="csl-entry" role="listitem">
+Zhou, Xin, Xue Liao, Lara M. Kunz, Sharon-Lise T. Normand, Meichun Wang,
+and Donna Spiegelman. 2018. <span>“A Maximum Likelihood Approach to
+Power Calculations for Stepped Wedge Designs of Binary Outcomes.”</span>
+<em>Biostatistics</em>.
+</div>
 </div>
 
+
+<!-- -->
 
 
 </main> <!-- /main -->
@@ -264,6 +499,57 @@ and Implementation.”</span> <em>Annual Review of Public Health</em> 38:
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -602,10 +888,15 @@ and Implementation.”</span> <em>Annual Review of Public Health</em> 38:
   </div>
   <div class="nav-page nav-page-next">
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># References {.unnumbered}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>::: {#refs}</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/Goodgolden/bis629_01/edit/main/references.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
