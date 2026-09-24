@@ -1,0 +1,49 @@
+---
+title: "BIS 629 Week2:"
+---
+
+Design study for the implementation and prevention science
+
+estimators for the treatment effects
+
+special example case: HPTN study 037
+
+the notation for the math, $\beta_*$
+
+the two tailed test $\beta_* \neq 0$
+
+we do not make assumption to misleading conclusion.
+
+mathmatically there is no evidence to show that 5% is good enough universally.
+
+## the resources constrined situations
+
+the challenges, contextually adapted to these clinics
+
+What is the situation hypothesis to do the test.
+
+## p15 Test statistics
+
+Asymptotic theory and CLT
+
+Exact tests for the specific distribution for the functions, like log-normal, or log distribtion.
+
+**hypergeometric distributions**
+
+non-central Chi\^2 distribution
+
+the distribution for the power and sample size calculation
+
+$\chi^2$ is a better way to do the two-side hypothesis test.
+
+$$
+V = \pmatrix{a & b \\ b &  c}^{-1} = \pmatrix{c & -b \\ -b &  a} \frac{1}{ac - b^2}
+$$
+
+Intervention spread for effective intervention.
+
+unbiased estimating equation is 0;
+
+exponential families
+
+Kremer-Rao for modern statistics

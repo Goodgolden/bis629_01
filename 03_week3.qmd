@@ -1,0 +1,69 @@
+---
+title: "Week3 Lecture"
+---
+
+PASS only works for the Wald test. 
+
+no need for PASS in the homework. we will use R for the homework.
+
+
+the nuisance parameters under $H_A$, $\beta_{-r}$, of $n$. 
+
+
+the MDE the minimum detectable effect size
+
+the budget is limited, so the sample size is and we want the 80% power in public health research. 
+
+MDE we need to find the $\beta^*$
+
+asymptotically normal distributed for the large sample 
+
+phase I and phase II trials with small sample size will also 
+
+with large sample size in III and IV
+
+in trials, we normally have two parameters.
+
+the parameter values to calculate the $p_x = 0.5$
+
+go back to page 48, for where we are going.
+
+
+## Wald test p48
+
+
+confounders for the effects from the expected variance for the parameters.
+
+7.85, the 3.84
+
+**the typo** p.48
+
+the fisher information matrix is the 
+
+In Bernoulli's we do not have Y in the infomration matrix and
+
+Binominal the expected value over X, have nothing to do with Y.
+
+
+p50 with $Var(\hat \beta) = I^{-1}_j(\hat \beta) / n$
+
+
+p^* is just the population mean for the treatment without any effect. 
+
+solve for the beta* in the numeric way. 
+
+
+how do you use the poilet data from the original dataset we have.
+
+what if it is 30%, what if it is 80%. 
+
+
+likelihood ratio test is the most powerful one for the finite sample size. 
+
+
+MDE the power for the effect size with certain power. like from 80% to 90% power the effect size is not changing that much. 
+
+
+find the MDE for the value 
+
+

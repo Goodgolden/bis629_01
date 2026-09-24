@@ -12,7 +12,6 @@ output:
 
 The similar projects as Sam. The diretor Center for Methods in Implementartion and Prevention Science CMIPS.
 
-
 # 0. Paper
 
 **Brown CH, Curran G, Palinkas LA, et al. (2017).**\
@@ -1099,3 +1098,21 @@ Within + Between
 9.  Implementation science often involves **interference, non-adoption, multilevel structures, and contextual effects**, making causal inference more complicated than a conventional individual-level RCT.
 
 10. There is **no single best implementation design**. The design must match the scientific question, context, available resources, and stakeholder needs.
+
+## Observational Study Designs
+
+EHR datas are observational 
+
+causal inference is important in observational studies
+
+- cohort
+
+- corss-sectional
+
+- two-stage designs for the billing purpose, not for the researching purpose.
+
+people are not careful enough to pay attention to the EHR, such as cigatte. **the two-stage designs** subset of patient after the cohort is down and ask whether the information you interested into is in the dataset. 
+
+implementation and exprimental studies for the sample size very large. 
+
+facility-year, facility-unit, and repeated measurements from different culster and different time points.
