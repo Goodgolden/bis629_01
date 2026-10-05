@@ -1,24 +1,22 @@
 ---
-title: "Week3 Lecture"
+title: "BIS 629 Week3:"
 ---
 
-PASS only works for the Wald test. 
+PASS only works for the Wald test.
 
 no need for PASS in the homework. we will use R for the homework.
 
-
-the nuisance parameters under $H_A$, $\beta_{-r}$, of $n$. 
-
+the nuisance parameters under $H_A$, $\beta_{-r}$, of $n$.
 
 the MDE the minimum detectable effect size
 
-the budget is limited, so the sample size is and we want the 80% power in public health research. 
+the budget is limited, so the sample size is and we want the 80% power in public health research.
 
 MDE we need to find the $\beta^*$
 
-asymptotically normal distributed for the large sample 
+asymptotically normal distributed for the large sample
 
-phase I and phase II trials with small sample size will also 
+phase I and phase II trials with small sample size will also
 
 with large sample size in III and IV
 
@@ -28,9 +26,7 @@ the parameter values to calculate the $p_x = 0.5$
 
 go back to page 48, for where we are going.
 
-
 ## Wald test p48
-
 
 confounders for the effects from the expected variance for the parameters.
 
@@ -38,32 +34,24 @@ confounders for the effects from the expected variance for the parameters.
 
 **the typo** p.48
 
-the fisher information matrix is the 
+the fisher information matrix is the
 
 In Bernoulli's we do not have Y in the infomration matrix and
 
 Binominal the expected value over X, have nothing to do with Y.
 
-
 p50 with $Var(\hat \beta) = I^{-1}_j(\hat \beta) / n$
 
+p\^\* is just the population mean for the treatment without any effect.
 
-p^* is just the population mean for the treatment without any effect. 
-
-solve for the beta* in the numeric way. 
-
+solve for the beta\* in the numeric way.
 
 how do you use the poilet data from the original dataset we have.
 
-what if it is 30%, what if it is 80%. 
+what if it is 30%, what if it is 80%.
 
+likelihood ratio test is the most powerful one for the finite sample size.
 
-likelihood ratio test is the most powerful one for the finite sample size. 
+MDE the power for the effect size with certain power. like from 80% to 90% power the effect size is not changing that much.
 
-
-MDE the power for the effect size with certain power. like from 80% to 90% power the effect size is not changing that much. 
-
-
-find the MDE for the value 
-
-
+find the MDE for the value

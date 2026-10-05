@@ -1,11 +1,10 @@
 ---
-title: "BIS 629 Week 1: Dissemination and Implementation Research Designs"
+title: "BIS 629 Week 1:"
 ---
 
 ## Professor Donna Spielgelman
 
 The similar projects as Sam. The director Center for Methods in Implementation and Prevention Science CMIPS.
-
 
 ## 0. Paper
 
@@ -1096,7 +1095,7 @@ Within + Between
 
 ## Observational Study Designs
 
-EHR datas are observational 
+EHR datas are observational
 
 causal inference is important in observational studies
 
@@ -1106,8 +1105,8 @@ causal inference is important in observational studies
 
 - two-stage designs for the billing purpose, not for the researching purpose.
 
-people are not careful enough to pay attention to the EHR, such as cigatte. **the two-stage designs** subset of patient after the cohort is down and ask whether the information you interested into is in the dataset. 
+people are not careful enough to pay attention to the EHR, such as cigatte. **the two-stage designs** subset of patient after the cohort is down and ask whether the information you interested into is in the dataset.
 
-implementation and exprimental studies for the sample size very large. 
+implementation and exprimental studies for the sample size very large.
 
 facility-year, facility-unit, and repeated measurements from different culster and different time points.

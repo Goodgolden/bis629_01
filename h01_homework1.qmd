@@ -1,0 +1,503 @@
+---
+title: "Homework1"
+format: 
+  pdf:
+    extra_dependencies: ["amsmath", "fancyhdr"]
+---
+
+# AI Use and Verification Statement
+
+I used ChatGPT (OpenAI, GPT-6; accessed September 29, 2026) to help draft this AI-use statement. I checked the statement against the homework instructions. ChatGPT has not been used to generate the answers or R calculations reported in this submission.
+
+
+# Question 1
+
+## Question 1.1
+
+Let $G_1 = \{j:X_j=0\}$ and $G_2 = \{j:X_j=1\}$, where $\sum_{j \in G_1}=n_1$ and 
+$\sum_{j \in G_2}$ = n_2$. The model gives
+
+
+$$
+\mu_1=\beta_0,\qquad \mu_2=\beta_0+\beta^*.
+$$
+
+$$
+H_0:\mu_1=\mu_2 \equiv H_0:\beta^*=0.
+$$
+
+
+$$
+\begin{aligned}
+L(\beta_0,\beta^*,\sigma_1^2,\sigma_2^2)
+&=\prod_{j\in G_1}\frac{1}{\sqrt{2\pi\sigma_1^2}}
+\exp\left\{-\frac{(Y_j-\beta_0)^2}{2\sigma_1^2}\right\}\prod_{j\in G_2}\frac{1}{\sqrt{2\pi\sigma_2^2}}
+\exp\left\{-\frac{(Y_j-\beta_0-\beta^*)^2}{2\sigma_2^2}\right\}.
+\end{aligned}
+$$
+
+
+$$
+\begin{aligned}
+\ell(\beta_0,\beta^*,\sigma_1^2,\sigma_2^2)
+&=-\frac{n_1+n_2}{2}\log(2\pi)
+-\frac{n_1}{2}\log(\sigma_1^2)
+-\frac{n_2}{2}\log(\sigma_2^2)-\frac{1}{2\sigma_1^2}\sum_{j\in G_1}(Y_j-\beta_0)^2
+-\frac{1}{2\sigma_2^2}\sum_{j\in G_2}(Y_j-\beta_0-\beta^*)^2.
+\end{aligned}
+$$
+
+Treating $\sigma_1^2$ and $\sigma_2^2$ as known, the score equations are
+
+$$
+\begin{aligned}
+\frac{\partial\ell}{\partial\beta_0}
+&=\frac{1}{\sigma_1^2}\sum_{j\in G_1}(Y_j-\beta_0)
++\frac{1}{\sigma_2^2}\sum_{j\in G_2}(Y_j-\beta_0-\beta^*),\\
+\frac{\partial\ell}{\partial\beta^*}
+&=\frac{1}{\sigma_2^2}\sum_{j\in G_2}(Y_j-\beta_0-\beta^*).
+\end{aligned}
+$$
+
+Setting the scores to zero gives
+
+$$
+\widehat\beta_0=\overline Y_1,
+\qquad \widehat\beta^*=\overline Y_2-\overline Y_1.
+$$
+
+The negative Hessian, which is also the Fisher information for $(\beta_0,\beta^*)^T$, is
+
+$$
+I=\begin{pmatrix}
+\dfrac{n_1}{\sigma_1^2}+\dfrac{n_2}{\sigma_2^2} & \dfrac{n_2}{\sigma_2^2}\\[8pt]
+\dfrac{n_2}{\sigma_2^2} & \dfrac{n_2}{\sigma_2^2}
+\end{pmatrix}.
+$$
+With the equation of invertion 
+$$
+V =
+\begin{pmatrix}
+a & b \\
+b & c
+\end{pmatrix}^{-1}
+=
+\frac{1}{ac-b^2}
+\begin{pmatrix}
+c & -b \\
+-b & a
+\end{pmatrix},
+\qquad ac-b^2 \neq 0.
+$$
+
+$$
+I^{-1}=\begin{pmatrix}
+\dfrac{\sigma_1^2}{n_1} & -\dfrac{\sigma_1^2}{n_1}\\
+-\dfrac{\sigma_1^2}{n_1} & \dfrac{\sigma_1^2}{n_1}+\dfrac{\sigma_2^2}{n_2}
+\end{pmatrix}.
+$$
+
+
+
+Thus Wald statistic is
+
+$$
+Z_W=\frac{\widehat\beta^*}{\sqrt{\operatorname{Var}(\widehat\beta^*)}}
+=\frac{\overline Y_2-\overline Y_1}
+{\sqrt{\sigma_1^2/n_1+\sigma_2^2/n_2}}.
+$$
+
+
+$$
+W=Z_W^2=\frac{(\overline Y_2-\overline Y_1)^2}
+{\sigma_1^2/n_1+\sigma_2^2/n_2}.
+$$
+
+
+## Question 1.2
+
+$$
+S_g=\sum_{j\in G_g}(Y_j-\overline Y_g)^2, g=1,2.
+$$
+
+$$
+\widehat\beta_0=\overline Y_1, \ 
+\widehat\beta^*=\overline Y_2-\overline Y_1, \
+\widehat\sigma_{g,\mathrm{ML}}^2=\frac{S_g}{n_g}.
+$$
+
+
+$$
+\begin{aligned}
+W_{\mathrm{ML}}
+&=
+\frac{(\widehat\beta^*)^2}
+{\widehat\sigma_{1,\mathrm{ML}}^2/n_1+
+ \widehat\sigma_{2,\mathrm{ML}}^2/n_2}\\
+&=
+\frac{(\overline Y_2-\overline Y_1)^2}
+{S_1/n_1^2+S_2/n_2^2}.
+\end{aligned}
+$$
+
+plug in:
+
+$$
+s_g^2=\frac{S_g}{n_g-1}.
+$$
+
+$$
+\begin{aligned}
+Z^2
+&=
+\frac{(\overline Y_2-\overline Y_1)^2}
+{s_1^2/n_1+s_2^2/n_2}\\
+&=
+\frac{(\overline Y_2-\overline Y_1)^2}
+{S_1/[n_1(n_1-1)]+S_2/[n_2(n_2-1)]}.
+\end{aligned}
+$$
+
+$$
+W_{\mathrm{ML}}\ne Z^2
+$$
+
+
+For any finite n_1,n_2.
+
+$$
+W_{\mathrm{Wald}}(s_1^2,s_2^2)
+=
+\frac{(\widehat\beta^*)^2}{s_1^2/n_1+s_2^2/n_2}
+=
+Z^2.
+$$
+
+The difference vanishes asymptotically as both group sizes grow. Equal group sizes alone do not make the finite-sample statistics equal.
+
+$$
+\frac{\widehat\sigma_{g,\mathrm{ML}}^2}{s_g^2}
+=
+\frac{n_g-1}{n_g}
+\longrightarrow 1
+\quad n_g\longrightarrow\infty.
+$$
+
+
+# Question 2
+
+For $X_j=0$, let $p_1=\beta_0$. 
+
+For $X_j=1$, let $p_2=\beta_0+\beta^*$. 
+
+$$
+H_0:p_1=p_2 \
+\equiv \
+H_0:\beta^*=0.
+$$
+
+Let $G_1=\{j:X_j=0\}$ and $G_2=\{j:X_j=1\}$. The likelihood is
+
+$$
+\begin{aligned}
+L(\beta_0,\beta^*)&=
+\prod_{j\in G_1}
+\beta_0^{Y_j}(1-\beta_0)^{1-Y_j}
+\prod_{j\in G_2}
+(\beta_0+\beta^*)^{Y_j}
+(1-\beta_0-\beta^*)^{1-Y_j}.
+\end{aligned}
+$$
+
+The log-likelihood is
+
+$$
+\begin{aligned}
+\ell(\beta_0,\beta^*)
+&=
+\sum_{j\in G_1}
+\left[
+Y_j\log(\beta_0)
++(1-Y_j)\log(1-\beta_0)
+\right]+
+\sum_{j\in G_2}
+\left[
+Y_j\log(\beta_0+\beta^*)
++(1-Y_j)\log(1-\beta_0-\beta^*)
+\right]
+\end{aligned}
+$$
+
+
+$$
+\begin{aligned}
+\frac{\partial\ell}{\partial\beta_0}
+&=
+\sum_{j\in G_1}\frac{Y_j-p_1}{p_1(1-p_1)}
++
+\sum_{j\in G_2}\frac{Y_j-p_2}{p_2(1-p_2)},\\
+\frac{\partial\ell}{\partial\beta^*}
+&=
+\sum_{j\in G_2}\frac{Y_j-p_2}{p_2(1-p_2)}.
+\end{aligned}
+$$
+
+Setting both scores to zero yields
+
+$$
+\begin{aligned}
+\widehat p_1
+&=\frac{1}{n_1}\sum_{j=1}^{n_1+n_2}(1-X_j)Y_j,\\
+\widehat p_2
+&=\frac{1}{n_2}\sum_{j=1}^{n_1+n_2}X_jY_j,\\
+\widehat\beta_0&=\widehat p_1, \\
+\widehat\beta^* &=\widehat p_2-\widehat p_1.
+\end{aligned}
+$$
+
+
+The Fisher information matrix is
+
+$$
+I(\beta_0,\beta^*)=
+\begin{pmatrix}
+\dfrac{n_1}{p_1(1-p_1)}
++\dfrac{n_2}{p_2(1-p_2)}
+&
+\dfrac{n_2}{p_2(1-p_2)}
+\\[10pt]
+\dfrac{n_2}{p_2(1-p_2)}
+&
+\dfrac{n_2}{p_2(1-p_2)}
+\end{pmatrix}.
+$$
+
+With the equation of invertion 
+
+$$
+V =
+\begin{pmatrix}
+a & b \\
+b & c
+\end{pmatrix}^{-1}
+=
+\frac{1}{ac-b^2}
+\begin{pmatrix}
+c & -b \\
+-b & a
+\end{pmatrix},
+\qquad ac-b^2 \neq 0.
+$$
+
+$$
+\begin{aligned}
+I(\beta_0,\beta^*)^{-1}
+&=
+\frac{p_1(1-p_1)p_2(1-p_2)}{n_1n_2}
+\begin{pmatrix}
+\dfrac{n_2}{p_2(1-p_2)}
+&
+-\dfrac{n_2}{p_2(1-p_2)}
+\\[10pt]
+-\dfrac{n_2}{p_2(1-p_2)}
+&
+\dfrac{n_1}{p_1(1-p_1)}
++\dfrac{n_2}{p_2(1-p_2)}
+\end{pmatrix}
+\\[12pt]
+&=
+\begin{pmatrix}
+\dfrac{p_1(1-p_1)}{n_1}
+&
+-\dfrac{p_1(1-p_1)}{n_1}
+\\[10pt]
+-\dfrac{p_1(1-p_1)}{n_1}
+&
+\dfrac{p_1(1-p_1)}{n_1}
++\dfrac{p_2(1-p_2)}{n_2}
+\end{pmatrix}.
+\end{aligned}
+$$
+
+Hence, the variance function is:
+
+$$
+\widehat{\operatorname{Var}}(\widehat\beta^*)
+=
+\frac{\widehat p_1(1-\widehat p_1)}{n_1}
++
+\frac{\widehat p_2(1-\widehat p_2)}{n_2}.
+$$
+
+The Wald statistic for \(H_0:\beta^*=0\) is
+
+$$
+\begin{aligned}
+W
+&=
+\frac{(\widehat\beta^*)^2}
+{\widehat{\operatorname{Var}}(\widehat\beta^*)}\\[6pt]
+&=
+\frac{(\widehat p_2-\widehat p_1)^2}
+{
+\widehat p_1(1-\widehat p_1)/n_1
++
+\widehat p_2(1-\widehat p_2)/n_2
+} \\
+& \equiv Z^2
+\end{aligned}
+$$
+
+This is exactly the $W \equiv Z^2$ statistic specified in the question. 
+Under $H_0$ and the usual large-sample regularity conditions, $W$ has an asymptotic $\chi^2_1$ distribution, so as $Z^2$.
+
+
+# Question 3
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+## clean the R environment
+graphics.off()
+rm(list = ls())
+freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(rio, quietly = TRUE)
+library(skimr, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+
+
+
+
+# Question 4
+
+
+
+
+# Question 5
+
+Let $Y_j \sim \operatorname{Binomial}(n_j,p_j)$ independently for groups $j=1,2$. Under the log-link model,
+
+$$
+p_1=\exp(\beta_0), \qquad
+p_2=\exp(\beta_0+\beta^*).
+$$
+
+We test $H_0:\beta^*=0$ against $H_A:\beta^*\ne 0$. This is equivalent to testing $p_1=p_2$. Define
+
+$$
+\hat p_1=\frac{Y_1}{n_1}, \qquad
+\hat p_2=\frac{Y_2}{n_2}, \qquad
+\tilde p=\frac{Y_1+Y_2}{n_1+n_2}.
+$$
+
+The unrestricted maximum likelihood estimate is
+$\hat\beta^*=\log(\hat p_2/\hat p_1)$. The Fisher information matrix and its inverse are
+
+$$
+I(\beta_0,\beta^*)=
+\begin{pmatrix}
+\dfrac{n_1p_1}{1-p_1}+\dfrac{n_2p_2}{1-p_2}
+&
+\dfrac{n_2p_2}{1-p_2}\\[8pt]
+\dfrac{n_2p_2}{1-p_2}
+&
+\dfrac{n_2p_2}{1-p_2}
+\end{pmatrix}
+$$
+
+and
+
+$$
+I(\beta_0,\beta^*)^{-1}=
+\begin{pmatrix}
+\dfrac{1-p_1}{n_1p_1}
+&
+-\dfrac{1-p_1}{n_1p_1}\\[8pt]
+-\dfrac{1-p_1}{n_1p_1}
+&
+\dfrac{1-p_1}{n_1p_1}+\dfrac{1-p_2}{n_2p_2}
+\end{pmatrix}.
+$$
+
+### a. Wald test
+
+The lower-right entry of $I^{-1}$ gives the estimated variance of
+$\hat\beta^*$. Therefore, the Wald statistic is
+
+$$
+W=\frac{\left[\log(\hat p_2/\hat p_1)\right]^2}
+{\dfrac{1-\hat p_1}{n_1\hat p_1}
++\dfrac{1-\hat p_2}{n_2\hat p_2}}.
+$$
+
+### b. Score test
+
+Under $H_0$, both groups have the common probability $\tilde p$.
+After accounting for the nuisance parameter $\beta_0$, the efficient
+score and its information are
+
+$$
+U_{\mathrm{eff}}
+=\frac{Y_2-n_2\tilde p}{1-\tilde p},
+\qquad
+I_{\mathrm{eff}}
+=\frac{n_1n_2\tilde p}
+{(n_1+n_2)(1-\tilde p)}.
+$$
+
+Hence the score statistic simplifies to
+
+$$
+S=\frac{U_{\mathrm{eff}}^2}{I_{\mathrm{eff}}} =
+\frac{(\hat p_2-\hat p_1)^2}
+{\tilde p(1-\tilde p)(1/n_1+1/n_2)}.
+$$
+
+### c. Likelihood ratio test
+
+The unrestricted model uses $\hat p_1$ and $\hat p_2$; the model under
+$H_0$ uses $\tilde p$ for both groups. Twice the difference between
+their maximized log likelihoods is
+
+$$
+G^2
+=
+2\sum_{j=1}^{2}
+\left[
+Y_j\log\left(\frac{\hat p_j}{\tilde p}\right)
++
+(n_j-Y_j)
+\log\left(\frac{1-\hat p_j}{1-\tilde p}\right)
+\right]
+$$
+
+Under $H_0$, each of $W$, $S$, and $G^2$ has an asymptotic
+$\chi^2_1$ distribution. At significance level 0.05, reject $H_0$
+when the chosen statistic exceeds 3.841. The formulas above assume
+interior estimated probabilities ($0<\hat p_1,\hat p_2,\tilde p<1$).
+
+
+
+
+
+
+
+
