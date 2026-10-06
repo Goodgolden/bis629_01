@@ -1,5 +1,5 @@
 ---
-title: "Lecture1 Notes"
+title: "BIS 629 Week1:"
 ---
 
 ## Goal for this chapter
@@ -31,8 +31,7 @@ Use AI! But you have to check the results all the time. Be careful.
 
 ## Implementation Science
 
-Example: The $2 \times 2 \times 2$ factorial CRT to prevent maternal mortality. 
-In practice, it is hard to implement the factorial levels over 3, and more than 3 factors.
+Example: The $2 \times 2 \times 2$ factorial CRT to prevent maternal mortality. In practice, it is hard to implement the factorial levels over 3, and more than 3 factors.
 
 Interventions for the RR (risk ratio). Maternal mortality and the combined effects measured by relative risks.
 
@@ -88,7 +87,7 @@ The cascade from risk factors to disease.
 
 Blood pressure: screening for diseases through the program, but the health system is just not ready for the problem.
 
-Screen -> initiate -> sustain -> treatment
+Screen -\> initiate -\> sustain -\> treatment
 
 Implications for design:
 
@@ -186,6 +185,6 @@ Implementation outcomes without any health outcomes at all.
 
 If this is going to work in getting the intervention to people, we may not need to look at the initiation rates. It will work anyway. No health-related outcomes may be required for the funding.
 
-Clinical effectiveness research -> implementation research
+Clinical effectiveness research -\> implementation research
 
 Intervention, effectiveness, and strategy.

@@ -1,0 +1,748 @@
+---
+title: "BIS 629 Week4: Randy's Notes"
+---
+\
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warnings = FALSE,
+                      message = FALSE,
+                      comment = "#>",
+                      cache = TRUE,
+                      #results = "hide",
+                      digits = 4,
+                      error = FALSE)
+## clean the R environment
+graphics.off()
+rm(list = ls())
+freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(rio, quietly = TRUE)
+library(skimr, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+library(plotly)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+<!-- # ```{r, class.output="scroll-100"} -->
+<!-- # table_to_be_print -->
+<!-- # ``` -->
+
+## Lecture Notes
+
+- the contamination, random or non-random, with bias or nonbias
+
+- study of causal inference to do the contamination and intervention and loss of follow-up
+
+- non-random loss, the power calculation and biased fact and the cost of the power.
+- 
+the outcome rates for the chance of the small number of the cluster number. ...
+
+- Mwanza Trial of STD for HIV prevention. the risk factor is different between different cluster.
+
+- bad luck or good luck randomizations can happen.
+the risk factor is polarized by chance...
+
+- the randomization is the golden standard... with small number of the clusters...
+
+- clustered randomized trials are easy to perform
+
+- the medicine and hypertentison to take the medicine and get the people to practice for study for implementation for extra thing for the facilities to get the intervention. naturally we cannot do it in the indiviudal levels.
+
+- the cooperation for investigators, self intervention.
+
+- enhance participant compliance, to facilitate the practice. easier to use the peer pressure and copycat behaviors.
+
+- ***publication of the designs***
+
+- the background parameters and protocol paper.
+
+- research methodology for the cluster randomization trails.
+
+- ICC assumption is made by mistake... underpower, the power goes down because of the cluster randomization trail. the lower the pvalue...
+
+- ESS the function of ICC:
+the average of the cluster size. the standard methods with biased pvalues...
+
+
+- we call "participants", they chose to participate.
+how many subjects??? the book??? check this book after the class. 
+
+
+- interference/spillover/contamination: in public health, and the treatment got spillover to all the people, we hope ot find the interventions into those things.
+
+
+- before the study, you do not have the ICCs and the community.
+
+$\rho$ for the ICC.
+$\sigma_B^2$ and $\sigma_W^2$
+
+- only for the Wald test, that is not the case for the sample size for he LR and score test. the cluster size of the m...
+
+- lost to follow-up... the percent of the end point measurements.
+
+- you can only get the powerful effect size that the intervention is so efficient that you almost eliminate the diseases.
+
+
+## Randy's Code and Functions
+
+Below is Randy's code for the comparison between two methods for $\bar m$.  `m_sol` denotes the numerical solution obtained using `uniroot()` to numerically solve the result. `m_cal` denotes the calculated solution obtained from the cubic formula presented in the lecture slides.
+
+$$
+CV = \frac{SD}{\bar m}
+$$
+
+
+$$
+K = \frac{(Z_{\alpha/2} + Z_\beta)^2(2\sigma^2)[1+(\bar m -1)\rho]RE(\bar m)}
+{\bar(\mu_1 - \mu_2)^2}
+$$
+
+
+$$
+RE(\bar m) = \Bigg(1-CV_m^2 
+\frac{\rho \bar m}
+{\rho \bar m +1 - \rho} 
+\bigg[
+1 - \frac{\rho \bar m}{ \rho\bar m +1 -\rho}
+\bigg]
+\Bigg)^{-1}
+$$
+
+
+
+### The function from Breukelen's paper, based on numerical solution
+
+```{r km_function}
+K_m <- function(m_bar, 
+                alpha = 0.05,
+                power = 0.8,
+                mu1 = 5,
+                mu2 = 6,
+                sigma = 1,
+                rho = 0.05,
+                cv_m = 0.50) {
+
+  ## the normal z quantiles
+  z_alpha <- qnorm(1 - alpha / 2)
+  z_beta  <- qnorm(power)
+
+  ## the design effect
+  de <- 1 + (m_bar - 1) * rho
+
+  ## the fraction appearing in RE(m_bar)
+  f_re <- rho * m_bar / (rho * m_bar + 1 - rho)
+
+  # calculate RE as a function of m_bar
+  re_dn <- 1 - cv_m^2 * f_re * (1 - f_re)
+
+  if (any(re_dn <= 0)) {
+    message("These parameter value RE > 0.")
+  }
+
+  re <- 1 / re_dn
+
+  ## calculate K(m_bar); sigma2 is the variance, sigma^2
+  K <- (z_alpha + z_beta)^2 * (2 * sigma ^ 2) * de * re /
+       (m_bar * (mu1 - mu2)^2)
+
+  return(K)
+}
+```
+
+
+```{r "solve_mbar"}
+solve_m <- function(K_target, 
+                    interval, 
+                    ...) {
+
+  ## solve K(m_bar) - K_target = 0
+  result <- uniroot(f = function(m_bar) K_m(m_bar, ...) - K_target,
+                    interval = interval)
+
+  return(result$root)
+}
+
+m_s0 <- solve_m(K_target = 6,
+                interval = c(1, 1000),
+                mu1 = 5,
+                mu2 = 6,
+                sigma = 1,
+                rho = 0.05,
+                cv_m = 0.50,
+                alpha = 0.05,
+                power = 0.8)
+
+# m_s0
+```
+
+
+### The solution from lecture slides, calculation for the cubic equaiton 
+
+```{r calculate_mbar0}
+alpha = 0.05
+power = 0.80
+mu1 = 5
+mu2 = 6
+sigma = 1
+rho = 0.05
+cv_m = 0.50
+K_target = 6
+
+z_alpha <- qnorm(1 - alpha / 2)
+z_beta  <- qnorm(power)
+L = K_target * (mu2 - mu1)^2 / ((z_alpha + z_beta)^2 * 2 * sigma^2)
+
+a = (L - rho) * rho ^2
+b = 2 * rho * (1 - rho) * (L - rho) - (1 - rho) * rho^2 - L * cv_m^2 * rho * (1 - rho)
+c = (1 - rho)^2 * (L - 3 * rho)
+d = -(1 - rho)^3
+
+p <- (3 * a * c - b^2) / (3 * a^2)
+q <- (27 * a^2 * d - 9 * a * b * c + 2 * b^3) / (27 * a^3)
+delta <- (q / 2)^2 + (p / 3)^3
+
+m_bar = -b / (3 * a) + (-q / 2 + sqrt(delta))^(1/3) +
+           (-q / 2 - sqrt(delta))^(1/3)
+
+# m_bar
+```
+
+
+```{r calculate_mbar}
+calculate_m <- function(K_target = 6,
+                        alpha = 0.05,
+                        power = 0.8,
+                        mu1 = 5,
+                        mu2 = 6,
+                        sigma = 1,
+                        rho = 0.05,
+                        cv_m = 0.50){
+  z_alpha <- qnorm(1 - alpha / 2)
+  z_beta  <- qnorm(power)
+  L = K_target * (mu2 - mu1)^2 / ((z_alpha + z_beta)^2 * 2 * sigma^2)
+  a = (L - rho) * rho ^2
+  b = 2 * rho * (1 - rho) * (L - rho) - (1 - rho) * rho^2 - L * cv_m^2 * rho * (1 - rho)
+  c = (1 - rho)^2 * (L - 3 * rho)
+  d = -(1 - rho)^3
+  
+  p <- (3 * a * c - b^2) / (3 * a^2)
+  q <- (27 * a^2 * d - 9 * a * b * c + 2 * b^3) / (27 * a^3)
+  delta <- (q / 2)^2 + (p / 3)^3
+  
+  m_bar = -b / (3 * a) + (-q / 2 + sqrt(delta))^(1/3) +
+    (-q / 2 - sqrt(delta))^(1/3)
+  
+  return(m_bar)
+}
+
+## here for the calculation
+m_c0 <- calculate_m()
+
+
+## the difference between the numeric 
+## calculated and the solved equation
+
+cat("Here is the reuslts for test example: \n the numeric solution ", m_s0, "\n the cubic equation solution ", m_c0, "\n the difference between the two solution ", m_c0 - m_s0)
+# m_c0 - m_s0
+```
+
+## The results 
+
+The equation for the lecture slides is doing just as well as the numeric solution for most of the cases (when we can calculate the equation). There are cases we cannot solve the cubic equations I guess when the RE is not positive. Here are some of the results. 
+
+The numerical and cubic approaches provide closely agreeing estimates of the mean cluster size. But the cubic equation sometimes is not solvable given certain setups.
+
+### Checking for K
+
+```{r multiple_k}
+## K_target; keep rho = 0.05 and cv_m = 0.50
+K_values <- 2:14
+
+Km_cal <- data.frame(K_target = K_values,
+                     m_bar = map_dbl(K_values, 
+                                     ~ calculate_m(K_target = .x,
+                                                   mu1 = 5,
+                                                   mu2 = 6,
+                                                   sigma = 1,
+                                                   rho = 0.05,
+                                                   cv_m = 0.50,
+                                                   alpha = 0.05,
+                                                   power = 0.8)))
+# Km_cal
+Km_sol <- data.frame(K_target = K_values,
+                     m_bar = map_dbl(K_values, 
+                                     ~ solve_m(K_target = .x,
+                                               interval = c(1, 1000),
+                                               mu1 = 5,
+                                               mu2 = 6,
+                                               sigma = 1,
+                                               rho = 0.05,
+                                               cv_m = 0.50,
+                                               alpha = 0.05,
+                                               power = 0.8)))
+
+## Error message: Error in `map_dbl()`:
+## ℹ In index: 12.
+## Caused by error in `uniroot()`:
+##   ! f() values at end points not of opposite sign
+## Run `rlang::last_trace()` to see where the error occurred.
+```
+
+```{r results_k, class.output="scroll-100"}
+bind_cols(Km_cal, m_sol = Km_sol$m_bar, diff = abs(Km_cal$m_bar - Km_sol$m_bar))
+
+```
+
+The error message showed up whenever the `m_cal()` results is smaller than one. The numeric solution for `m_sol()`
+cannot return a solution.
+
+```
+## Error message: Error in `map_dbl()`:
+## ℹ In index: 12.
+## Caused by error in `uniroot()`:
+##   ! f() values at end points not of opposite sign
+## Run `rlang::last_trace()` to see where the error occurred.
+```
+
+
+### Checking for Rho
+
+```{r multiple_rho}
+rho_values <- seq(0.001, 0.5, by = 0.05)
+
+Rm_cal <- data.frame(rho = rho_values,
+                     m_bar = map_dbl(rho_values, 
+                                     ~ calculate_m(rho = .x,
+                                                   mu1 = 5,
+                                                   mu2 = 6,
+                                                   sigma = 1,
+                                                   K_target = 10,
+                                                   cv_m = 0.50,
+                                                   alpha = 0.05,
+                                                   power = 0.8)))
+Rm_sol <- data.frame(rho = rho_values,
+                     m_bar = map_dbl(rho_values,
+                                     ~ solve_m(K_target = 10,
+                                               interval = c(1, 1000),
+                                               mu1 = 5,
+                                               mu2 = 6,
+                                               sigma = 1,
+                                               rho = .x,
+                                               cv_m = 0.50,
+                                               alpha = 0.05,
+                                               power = 0.8)))
+```
+
+```{r results_rho, class.output="scroll-100"}
+bind_cols(Rm_cal, m_sol = Rm_sol$m_bar, diff = abs(Rm_cal$m_bar - Rm_sol$m_bar))
+```
+
+
+## Checking for $CV_m$
+
+```{r multiple_cvm}
+cv_values <- 4:9
+
+CVm_cal <- data.frame(cv = cv_values,
+                     m_bar = map_dbl(cv_values, 
+                                     ~ calculate_m(cv_m = .x,
+                                                   mu1 = 5,
+                                                   mu2 = 6,
+                                                   sigma = 2,
+                                                   K_target = 4,
+                                                   rho = 0.01,
+                                                   alpha = 0.05,
+                                                   power = 0.8)))
+CVm_sol <- data.frame(cv = cv_values,
+                     m_bar = map_dbl(cv_values,
+                                     ~ solve_m(cv_m = .x,
+                                               interval = c(1, 1000),
+                                               mu1 = 5,
+                                               mu2 = 6,
+                                               sigma = 2,
+                                               rho = 0.01,
+                                               K_target = 4,
+                                               alpha = 0.05,
+                                               power = 0.8) %>% tryCatch()))
+# CVm_sol
+```
+
+```
+Error in `map_dbl()`:
+ℹ In index: 12.
+Caused by error in `uniroot()`:
+! f() values at end points not of opposite sign
+Run `rlang::last_trace()` to see where the error occurred.
+```
+
+```{r results_cvm, class.output="scroll-100"} 
+bind_cols(CVm_cal, m_sol = CVm_sol$m_bar) %>% print()
+```
+
+
+### Change for two parameters
+
+Here are the plotly results for changing two parameters.
+First we check the upper bound of the $CV_m$, based on the equation:
+
+$$
+RE(\bar m) = \Bigg(1-CV_m^2 
+\frac{\rho \bar m}
+{\rho \bar m +1 - \rho} 
+\bigg[
+1 - \frac{\rho \bar m}{ \rho\bar m +1 -\rho}
+\bigg]
+\Bigg)^{-1} > 0
+$$
+
+$$
+0 \leq CV_m <
+\frac{\rho \bar{m} + 1 - \rho}
+{\sqrt{\rho \bar{m}(1 - \rho)}},
+\qquad 0 < \rho < 1,\quad \bar{m} > 0.
+$$
+
+Here I leave the $\bar m >0$ but **in practice it would be $\bar m \geq 1$, right**? 
+This is the case the calculation might work but the numeric methods definitely not. 
+
+### $CV_m$
+
+
+```{r}
+#| eval: false
+#| include: false
+CV_upper <- outer(m_bar_seq,
+                  rho_seq,
+                  function(m_bar, rho) {
+                    (rho * m_bar + 1 - rho) / 
+                      sqrt(rho * m_bar * (1 - rho))})
+?plotly::plot_ly
+## 3D plot
+plotly1 <- plotly::plot_ly(x = rho_seq,
+                           y = m_bar_seq,
+                           z = CV_upper,
+                           type = "surface",
+                           colors = "Blues") %>%
+  layout(title = "Upper CV",
+         scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "m_bar"),
+                      zaxis = list(title = "CVm max")))
+
+plotly1
+```
+
+```{r plotly_rho_mbar, class.output="scroll-100"}
+rho_seq   <- seq(0.001, 0.99, length.out = 50)
+m_bar_seq <- 1:100
+library(plotly)
+CV_upper <- outer(m_bar_seq,
+                  rho_seq,
+                  function(m_bar, rho) {
+                    (rho * m_bar + 1 - rho) / 
+                      sqrt(rho * m_bar * (1 - rho))})
+## 3D plot
+plotly::plot_ly(x = rho_seq,
+                y = m_bar_seq,
+                z = CV_upper,
+                type = "surface",
+                colors = viridisLite::magma(100)) %>%
+  layout(title = "Upper CV",
+         scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "m_bar"),
+                      zaxis = list(title = "CVm max")))
+
+```
+
+```{r class.output="scroll-100"}
+rho_seq   <- seq(0.001, 0.99, length.out = 50)
+m_bar_seq <- 1:100
+library(plotly)
+CV_upper <- outer(m_bar_seq,
+                  rho_seq,
+                  function(m_bar, rho) {
+                    (rho * m_bar + 1 - rho) / 
+                      sqrt(rho * m_bar * (1 - rho))})
+## 3D plot
+plotly::plot_ly(x = rho_seq,
+                y = m_bar_seq,
+                z = CV_upper,
+                type = "surface",
+                colors = viridisLite::magma(100)) %>%
+  layout(title = "Upper CV",
+         scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "m_bar"),
+                      zaxis = list(title = "CVm max")))
+
+```
+
+
+$CV_m^2 < 4$ OR
+
+$RE(\bar m) > 0$ and 
+$\bar m \notin \left( \frac{1-\rho}{\rho} \frac{CV_m^2 - 2 - \sqrt{CV_m^2(CV_m^2 - 4)}}{2}, \; \frac{1-\rho}{\rho} \frac{CV_m^2 - 2 + \sqrt{CV_m^2(CV_m^2 - 4)}}{2} \right)$
+
+```{r mlower_mupper}
+#| eval: false
+#| include: false
+cv_grid <- matrix(cv_seq,
+                  nrow = length(cv_seq),
+                  ncol = length(rho_seq))
+
+rho_grid <- matrix(rho_seq,
+                   nrow = length(cv_seq),
+                   ncol = length(rho_seq),
+                   byrow = TRUE)
+
+rt <- sqrt(pmax(cv_grid^2 * (cv_grid^2 - 4), 0))
+
+m_lower <- (1 - rho_grid) / rho_grid * (cv_grid^2 - 2 - rt) / 2
+m_upper <- (1 - rho_grid) / rho_grid * (cv_grid^2 - 2 + rt) / 2
+
+```
+
+### $\bar m$ bounds 
+
+```{r mbar bound}
+rho_seq <- seq(0.001, 0.999, 
+               length.out = 50)
+cv_seq  <- seq(1, 10, by = 0.1)
+
+cv_grid <- matrix(cv_seq,
+                  nrow = length(cv_seq),
+                  ncol = length(rho_seq))
+
+rho_grid <- matrix(rho_seq,
+                   nrow = length(cv_seq),
+                   ncol = length(rho_seq),
+                   byrow = TRUE)
+
+rt <- sqrt(pmax(cv_grid^2 * (cv_grid^2 - 4), 0))
+
+m_lower <- (1 - rho_grid) / rho_grid * (cv_grid^2 - 2 - rt) / 2
+m_upper <- (1 - rho_grid) / rho_grid * (cv_grid^2 - 2 + rt) / 2
+
+m_lower[cv_grid < 2] <- NA
+m_upper[cv_grid < 2] <- NA
+
+plot_ly() |>
+  add_surface(x = rho_seq,
+              y = cv_seq,
+              z = m_lower,
+              colorscale = list(list(0, "blue"), list(1, "blue")),
+              opacity = 0.3,
+              showscale = FALSE,
+              showlegend = TRUE,
+              name = "m_lower") |>
+  add_surface(x = rho_seq,
+              y = cv_seq,
+              z = m_upper,
+              colorscale = list(list(0, "red"), list(1, "red")),
+              opacity = 0.3,
+              showscale = FALSE,
+              showlegend = TRUE,
+              name = "m_upper") |>
+  layout(title = "Lower and upper bound",
+         scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "CV_m"),
+                      zaxis = list(title = "m_bar")))
+```
+
+
+
+For this setup: cv_m = cv_m,
+rho = rho,
+mu1 = 50,
+mu2 = 60,
+sigma = 9,
+**K_target = 10**,
+alpha = 0.05,
+power = 0.8
+
+Certain high value of $\rho$ range does not provide reasonable values. Here I set NAs into -1000 to show how it looks for $\rho \in (0, 1)$
+
+```{r mbar_100}
+## calculate the surface: 
+## rows = CV_m, columns = rho
+m_bar_surface <- outer(cv_seq,
+                       rho_seq,
+                       function(cv_m, rho) {
+                         calculate_m(cv_m = cv_m,
+                                     rho = rho,
+                                     mu1 = 50,
+                                     mu2 = 60,
+                                     sigma = 9,
+                                     K_target = 10,
+                                     alpha = 0.05,
+                                     power = 0.8)}) 
+  # suppressWarnings()
+
+## Leave invalid results as gaps
+m_bar_surface[!is.finite(m_bar_surface) | m_bar_surface <= 1] <- -100
+
+## 3D plot
+plot_ly(x = rho_seq,
+        y = cv_seq,
+        z = m_bar_surface,
+        type = "surface",
+        colorscale = "Viridis") %>%
+  layout(scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "CV_m"),
+                      zaxis = list(title = "m_bar")))
+```
+
+
+
+Now we have a function, so we can change multiple things at the same time.
+
+
+```{r mbar_surface}
+## calculate the surface: 
+## rows = CV_m, columns = rho
+m_bar_surface <- outer(cv_seq,
+                       rho_seq,
+                       function(cv_m, rho) {
+                         calculate_m(cv_m = cv_m,
+                                     rho = rho,
+                                     mu1 = 50,
+                                     mu2 = 60,
+                                     sigma = 9,
+                                     K_target = 10,
+                                     alpha = 0.05,
+                                     power = 0.8)}) 
+  # suppressWarnings()
+
+## Leave invalid results as gaps
+m_bar_surface[!is.finite(m_bar_surface) | m_bar_surface <= 1] <- NA_real_
+
+## 3D plot
+plot_ly(x = rho_seq,
+        y = cv_seq,
+        z = m_bar_surface,
+        type = "surface",
+        colorscale = "Viridis") %>%
+  layout(scene = list(xaxis = list(title = "rho"),
+                      yaxis = list(title = "CV_m"),
+                      zaxis = list(title = "m_bar")))
+```
+
+### Changing $K$ 
+
+The setups: 
+mu1 = 50,
+mu2 = 60,
+sigma = 9,
+alpha = 0.05,
+power = 0.8
+
+
+```{r plotly_ks}
+plot_m_bar <- function(K_target = 6, 
+                       rho_seq = seq(0.001, 0.999, length.out = 50),
+                       cv_seq = seq(1, 10, by = 0.1),
+                       alpha = 0.05,
+                       power = 0.8,
+                       mu1 = 50,
+                       mu2 = 60,
+                       sigma = 9,
+                       ...) {
+  m_bar_surface <- outer(cv_seq,
+                         rho_seq,
+                         function(cv_m, rho) {
+                           calculate_m(cv_m = cv_m,
+                                       rho = rho,
+                                       K_target = K_target,
+                                       sigma = sigma,
+                                       alpha = alpha,
+                                       power = power,
+                                       mu1 = mu1,
+                                       mu2 = mu2)})
+  
+  ## Display invalid results at -100
+  m_bar_surface[!is.finite(m_bar_surface) | m_bar_surface <= 1] <- NA_real_
+  plotly <- plotly::plot_ly() %>%
+    # add_surface(x = rho_seq,
+    #             y = cv_seq,
+    #             z = m_lower,
+    #             colorscale = list(list(0, "blue"), list(1, "blue")),
+    #             opacity = 0.3,
+    #             showscale = FALSE,
+    #             showlegend = TRUE,
+    #             name = "m_lower") |>
+    # add_surface(x = rho_seq,
+    #             y = cv_seq,
+    #             z = m_upper,
+    #             colorscale = list(list(0, "red"), list(1, "red")),
+    #             opacity = 0.3,
+    #             showscale = FALSE,
+    #             showlegend = TRUE,
+    #             name = "m_upper") %>%
+    add_surface(x = rho_seq,
+                y = cv_seq,
+                z = m_bar_surface,
+                type = "surface",
+                colorscale = "Viridis") %>%
+    plotly::layout(title = list(text = sprintf("K_target = %g | alpha = %g | power = %.2f",
+                                               K_target, alpha, power),
+                                x = 0.5, xanchor = "center"),
+                   scene = list(xaxis = list(title = "rho"),
+                                yaxis = list(title = "CV_m"),
+                                zaxis = list(title = "m_bar")))
+  
+  return(plotly)
+  }
+
+plot_m_bar(K_target = 4)
+plot_m_bar(K_target = 6)
+plot_m_bar(K_target = 8)
+plot_m_bar(K_target = 10)
+plot_m_bar(K_target = 20)
+plot_m_bar(K_target = 50)
+```
+
+
+### Changing power $1 - \beta$ 
+
+The setups: 
+mu1 = 50,
+mu2 = 60,
+sigma = 9,
+alpha = 0.05,
+K = 10
+
+```{r plotly_powers}
+plot_m_bar(K_target = 10, power = 0.8)
+plot_m_bar(K_target = 10, power = 0.85)
+plot_m_bar(K_target = 10, power = 0.9)
+plot_m_bar(K_target = 10, power = 0.95)
+```
+
+### Changing $\alpha$
+
+```{r plotly_alphas}
+plot_m_bar(K_target = 10, alpha = 0.1)
+plot_m_bar(K_target = 10, alpha = 0.05)
+plot_m_bar(K_target = 10, alpha = 0.01)
+```
+
+
+
+
+

@@ -2,5 +2,7 @@
 .Rproj.user
 libs/
 *files*
-
 **/*.quarto_ipynb
+/html/
+*_cache
+.js
