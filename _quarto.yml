@@ -41,7 +41,7 @@ format:
     df-print: paged
     # fig-cap-location: top
     fig.topcaption: TRUE
-    author-meta: "Randy Jin, Elizabeth Juarez-Colunga"
+    author-meta: "Randy Jin"
     # include-in-header: "plausible.html"
     callout-appearance: simple
   # pdf:
