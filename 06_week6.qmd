@@ -1,0 +1,177 @@
+---
+title: "BIS 629 Week6:"
+---
+
+## Notes before the lecture
+
+question 1.2 pay attention to the number of parameters there are 4 of them. 
+
+how you verify the theoritical and numberical solution. the results for the simulation, we cannot directly use the AI to directly in the company. the verification and quality control. 
+
+show the verification of the work
+
+## 
+
+the first principle for: the chi square of 7.85
+
+page 4: we only adjust the IF with the CVm, but not the true KM in the denominator.
+
+$500,000 for five years... R01
+
+It is more expensive to add a new cluster than just add more participants into the infrastructure is less expensive. 
+
+but if you do MRI or expensive tests to the participlants it might cost more.
+
+
+Some times we have to add more clusters, because the power increases along adding cluster size is limited.
+
+K > 2
+
+the social network is impossible to reach to m > 5. 
+only round the K into the upper bound.
+
+
+This formula applies to linear mixed models for a binary outcome with the identity link (see Shih, 1997 for proof).
+
+use the identity link function we will have the formula in page 13.
+
+
+we do not use the likelihood function for the clustered functions. 
+
+The overview of the GEE. we only care about part of hte parameters, only the mean function or the assumptions.
+
+how binomial for the clustered data increase a lot forthe correlation. we do not care about the \alpha, the ancillary parameter the semiparameteric model. 
+
+conditional mean function with link function.
+
+the Score function U, the clusters are independent. 
+
+
+use the Taylor series extenstion for the the 
+
+
+## 
+
+the identity link function or for the logit link function 
+
+the propability difference or the odds ratio.
+
+logistic regression for the non-centrality analysisi parameter. do we have efficiency for the power analysis.
+
+
+even they are algorithmly the same but the numeric solutions might be different. for the identity link function for the numeric would be the same.
+
+
+you underestimate the parameter of hte interest. the unclear of the random effect with the effect. but we do gee with logistic link. we in fact cannot make the GEE. in the design with binary outcome. 
+
+
+
+The subject-specific model has a direct causal interpretation in terms of
+counterfactual outcomes.
+
+
+
+
+so the logistic results for the marginal model parameter results is the counterfactual outcomes average with the.
+
+the same target estimate. 
+
+
+
+## Step-weddged designs
+
+the ART for the infection of AIDS
+
+the complex multiple level, mulitple clustered, complicated steps for the setup. we always ahve the transition phase.
+
+all the facilities in the protocol paper, for clinical and implementation for hte design of the studies. how the design got powered. 
+
+
+natural cluster variability
+
+ranking for the facilities with the clinics
+
+contamniation for different facilities for the best the cluster and geographical region totally seperated .
+
+PPIUD, the intrauterine device
+
+the simpliest step design we can get. we cannot take 5-10 year, the quickest and simpliest the better.
+
+cross-sectional and the longitudinal SWD.
+
+they are different for epidemiology: cross-section every cluster has new participants.
+
+In longitudinal or cohort SWDs, the same participants may appear in multiple times within a cluster.
+
+nested clustered design. use the GEE, but the variance will be wrong, we have to model correctly the different levle of clustering.
+
+the logistics and the nature of data outcome will determine what to use: cross-sectional or longitudinal.
+
+power increase, while the sample size increases. 
+
+
+effect size, the ICC, and the increaseing number of step.
+
+the more steps you have the higher power. 
+
+for the phase four trials. 
+
+open cohort, free living population coming for hte medical care, they wont follow it that well. some of the ones just intervention for the survial data analysis. there will be selection biased. we do not have randomized design because some of the people just die or lost to follow up. theoritical bias and we will worry about this. 
+
+complete vs. incomplete SWD
+
+
+the number of the facilities switch at the same steps. the number of clusters
+
+
+# Second part of the lecture
+
+- parallel
+- crossover
+- SWD
+- cross-sectional and cohort SWD
+
+more ethical and accessable
+
+
+# Multiphase optimization strategy design
+
+MOST design framework for the optimizing the multicomponent interventions
+
+multicomponnet interventions with more than one component: the intermentation
+
+sequential multiple assignment randomized trial SMART.
+
+
+prevention or treatment. the behavioral, health, or implementation. 
+
+target different levels for the intervention.
+
+
+the components: the separate the different component, you can take a part. 
+
+your intervention will have different levels and factors.
+
+are we gonna randomized on each of the components? 
+the package with all the components, and find the candidate for the package.
+
+empirically based optimization for the study.
+
+component instead of the combination.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

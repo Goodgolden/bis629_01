@@ -383,12 +383,170 @@ here::set_here()
 ```
 
 
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+$$
+\log\left(\frac{p_i}{1-p_i}\right)
+= \beta_0 + \beta_1 X_i,
+\qquad
+H_0: \beta_1 = 0
+\quad \text{versus} \quad
+H_A: \beta_1 \ne 0.
+$$
+
+```{r}
+load(here::here("bis629_data", "MaxArt_HW1_2026.RData"))
+data0 <- MaxArt_HW1_2026
+
+# summary(data0)
+# View(data0)
+
+## H_0: beta1 = 0 
+## versus 
+## HA: beta1 != 0
+mod0 <- glm(Y ~ 1, data = data0, family = binomial())
+mod1 <- glm(Y ~ 1 + X, data = data0, family = binomial())
+
+## 1. Wald test
+beta <- unname(coef(mod1)["X"])
+se <- unname(coef(summary(mod1))["X", "Std. Error"])
+wald <- (beta / se)^2
+
+## 2. Score test
+score_output <- anova(mod0, mod1, test = "Rao")
+score <- score_output$Rao[2]
+
+## 3. Likelihood-ratio test
+lrt <- 2 * as.numeric(logLik(mod1) - logLik(mod0))
+
+## Comparison table
+stats <- c(wald, score, lrt)
+
+results <- data.frame(Test = c("Wald", "Score", "LRT"),
+                      Chi_square = stats,  
+                      df = 1,
+                      p_value = pchisq(stats, df = 1, lower.tail = FALSE))
+```
 
 
+```{r, class.output="scroll-100"}
+print(results, digits = 4, row.names = FALSE)
+```
+
+In general the LRT test is the most powerful one among the three. It directly compares the maximized likelihoods of the models and is often preferable to the Wald test. 
 
 # Question 4
 
 
+```{r}
+# Parameters estimated from MaxART
+n <- nrow(data0)
+p_x <- mean(data0$X)
+b0 <- unname(coef(mod1)["(Intercept)"])
+b1 <- unname(coef(mod1)["X"])
+alpha <- 0.05
+critical <- qchisq(1 - alpha, df = 1)
+tests <- c("Wald", "Score", "LRT")
+
+ncp_all <- function(n, b1) {
+  p0 <- plogis(b0)
+  p1 <- plogis(b0 + b1)
+  v0 <- p0 * (1 - p0)
+  v1 <- p1 * (1 - p1)
+
+  # Wald
+  Ib1 <- 1 / ((1 - p_x) * v0) + 1 / (p_x * v1)
+  lambda_w <- n * b1^2 / Ib1
+
+  # Score
+  lambda_s <- n * p_x * (1 - p_x) * (p1 - p0)^2 /
+    (p_x * v0 + (1 - p_x) * v1)
+
+  # LRT: equivalent KL-divergence expression for D_star
+  p_star <- (1 - p_x) * p0 + p_x * p1
+  KL <- function(p, q) {
+    p * log(p / q) + (1 - p) * log((1 - p) / (1 - q))
+  }
+  D_star <- 2 * ((1 - p_x) * KL(p0, p_star) +
+                  p_x * KL(p1, p_star))
+  M_t <- ((1 - p_x) * v0 + p_x * v1) /
+    (p_star * (1 - p_star))
+  lambda_lrt <- max(0, n * D_star + 1 - M_t)
+
+  c(Wald = lambda_w, 
+           Score = lambda_s, 
+           LRT = lambda_lrt)
+}
+
+## (a) Power at the observed sample size and fitted effect
+power_current <- pchisq(critical, df = 1, 
+                        ncp = ncp_all(n, b1), 
+                        lower.tail = FALSE)
+
+## 80% and 90% power
+lambda_needed <- function(target) {
+  uniroot(function(lambda) {
+    pchisq(critical, df = 1, ncp = lambda,
+           lower.tail = FALSE) - target
+  }, interval = c(0, 100), tol = 1e-10)$root
+}
+
+lambda_80 <- lambda_needed(0.80)
+lambda_90 <- lambda_needed(0.90)
+
+## (b) sample size: hold b0, b1 and p_x fixed
+N_needed <- function(test, lambda_target) {
+  ceiling(uniroot(function(n_new) {
+    ncp_all(n_new, b1)[test] - lambda_target
+  }, interval = c(1, 1e6), tol = 1e-8)$root)
+}
+
+## (c) MSE OR: hold n, b0 and p_x 
+direction <- if (b1 >= 0) 1 else -1
+
+MDE_OR <- function(test, lambda_target) {
+  effect <- uniroot(function(effect) {
+    ncp_all(n, direction * effect)[test] - lambda_target}, 
+    interval = c(0, 2), 
+    tol = 1e-10)$root
+  exp(direction * effect)
+}
+
+# Parameters assumed
+print(data.frame(n = n, 
+                 p_x = p_x,
+                 b0 = b0, 
+                 b1 = b1,
+                 p_control = plogis(b0),
+                 p_treatment = plogis(b0 + b1),
+                 OR = exp(b1), 
+                 alpha = alpha), 
+      row.names = FALSE)
+
+# Summary table
+results <- data.frame(Test = tests,
+                      Power_percent = round(100 * power_current, 2),
+                      N_80 = sapply(tests, N_needed, 
+                                    lambda_target = lambda_80),
+                      N_90 = sapply(tests, N_needed, 
+                                    lambda_target = lambda_90),
+                      MDE_OR_80 = round(sapply(tests, 
+                                               MDE_OR,
+                                               lambda_target = lambda_80),
+                                        3),
+                      MDE_OR_90 = round(sapply(tests, MDE_OR,
+                                               lambda_target = lambda_90),
+                                        3))
+
+print(results, row.names = FALSE)
+```
 
 
 # Question 5
@@ -478,8 +636,7 @@ $H_0$ uses $\tilde p$ for both groups. Twice the difference between
 their maximized log likelihoods is
 
 $$
-G^2
-=
+G^2 =
 2\sum_{j=1}^{2}
 \left[
 Y_j\log\left(\frac{\hat p_j}{\tilde p}\right)

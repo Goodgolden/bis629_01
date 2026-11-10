@@ -1,0 +1,65 @@
+---
+title: "Log of works"
+format: pdf
+---
+
+## PI Feedback and Workplace Concerns
+
+Prepared: 2026-10-09. Date of conversation: to 20261009.
+Status: Personal recollection; paraphrases, not verified verbatim quotations.
+
+## 1. Performance and Gaucher-cell fluorescence
+
+PI reportedly expressed concern about performance and said **"Randy did not understand current or future lab work flow"**. He said I "failed to recognize a large fluorescent signal as a Gaucher cell". I had observed similar signal with multiple different antibodies and questioned whether it was specific or background. I expressed uncertainty rather than identifying the structure confidently. Verification needed: controls and independently validated reference images.
+
+## 2. Qualifications, progress, and samples
+
+PI reportedly said **"Randy was not qualified for the postdoc position, if I continued working this way, and was wasting precious archived paraffin samples and reagents."** I had understood that progress needed to accelerate and repeated staining tests accordingly. Colleagues indicated neutrophil staining was difficult and suggested fresh frozen sections might work better than paraffin sections. Record actual antibody, tissue, controls, and whether these comments were documented.
+
+## 3. Research maturity and project scope
+
+PI reportedly expressed surprise that I had two PhDs yet, in his assessment, **"lacked mature research thinking and training"**; he compared my progress with that of **"postgraduate or other under-training-process students after two months could have an basic idea what they should do."** I reviewed the proposal and identified outstanding work. I believe much of the original project was completed by previous lab members. iPSC organoid work depended on collaborators shipping materials not yet received. Other requests seemed exploratory or relevant to future grants. My arrival was delayed by visa administrative processing.
+
+## 4. IF scale and optimization
+PI reportedly said **"skill optimization should be preceded the larger-scale experiments and criticized using approximately 20 slides together"**. I had repeated experiments for about three weeks, including evenings/weekends, and acquired thousands of images while trying to determine signal specificity. I experienced shoulder and wrist discomfort. I believe he was aware the experiments were ongoing before criticizing the material use. Clarify the exact timeline and any prior approvals.
+
+## 5. Suggested change of lab / role
+
+PI reportedly suggested **"transferring to a newer assistant professor's lab where the PI does hands-on bench work and could explain steps, and suggested technician-type work might be more appropriate"**. He said **"losing a member was undesirable but questioned my qualifications to continue as I was working"**. This record does not establish a formal termination decision.
+
+## 6. Choice to change behavior or lab
+
+PI reportedly said **"(Randy) should change your behavior or consider a different lab"** and he would **"give me time to think while he attended a conference"**. I felt expectations were difficult to infer. When I previously presented possible brain/behavior experiments for a Parkinson's disease model, he questioned their relevance to the lab's scope.
+
+## Additional context from previous discussions
+
+I reviewed relevant literature and project plans; I worked on protein purification, which appeared technically successful to a previous lab member, after initially receiving an incorrect expected protein mass. The PI later characterized purification as a minor priority. He was surprised that after my PhD training from cell biology, the protein purification from E.coli is a hard task for me to accomplish. I also volunteered for cleaning, equipment, and stockroom duties because I felt guilty about slow progress and wanted to reciprocate assistance. These are my recollections and interpretations.
+
+## Addendum — chronology clarification (recorded October 11, 2026)
+
+**Recurring feedback (dates not yet individually identified):** According to my recollection, the PI criticized my performance at nearly every lab meeting. The recurring concerns involved scientific independence, understanding of research priorities, experimental progress, and interpretation of results. This is a characterization of a pattern, not a verbatim quotation or a claim that identical remarks occurred at each meeting.
+
+**Specific discussion — Thursday, October 8, 2026:** According to my recollection, the PI raised additional concerns about my qualifications, scientific judgment, use of samples and reagents, and independence. He explicitly suggested I consider switching laboratories and said I should change my approach or consider another position. He said he would give me time to think while attending a conference. These are paraphrases pending confirmation of exact wording.
+
+<!-- **Employment status:** No formal termination notice or written performance improvement plan has been reported in this account. The nature of the PI's suggestion (informal advice versus potential employment action) remains unclear. -->
+
+<!-- **To supplement:** Add dates and attendees for prior lab meetings; retain contemporaneous meeting notes, slides, emails, and project records; identify exact quotations only when remembered with confidence. -->
+
+## Addendum 002 — colleague concerns about neutrophil staining (recorded October 11, 2026)
+
+**Reported conversations:** On multiple occasions, lab members who had experience with similar experiments told me they believed the neutrophil-staining work with the available lung specimens would be very difficult or unlikely to yield convincing results. Exact dates, identities, and wording are not yet documented.
+
+**Their reported technical observations:** They said they had used fresh lung specimens with careful washing and believed that tissue processing, baking, and paraffin embedding/storage could make neutrophil detection particularly difficult. They recommended prioritizing other projects. These are colleagues' reported views, not independently verified conclusions that neutrophil immunostaining on FFPE tissue is impossible.
+
+<!-- **Relevance to subsequent feedback:** I continued working on the staining and was later criticized for poor results and consumption of samples/reagents. The record does not yet establish whether these concerns were shared with the PI, what methods/markers were used in the colleagues' earlier work, or what alternative approaches were available. -->
+
+<!-- **Items to verify:** Names and approximate dates of conversations; sample fixation and processing history; marker/antibody identities and validation; whether the PI was informed of feasibility concerns; reference positive controls; whether alternative projects were discussed. -->
+
+## Addendum — October 8 meeting setting (recorded October 12, 2026)
+
+The October 8, 2026 discussion about potentially changing laboratories occurred privately behind a closed door, with only the PI and me present. No other witnesses were present. This is my recollection, not a verbatim transcript.
+
+## Addendum 004 — Expected aging-related IF trend and image quantification
+
+Recorded October 11, 2026. PI expects an age-related increase in M1-like macrophage signal and gave an illustrative expectation relating iNOS signal to F4/80 signal. User reports microscopy images were taken individually and asks how to assess patterns across images. The precise image acquisition arrangement (separate channels of the same field versus separate fields/sections), settings, controls, and biological replicate structure remain to be clarified. Technical note: raw iNOS and F4/80 fluorescence intensities are not directly proportional to macrophage subtype fractions; trends should be measured from observed data using appropriate cell-based or area-based endpoints and consistent acquisition/analysis, without manipulating images to fit expectations.
+

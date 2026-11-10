@@ -1,0 +1,27 @@
+---
+title: "Week 7"
+editor: visual
+---
+
+power calculation for the cluster size and sensitivity analysis. for the input parameters.
+
+make sure the number and the explanation. 
+
+the conditional or the marginal for the correction for the cluster size. the text and code for the homework. 
+
+the ai prompts.
+
+
+the time varying covariate. the k is ffrom 1 to K.
+
+we have K clusters, they change from control to intervention. K is the number of clusters per arm.
+
+always good to define K. for the SWD is the total number of clusters. the random effect is the 
+
+the SWD with or without time effects in the model.
+
+
+the chose of the random effect distribution, a truncated normal distribution is not sensitive for the choice. 
+
+if there is no time effect, the SWD is more powerful than the PCRD. but if the time effect is there, the PCRD has larger SWD.
+

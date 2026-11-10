@@ -28,10 +28,11 @@ book:
     - index.qmd
     - intro.qmd
     - 01_lecture01.qmd
-    - 01_week1.qmd
+    # - 01_week1.qmd
     - 02_week2.qmd
     - 03_week3.qmd
     - 04_week4.qmd
+    - 05_week5.qmd
     - summary.qmd
     - references.qmd
 

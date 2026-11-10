@@ -6,16 +6,15 @@ library(ggplot2)
 library(MASS)
 library(geepack)
 
-#You will need to merge the data with network summary (ns) information with the main dataset
-#based on visit number (visnum) and uid. As there are duplicates by visnum in the ns datset,
-#you need to first select the record that you need.
-
-
+# You will need to merge the data with network summary (ns)
+# information with the main dataset
+# based on visit number (visnum) and uid. As there are duplicates by visnum in the ns datset,
+# you need to first select the record that you need.
 
 # Treat =1 for having intervention
 # change to your own path
 path = "MY PATH"
-#Now Load the file
+# Now Load the file
 base_hptn_30<-load(hptn.lec1,file=path)
 base_hptn_30 = hptn.lec1
 # for wald test 

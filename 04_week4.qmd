@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE,
                       warnings = FALSE,
                       message = FALSE,
                       comment = "#>",
-                      cache = TRUE,
+                      # cache = TRUE,
                       #results = "hide",
                       digits = 4,
                       error = FALSE)
@@ -176,6 +176,8 @@ solve_m <- function(K_target,
   ## solve K(m_bar) - K_target = 0
   result <- uniroot(f = function(m_bar) K_m(m_bar, ...) - K_target,
                     interval = interval)
+  # ?uniroot
+  # maxiter = 1000
 
   return(result$root)
 }
@@ -359,7 +361,7 @@ bind_cols(Rm_cal, m_sol = Rm_sol$m_bar, diff = abs(Rm_cal$m_bar - Rm_sol$m_bar))
 ## Checking for $CV_m$
 
 ```{r multiple_cvm}
-cv_values <- 4:9
+cv_values <- c()
 
 CVm_cal <- data.frame(cv = cv_values,
                      m_bar = map_dbl(cv_values, 
@@ -426,32 +428,9 @@ This is the case the calculation might work but the numeric methods definitely n
 ### $CV_m$
 
 
-```{r}
-#| eval: false
-#| include: false
-CV_upper <- outer(m_bar_seq,
-                  rho_seq,
-                  function(m_bar, rho) {
-                    (rho * m_bar + 1 - rho) / 
-                      sqrt(rho * m_bar * (1 - rho))})
-?plotly::plot_ly
-## 3D plot
-plotly1 <- plotly::plot_ly(x = rho_seq,
-                           y = m_bar_seq,
-                           z = CV_upper,
-                           type = "surface",
-                           colors = "Blues") %>%
-  layout(title = "Upper CV",
-         scene = list(xaxis = list(title = "rho"),
-                      yaxis = list(title = "m_bar"),
-                      zaxis = list(title = "CVm max")))
-
-plotly1
-```
-
-```{r plotly_rho_mbar, class.output="scroll-100"}
-rho_seq   <- seq(0.001, 0.99, length.out = 50)
-m_bar_seq <- 1:100
+```{r plotly_rho_mbar}
+rho_seq   <- seq(0.001, 0.9, length.out = 50)
+m_bar_seq <- 1:50
 library(plotly)
 CV_upper <- outer(m_bar_seq,
                   rho_seq,
@@ -459,39 +438,45 @@ CV_upper <- outer(m_bar_seq,
                     (rho * m_bar + 1 - rho) / 
                       sqrt(rho * m_bar * (1 - rho))})
 ## 3D plot
-plotly::plot_ly(x = rho_seq,
-                y = m_bar_seq,
-                z = CV_upper,
-                type = "surface",
-                colors = viridisLite::magma(100)) %>%
-  layout(title = "Upper CV",
-         scene = list(xaxis = list(title = "rho"),
-                      yaxis = list(title = "m_bar"),
-                      zaxis = list(title = "CVm max")))
+# plot_ly(x = rho_seq,
+#                          y = m_bar_seq,
+#                          z = CV_upper,
+#                          type = "surface",
+#                          colors = viridisLite::magma(100)) %>%
+#   layout(title = "Upper CV",
+#          scene = list(xaxis = list(title = "rho"),
+#                       yaxis = list(title = "m_bar"),
+#                       zaxis = list(title = "CVm max")))
+
+
+knitr::include_graphics("bis629_figs/f04_upper_bound_plot.png")
 
 ```
 
-```{r class.output="scroll-100"}
-rho_seq   <- seq(0.001, 0.99, length.out = 50)
-m_bar_seq <- 1:100
-library(plotly)
-CV_upper <- outer(m_bar_seq,
-                  rho_seq,
-                  function(m_bar, rho) {
-                    (rho * m_bar + 1 - rho) / 
-                      sqrt(rho * m_bar * (1 - rho))})
-## 3D plot
-plotly::plot_ly(x = rho_seq,
-                y = m_bar_seq,
-                z = CV_upper,
-                type = "surface",
-                colors = viridisLite::magma(100)) %>%
-  layout(title = "Upper CV",
-         scene = list(xaxis = list(title = "rho"),
-                      yaxis = list(title = "m_bar"),
-                      zaxis = list(title = "CVm max")))
+<!-- Here we are looking at the upper bound for $CV_m$ -->
 
-```
+<!-- ```{r} -->
+<!-- rho_seq   <- seq(0.001, 0.99, length.out = 50) -->
+<!-- m_bar_seq <- 1:100 -->
+
+<!-- CV_upper <- outer(m_bar_seq, -->
+<!--                   rho_seq, -->
+<!--                   function(m_bar, rho) { -->
+<!--                     (rho * m_bar + 1 - rho) /  -->
+<!--                       sqrt(rho * m_bar * (1 - rho))}) -->
+<!-- ## 3D plot -->
+<!-- plot2 <- plotly::plot_ly(y = m_bar_seq, -->
+<!--                          x = rho_seq, -->
+<!--                          z = CV_upper, -->
+<!--                          type = "surface")%>% -->
+<!--   layout(title = "Upper CV", -->
+<!--          scene = list(xaxis = list(title = "rho"), -->
+<!--                       yaxis = list(title = "M_bar"), -->
+<!--                       zaxis = list(title = "CVm max"))) -->
+
+<!-- plot2 -->
+
+<!-- ``` -->
 
 
 $CV_m^2 < 4$ OR
@@ -559,7 +544,7 @@ plot_ly() |>
               showscale = FALSE,
               showlegend = TRUE,
               name = "m_upper") |>
-  layout(title = "Lower and upper bound",
+  layout(title = "Not in-between",
          scene = list(xaxis = list(title = "rho"),
                       yaxis = list(title = "CV_m"),
                       zaxis = list(title = "m_bar")))
@@ -595,7 +580,7 @@ m_bar_surface <- outer(cv_seq,
   # suppressWarnings()
 
 ## Leave invalid results as gaps
-m_bar_surface[!is.finite(m_bar_surface) | m_bar_surface <= 1] <- -100
+m_bar_surface[!is.finite(m_bar_surface) | m_bar_surface <= 1] <- NA_real_
 
 ## 3D plot
 plot_ly(x = rho_seq,
@@ -744,5 +729,51 @@ plot_m_bar(K_target = 10, alpha = 0.01)
 
 
 
+## Setup for the Simulation
+
+- give subject $j$ in $i$th Treatment group. 
+- within the cluster $k$ of total $2K$ cluster. 
+- the cluster sample size $m_{k} \sim Normal \Big(\bar m, (\bar m CV_m)^2\Big)$ iid. An inflated Poisson or Negative Binominal?
+
+$$
+SD(m_k) = \bar m CV_m
+$$
+
+```{r}
+set.seed(55555)
+
+K <- 10
+m <- 50
+CVm <- 0.3
+varm <- (m * CVm)^2
+size_nb <- m^2 / (varm - m)
+mk <- rnbinom(2 * K, mu = m, size = size_nb)
+mk
+mean(mk)
+CV_hat <- sd(mk) / mean(mk)
+CV_hat
+
+Xk <- rbinom(2 * K, 1, 0.5) 
+Xk
+```
+
+
+```{r}
+beta0 <- 10
+beta1 <- 5
+sigma <- 1
+Xijk <- rep(Xk, times = mk)
+## sanity check total number participants
+length(Xijk)
+sum(mk)
+epsilon <- rnorm(sum(mk), 0, sigma)
+Yijk <- Xijk * beta1 + beta0 + epsilon
+
+data0 <- list(id = 1:length(Xijk), 
+              Cluster = rep(1:(2 * K), times = mk),
+              X = Xijk, Y = Yijk) %>%
+  as.data.frame()
+data0
+```
 
 

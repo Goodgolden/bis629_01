@@ -1,0 +1,174 @@
+---
+title: "Simulation for $M_bar$"
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+            warnings = FALSE,
+            message = FALSE,
+            comment = "#>",
+            #results = "hide",
+            digits = 4,
+            error = FALSE)
+## clean the R environment
+graphics.off()
+rm(list = ls())
+freshr::freshr()
+## load packages
+library(here, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(rio, quietly = TRUE)
+library(skimr, quietly = TRUE)
+library(gtsummary, quietly = TRUE)
+library(flextable, quietly = TRUE)
+## check the directory for the file
+# here::dr_here()
+here::set_here()
+## the figure or results should be saved 
+# paste0("foldername/Sfilename_workingresult_", 
+#      Sys.Date(), ".filetype")
+```
+
+```{css, echo=FALSE}
+.scroll-100 {
+  max-height: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+```
+
+```{r, class.output="scroll-100"}
+# table_to_be_print
+```
+
+
+## 
+
+Matched pairs for the matched as close as possible for the K over 2 pairs for the comparison. 
+
+you gain the power to reduce the variability from the data. the intervention should have affect with other things controlled.
+
+if the study size 20 or fewer it is suggested to use the pairing clusters.
+
+make the trail difficult to conduct. 
+
+required the number of clusters or the cluster size. $\rho_M$ is the antifipated values of the matching correlation. This is different from ICC $\rho$.
+
+$\rho_M$ is a deflation factor, it is better to overpower the test, but the budget is important. 
+$1 - \rho_M$. we can look at the better formula for the cluster trails for the matching for the sample size estimation is conservative. 
+
+the correlation is hte fact for the accurate sample size calculation. the sample size re-estimation. the medium or the mean of the correlation. recalculate the cluster based on a matched pair clustered. 
+
+Donner's view: the effect of the intervention is confounded with the natural variation between the clusters within each matched pair. intra-cluster correlation 𝜌 cannot be estimated without imposing an assumption of common intervention effect across matched pairs. In my view, this is a reasonable assumption. 
+
+
+## Stratified CRT
+
+balanced for the confounding on the family size or other things. provide the design on factors related to the outcomes. stratified for the important factors. the residual confounding...
+
+Stratify or randomization!
+
+we still want to estimate the ICC.
+
+matched pair CRT can be included into the Stratification. 
+
+## The Analysis v.s. the Design
+
+the cluster level analyses. 
+
+inflate the variance and we need more sample size. 
+
+we can put the weights, the type I error and we just put in it.
+
+$\chi$ test or student two-side t-test. the degree of freedom, the approximate one would be $\bar K$
+
+
+no matter how we weighted the as long as the clusters have the same different we have. the consistant estimation of the intervention effects.
+
+
+you do not loose anything for the cluster level means comparing to the invidual RT. 
+
+$$
+\sigma_{ik}^{2}
+= \frac{\sigma_W^{2}}{m} + \sigma_B^{2}
+= \frac{\sigma_W^{2}}{m}
+  + \frac{\sigma_W^{2}\rho}{1-\rho}.
+$$
+
+
+Clusters can be sampled to obtain the within cluster mean and variance estimates, that is, not all $m_{ik}$  participants need to be measured. (rapid implementation science)
+
+cluster level mean
+
+the most powerful test statistics. 
+
+if we do not have enough K clusters we do not have good estimation on the $\rho$
+
+homoscedastic outcomes. the inversed of the weight only contributes for the when the variance vary a lot. 
+
+the CRT either in the X there is $\beta^*$ the stepped widged design trail. 
+
+
+the cluster level and multi-level models.
+
+
+the random effect is not normally distributed. GEE in the modern statistics. 
+
+$$\sqrt{2K / (2K - 1)}$$
+
+multiple levels of the inference and cluster randomization. 
+
+the unite of hte inference and the appropriate unit of hte analysis can be difficult in some trials.
+
+GEE model with tan unstructured working correlation. the basical unit is the just the school with GEE, you just lose power, your p-value for the correlation 
+
+
+linear mixed model 
+
+intra-cluster correlation coefficients helpful in designing future studies
+
+the average of hte variance for the treatment and the control group. 
+
+the unstable variance problem that is when you have the small cluster will all the same outcome.
+
+the cluster the for the fixed cluster size that we do not need to weight the variance anymore.
+
+
+## Ecological fallacy
+
+the confounder outcome association. 
+
+a linear association the cluster level 
+
+reporting the cluster do not want to and quit. pair matched and cluster quits. we lost the ones you matched to. 
+
+```{r}
+# base_hptn_30 <- base_hptn_30 %>%
+#   select(cotton = 17, everything())
+
+names(base_hptn_30)
+library(geepack)
+library(lme4)
+gee0 <- geeglm(cotton ~ Treat, 
+               family = "binomial",
+               data = base_hptn_30, 
+               id = NKID,
+        corstr = "exchangeable")
+
+
+lmm0 <- lmer(cotton ~ Treat + (1 | NKID), 
+             data = base_hptn_30)
+summary(gee0)
+summary(lmm0)
+```
+
+
+confounding the outcome is related to the outcome is strong, but not the statitics. 
+
+
+CONSORT diagrams and the intend to treatment group and how many lost and eligiable. whether there is a selection bias. 
+
+
